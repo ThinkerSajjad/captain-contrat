@@ -3,14 +3,14 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Star } from "lucide-react"
-import { useState, useEffect } from "react"
+import { useState, useEffect, useMemo } from "react"
 
 import avisVerifiesLogo from "../../../public/images/hero/avis-verifies-logo.png"
 import googleLogo from "../../../public/images/hero/google-logo.svg"
 import PageContainer from "../layout/PageContainer"
 
 export function Hero() {
-  const words = ["Develop", "Protect", "Launch", "Manage"]
+  const words = useMemo(() => ["Develop", "Protect", "Launch", "Manage"], [])
   const [currentWord, setCurrentWord] = useState(words[0])
   const [animationClass, setAnimationClass] = useState("")
   
