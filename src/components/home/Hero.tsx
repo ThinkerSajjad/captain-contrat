@@ -31,7 +31,7 @@ export function Hero() {
     }, 2000)
     
     return () => clearInterval(interval)
-  }, [currentWord])
+  }, [currentWord, words])
 
   return (
     <section className="relative lg:py-20 py-10 text-center">

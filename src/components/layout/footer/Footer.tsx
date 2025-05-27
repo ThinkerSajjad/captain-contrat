@@ -22,7 +22,7 @@ export function Footer() {
           </div>
         </div>
         <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-6">
-          {mainMenus.slice(0, 5).map((menu, _idx) => (
+          {mainMenus.slice(0, 5).map((menu) => (
             <div key={menu.key}>
               <h3 className="font-semibold text-lg mb-3 text-white">{menu.label}</h3>
               {menu.dropdown && menu.dropdown.sections && (
@@ -45,7 +45,7 @@ export function Footer() {
           ))}
         </div>
         <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-6">
-          {mainMenus.slice(5).map((menu, _idx) => (
+          {mainMenus.slice(5).map((menu) => (
             <div key={menu.key}>
               <h3 className="font-semibold text-lg mb-3 text-white">{menu.label}</h3>
               {menu.dropdown && menu.dropdown.sections && (
