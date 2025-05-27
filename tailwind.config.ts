@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'crimson': ['var(--font-crimson-pro)', 'serif'],
+        'lato': ['var(--font-lato)', 'sans-serif'],
+      },
     },
   },
   plugins: [],

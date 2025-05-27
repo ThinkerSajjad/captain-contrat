@@ -1,0 +1,52 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// FILE STRUCTURE AND ORGANIZATION
+- Use Next.js App Router under the /app directory.
+- Use lowercase-kebab-case for directories (e.g., components/auth-wizard).
+- Structure features modularly: each folder should include component, subcomponents, types, helpers, constants.
+- Place reusable components in /components; domain-specific logic in /features or /modules.
+- Group server-only logic under /lib/server and client utilities under /lib/client.
+
+// NAMING CONVENTIONS
+- Use PascalCase for component names and file exports.
+- Use camelCase for variables and function names.
+- Use descriptive auxiliary verbs: isLoading, hasError, shouldRender, etc.
+- Use named exports for all components and utilities.
+
+// TYPESCRIPT CONVENTIONS
+- Use TypeScript everywhere.
+- Use interfaces for public types; avoid types unless for unions or mapped types.
+- Avoid enums; use readonly const objects with key unions.
+- Infer types from data or function returns whenever possible.
+
+// REACT + NEXT.JS
+- Use functional components exclusively.
+- Use the `function` keyword for all declared functions.
+- Prefer React Server Components (RSC); minimize 'use client' usage.
+- Wrap client components in <Suspense> with fallbacks.
+- Use dynamic imports for non-critical components with `ssr: false`.
+- Avoid useEffect unless interacting with the DOM or external browser-only APIs.
+
+// STYLING & UI
+- Use Tailwind CSS for layout, spacing, typography, and responsiveness.
+- Use ShadCN UI for base components (button, dialog, input, etc.).
+- Extend Tailwind via @apply in component-scoped CSS when needed.
+- Build responsive UIs with a mobile-first approach using Tailwind breakpoints.
+
+// PERFORMANCE
+- Optimize for Core Web Vitals (LCP, CLS, FID).
+- Use next/image with WebP support and loading="lazy".
+- Use React Suspense and code-splitting with dynamic() for large or non-blocking components.
+- Avoid client state unless strictly necessary; prefer derived or server state.
+- Use `nuqs` for managing URL search params declaratively.
+
+// DATA FETCHING
+- Use server components for data access.
+- Use fetch with Next.js caching: `force-cache`, `no-store`, `revalidate`.
+- Use `generateMetadata`, `generateStaticParams`, and route segment config as per App Router best practices.
+- Avoid legacy `getStaticProps` and `getServerSideProps`.
+
+

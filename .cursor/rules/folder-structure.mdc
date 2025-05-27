@@ -1,0 +1,98 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// PROJECT FOLDER STRUCTURE
+
+// Root Structure
+```
+src/
+├── app/               # Next.js App Router routes and layouts
+├── components/        # Reusable UI components
+├── data/              # Static data and content
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions and libraries
+├── types/             # TypeScript interfaces and type definitions
+└── constants/         # Application constants and configuration
+```
+
+// App Directory (Next.js App Router)
+```
+src/app/
+├── layout.tsx         # Root layout with global providers
+├── page.tsx           # Home page component
+├── favicon.ico        # Site favicon
+├── globals.css        # Global styles
+└── [route]/           # Route segments (when needed)
+    ├── page.tsx       # Route page component
+    ├── layout.tsx     # Route-specific layout (optional)
+    └── loading.tsx    # Loading UI (optional)
+```
+
+// Components Directory
+```
+src/components/
+├── layout/            # Layout components (header, footer, etc.)
+│   ├── header/        # Header components
+│   │   ├── Header.tsx             # Main header component
+│   │   ├── HeaderLogo.tsx         # Logo component
+│   │   ├── HeaderMenu.tsx         # Navigation menu
+│   │   ├── MenuItem.tsx           # Individual menu item
+│   │   └── MenuDropdown.tsx       # Dropdown menu component
+│   └── footer/        # Footer components
+├── ui/                # Reusable UI components (buttons, inputs, etc.)
+├── forms/             # Form components and form-related elements
+└── [feature]/         # Feature-specific components
+    ├── ComponentName.tsx         # Main component
+    ├── subcomponent/             # Sub-components
+    └── hooks/                    # Feature-specific hooks
+```
+
+// Data Directory
+```
+src/data/
+└── menus.ts           # Navigation menu data
+```
+
+// Types Directory
+```
+src/types/
+├── menu.ts            # Menu-related type definitions
+└── [feature].ts       # Feature-specific type definitions
+```
+
+// NAMING CONVENTIONS
+
+// Directories
+- Use lowercase-kebab-case for all directories (e.g., `header-dropdown/`)
+- Group related components in feature directories (e.g., `auth/`, `dashboard/`)
+- Use plurals for directories containing multiple similar items (e.g., `hooks/`, `utils/`)
+
+// Files
+- Use PascalCase for React components (e.g., `Button.tsx`, `UserProfile.tsx`)
+- Use camelCase for utilities, hooks, and non-component files (e.g., `useAuth.ts`, `formatDate.ts`)
+- Use `.tsx` extension for files containing JSX
+- Use `.ts` extension for TypeScript files without JSX
+
+// ORGANIZATION PRINCIPLES
+
+// Component Co-location
+- Keep component files close to where they are used
+- Organize by feature rather than by type when appropriate
+- Place related sub-components in a subdirectory named after the parent component
+
+// Module Organization
+- Each module/component should have a clear, single responsibility
+- Group related functionality together in the same directory
+- Place types and utilities specific to a component in the same directory
+
+// Import Paths
+- Use absolute imports with `@/` prefix for imports from src directory
+- Group imports in the following order:
+  1. External libraries
+  2. Internal modules
+  3. Components
+  4. Types
+  5. Styles
+

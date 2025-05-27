@@ -1,0 +1,49 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+// LAYOUT STRUCTURE
+- Root layout follows an 85% width constraint on large screens (lg breakpoint and above)
+- Full width on small screens (below lg breakpoint)
+- Apply "w-full mx-auto lg:w-[85%]" to main content containers
+- Header spans the full width with inner content respecting the 85% constraint
+- All dropdowns take full screen width with inner content matching the 85% constraint
+
+// HEADER & NAVIGATION
+- Header is sticky with a white background and subtle bottom border
+- Logo positioned on the left, navigation in the center, utility icons on the right
+- Dropdown menus triggered by click (not hover) with toggle functionality
+- All dropdowns close when clicking outside the menu area
+- Use transform/opacity transitions for smooth dropdown animations
+
+// DROPDOWN MENU IMPLEMENTATION
+- Use state management in HeaderMenu with click event handlers
+- Implement click-outside detection with useEffect and ref
+- Toggle active dropdown by clicking the same menu item
+- For dropdown menu items, use button elements with onClick handlers
+- For regular navigation items, maintain link behavior with Link component
+- Add visual indicators (arrow icon) for dropdown menus
+- Animate dropdowns with translate and opacity transitions
+
+// RESPONSIVE BEHAVIOR
+- Menu layout is fully responsive with appropriate spacing on mobile
+- On small screens, maintain full width content
+- On large screens (lg breakpoint and above), constrain content to 85% width
+- Maintain dropdown functionality consistently across breakpoints
+
+// ACCESSIBILITY
+- Use proper ARIA attributes for menu components (aria-expanded, aria-haspopup)
+- Implement keyboard navigation support (Enter/Space to toggle dropdowns)
+- Maintain focus management within dropdown menus
+- Include semantic roles (role="menu", aria-orientation="vertical")
+- Add aria-hidden="true" for decorative icons
+
+// MENU STYLING STANDARDS
+- Use Tailwind utility classes for all styling
+- Consistent color scheme with blue-600 for active/hover states
+- Subtle transitions for interactive elements (hover, active states)
+- Dropdown menus have white background with subtle shadow
+- Use column grid layout for organizing dropdown content sections
+- Include visual indicators that rotate on dropdown state change
+
