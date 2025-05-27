@@ -49,4 +49,9 @@ alwaysApply: true
 - Use `generateMetadata`, `generateStaticParams`, and route segment config as per App Router best practices.
 - Avoid legacy `getStaticProps` and `getServerSideProps`.
 
+// React Hooks
+
+### useEffect Dependencies
+- Always include all variables used inside useEffect in its dependency array
+- When using arrays or objects in useEffect dependencies, wrap them in useMemo to prevent unnecessary re-renders
 
