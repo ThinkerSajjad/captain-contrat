@@ -22,7 +22,7 @@ export function Footer() {
           </div>
         </div>
         <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-6">
-          {mainMenus.slice(0, 5).map((menu, idx) => (
+          {mainMenus.slice(0, 5).map((menu, _idx) => (
             <div key={menu.key}>
               <h3 className="font-semibold text-lg mb-3 text-white">{menu.label}</h3>
               {menu.dropdown && menu.dropdown.sections && (
@@ -45,7 +45,7 @@ export function Footer() {
           ))}
         </div>
         <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-6">
-          {mainMenus.slice(5).map((menu, idx) => (
+          {mainMenus.slice(5).map((menu, _idx) => (
             <div key={menu.key}>
               <h3 className="font-semibold text-lg mb-3 text-white">{menu.label}</h3>
               {menu.dropdown && menu.dropdown.sections && (
@@ -71,7 +71,7 @@ export function Footer() {
         <div className="text-center text-white/80 text-sm mb-2">
           Our legal and administrative services platform supports you in your daily business.<br />
           We provide our network of lawyers and partners to effectively meet all your needs, from the simplest to the most complex.<br />
-          Your legal and administrative procedures will never again be an obstacle to your business's growth.
+          Your legal and administrative procedures will never again be an obstacle to your business&apos;s growth.
         </div>
         <div className="text-center text-white font-semibold mt-4 mb-2">
           12 rue Saint-Fiacre, 75002 Paris

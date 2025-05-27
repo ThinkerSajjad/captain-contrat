@@ -2,7 +2,7 @@
 
 import { mainMenus } from "@/data/menus";
 import Link from "next/link";
-import { X as CloseIcon, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 interface MobileMenuProps {

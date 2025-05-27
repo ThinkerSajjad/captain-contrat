@@ -59,16 +59,6 @@ const testimonials = [
 export function TrustedByEntrepreneurs() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  function scrollLeft() {
-    if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: -window.innerWidth * 0.9, behavior: "smooth" });
-    }
-  }
-  function scrollRight() {
-    if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: window.innerWidth * 0.9, behavior: "smooth" });
-    }
-  }
 
   return (
     <section className="w-full py-16 bg-white">
