@@ -9,7 +9,7 @@ const categories = [
   { label: "To exercise a profession", href: "/blog/to-exercise-a-profession" },
   { label: "Company modification", href: "/blog/company-modification" },
   { label: "Disputes", href: "/blog/disputes" },
-  { label: "Commercial contracts and general terms and conditions", href: "/blog/commercial-contracts-and-general-terms-and-conditions" },
+  { label: "Commercial contracts & general T&C", href: "/blog/commercial-contracts-and-general-terms-and-conditions" },
   { label: "Recruiting and managing employees", href: "/blog/recruiting-and-managing-employees" },
   { label: "Closing", href: "/blog/closing" },
 ];
