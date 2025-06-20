@@ -41,9 +41,9 @@ export function NeedToKnow() {
                 held by a single partner.
               </p>
               <p className="text-slate-700 mt-3 font-medium lg:text-lg text-base">
-                The sole shareholder is <strong>liable for the company's debts within the limit of his or her 
+                The sole shareholder is <strong>liable for the company&apos;s debts within the limit of his or her 
                 contributions</strong>. Unlike the traditional sole proprietorship, the EURL protects the 
-                entrepreneur's personal assets in the event of bankruptcy or financial difficulties.
+                entrepreneur&apos;s personal assets in the event of bankruptcy or financial difficulties.
               </p>
             </div>
           </div>

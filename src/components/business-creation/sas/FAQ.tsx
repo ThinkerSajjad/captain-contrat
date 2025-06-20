@@ -70,7 +70,7 @@ const faqs = [
     answer: (
       <div className="space-y-4">
         <p>The SASU, or Société par Actions Simplifiée Unipersonnelle, is an SAS composed of a single partner, who may or may not exercise the company as President. Like the SAS, it is a company suitable for all types of activities and advantageous for the great statutory freedom offered to the sole partner.</p>
-        <p>The sole shareholder may be any natural or legal person who holds all of the company's shares.</p>
+        <p>The sole shareholder may be any natural or legal person who holds all of the company&apos;s shares.</p>
         <p>Looking to create a simplified joint stock company (SAS)? Captain Contrat will help you through every step.</p>
       </div>
     ),
@@ -82,7 +82,7 @@ const faqs = [
         <p>The 3 disadvantages of the Simplified Joint Stock Company (SAS) are as follows:</p>
         <ol className="list-decimal pl-5 space-y-3">
           <li>
-            <strong>Complex drafting of articles of association</strong>: The considerable statutory freedom offered to partners can make drafting articles of association complex. It is necessary to clearly define all the company's operating rules to avoid differences in interpretation that could lead to conflicts. Moreover, unlike other companies, errors cannot invalidate traditional costs if amendments need to be made later.
+            <strong>Complex drafting of articles of association</strong>: The considerable statutory freedom offered to partners can make drafting articles of association complex. It is necessary to clearly define all the company&apos;s operating rules to avoid differences in interpretation that could lead to conflicts. Moreover, unlike other companies, errors cannot invalidate traditional costs if amendments need to be made later.
           </li>
           <li>
             <strong>High social security contributions</strong>: SAS managers, who are considered employees, are subject to higher social security contributions than self-employed workers. This can represent a significant cost for the company, especially if the president or other managers are paid. However, the advantage is that they benefit from the general social security scheme for their contributions, but this also means that they do not benefit from any social security protection.
@@ -166,10 +166,10 @@ const faqs = [
         
         <ol className="list-decimal pl-5 space-y-3">
           <li>
-            <strong>Capital increase</strong>: This operation involves creating new shares to integrate the new partner. The incoming partner makes a contribution in cash or in kind in exchange for these new shares. This contribution increases the company's share capital and requires a collective decision. The company's articles of association must be amended to reflect the new share capital. A legal notice must be published in a legal announcements journal and the modification must be registered in the register. The capital increase results in a dilution of the shares of existing partners, as the share capital is distributed among a larger number of shares.
+            <strong>Capital increase</strong>: This operation involves creating new shares to integrate the new partner. The incoming partner makes a contribution in cash or in kind in exchange for these new shares. This contribution increases the company&apos;s share capital and requires a collective decision. The company&apos;s articles of association must be amended to reflect the new share capital. A legal notice must be published in a legal announcements journal and the modification must be registered in the register. The capital increase results in a dilution of the shares of existing partners, as the share capital is distributed among a larger number of shares.
           </li>
           <li>
-            <strong>Share transfer</strong>: This involves the sale by one or more existing partners of their shares to a new partner. This transaction does not require a change to share capital. A share transfer contract must be drawn up specifying the date of the parties, the number of shares transferred and the price. This transfer must be registered in the company's share transfer register. It is advisable to update the register of beneficial owners to reflect the change in the company's ownership structure. The transfer of shares in an SAS is free, unless the articles of association provide for an approval or pre-emption clause that limit this freedom.
+            <strong>Share transfer</strong>: This involves the sale by one or more existing partners of their shares to a new partner. This transaction does not require a change to share capital. A share transfer contract must be drawn up specifying the date of the parties, the number of shares transferred and the price. This transfer must be registered in the company&apos;s share transfer register. It is advisable to update the register of beneficial owners to reflect the change in the company&apos;s ownership structure. The transfer of shares in an SAS is free, unless the articles of association provide for an approval or pre-emption clause that limit this freedom.
           </li>
         </ol>
       </div>

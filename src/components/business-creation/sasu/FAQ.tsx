@@ -11,7 +11,7 @@ import { MessageSquare } from "lucide-react";
 const faqs = [
   {
     question: "What is a SASU?",
-    answer: "The SASU, or Société par Actions Simplifiée Unipersonnelle, is a simplified joint-stock company (SAS) formed by a single shareholder. The sole shareholder is a natural or legal person who holds all of the shares. They manage the company as president or may decide to entrust the presidency to a third party. The sole shareholder enjoys considerable statutory freedom to set the amount of share capital and the company's organizational rules. ",
+    answer: "The SASU, or Société par Actions Simplifiée Unipersonnelle, is a simplified joint-stock company (SAS) formed by a single shareholder. The sole shareholder is a natural or legal person who holds all of the shares. They manage the company as president or may decide to entrust the presidency to a third party. The sole shareholder enjoys considerable statutory freedom to set the amount of share capital and the company&apos;s organizational rules. ",
     icon: <MessageSquare className="h-5 w-5 text-red-500" />,
   },
   {
@@ -19,7 +19,7 @@ const faqs = [
     answer: (
         <div className="space-y-4">
           <ul className="list-disc pl-5 space-y-2">
-            <li>The partner's liability is limited to the amount of his contributions to the share capital;</li>
+            <li>The partner&apos;s liability is limited to the amount of his contributions to the share capital;</li>
             <li>The SASU is subject to corporate tax by default, but the sole shareholder can opt for income tax for a maximum of 5 years.</li>
             <li>The SASU is scalable: to create an SAS with other partners, it will not be necessary to transform the form of the company;</li>
             <li>The creation of a SASU offers greater statutory freedom . It is easier to decide what you want to include in its statutes, and in particular all the rules delimiting the decision-making of the sole shareholder, the increase in share capital, the possibility of new shareholders joining, etc.</li>
@@ -40,7 +40,7 @@ const faqs = [
             </ul>
             <p>The cost of these steps may vary, in particular if you decide to have a lawyer assist you in drafting your articles of association.</p>
             <p>In addition to these <strong>incompressible costs</strong> , you will also need to anticipate the costs linked to protecting your brand, drafting your general terms and conditions and legal notices, and drafting your first commercial contracts (with your future service providers and suppliers).</p>
-            <p>But the list doesn't end there. You need to plan for working capital to keep your business running:</p>
+            <p>But the list doesn&apos;t end there. You need to plan for working capital to keep your business running:</p>
             <ul className="list-disc pl-5 space-y-2">
                 <li><strong>Operating costs</strong> will be added, such as office equipment (computer, software), telephone and internet packages, financial tools (credit card terminal, cash register, payment platform), furnishing premises, taking out professional civil liability insurance, purchasing stock.</li>
                 <li><strong>The costs associated with the personal time</strong> you will invest in creating your SASU. Starting your own business can be very time-consuming.</li>
@@ -79,7 +79,7 @@ const faqs = [
                 <li>The corporate purpose;</li>
                 <li>The lifespan of the company (maximum 99 years);</li>
                 <li>The president and the possible general director (DG) or deputy general director (DGD);</li>
-                <li>The company's management arrangements;</li>
+                <li>The company&apos;s management arrangements;</li>
                 <li>The rules for the appointment of the president;</li>
                 <li>The conditions for appointing one or more persons, in addition to the president: general manager or deputy general manager.</li>
             </ul>
@@ -115,8 +115,8 @@ const faqs = [
         <div className="space-y-4">
             <p>While the SASU has the advantage of being flexible, it also has some disadvantages that you should keep in mind before opening a SASU:</p>
             <ul className="list-disc pl-5 space-y-2">
-                <li><strong>Creation steps:</strong> The formalities for creating a SASU can be complex. The shareholder must, in particular, draft articles of association, constitute the company's share capital, publish a registration notice, etc.</li>
-                <li><strong>Cost of social security contributions:</strong> In a SASU, the amount of contributions is high. It is necessary to count approximately 80% of the manager's net salary.</li>
+                <li><strong>Creation steps:</strong> The formalities for creating a SASU can be complex. The shareholder must, in particular, draft articles of association, constitute the company&apos;s share capital, publish a registration notice, etc.</li>
+                <li><strong>Cost of social security contributions:</strong> In a SASU, the amount of contributions is high. It is necessary to count approximately 80% of the manager&apos;s net salary.</li>
                 <li><strong>Administrative obligations:</strong> The president of the SASU is subject to numerous reporting obligations. He must prepare pay slips if he pays himself, keep complete accounts and a register of decisions, etc. </li>
                 <li><strong>Closure cost:</strong> when the sole shareholder abandons his project, the closure formalities are cumbersome and generate a cost.</li>
             </ul>
@@ -202,7 +202,7 @@ const faqs = [
                 <li>social security contributions attached to dividends paid to the shareholder .</li>
             </ul>
             <p>For employee and employer contributions, the SASU can be more advantageous than an EURL, because in the absence of remuneration paid by the company, no social security contributions are payable.</p>
-            <p>On the other hand, the SASU charges on the manager's salary will be higher than for the EURL. The president of a SASU is covered by the assimilated employee scheme . This scheme offers social protection similar to that of employees. But in return, the charges in a SASU will be higher than for an EURL whose manager is a self-employed worker (around 80% of net salary compared to 45%).</p>
+            <p>On the other hand, the SASU charges on the manager&apos;s salary will be higher than for the EURL. The president of a SASU is covered by the assimilated employee scheme . This scheme offers social protection similar to that of employees. But in return, the charges in a SASU will be higher than for an EURL whose manager is a self-employed worker (around 80% of net salary compared to 45%).</p>
             <p>Do you need additional information on the costs associated with the SASU? Benefit from the support of our experts .</p>
         </div>
     ),
@@ -229,11 +229,11 @@ const faqs = [
             </ul>
             <p><strong>Differences in governance and organization</strong></p>
             <p>The EURL is a more regulated legal form than the SASU. It is suitable for entrepreneurs seeking greater security.</p>
-            <p>Conversely, other legal forms allow you the freedom to organize the operation of your company yourself. This is the case with the SASU (Single Shareholders' Limited Liability Company), which allows shareholders to organize the company's governance as they wish. </p>
+            <p>Conversely, other legal forms allow you the freedom to organize the operation of your company yourself. This is the case with the SASU (Single Shareholders&apos; Limited Liability Company), which allows shareholders to organize the company&apos;s governance as they wish. </p>
             <p><strong>Differences in the transfer of shares</strong></p>
             <p>The partner of a SASU is a shareholder and therefore receives, in return for his contributions, shares .</p>
             <p>The EURL manager receives shares.</p>
-            <p>Please note that the transfer of shares is simpler than the transfer of company shares. In fact, in the case of a transfer of shares, no written document is required (it is the registration in the buyer's account that will materialize the transfer of ownership), whereas in the case of a transfer of company shares, specific formalities must be followed, and a written document must be drawn up to record the said transfer.</p>
+            <p>Please note that the transfer of shares is simpler than the transfer of company shares. In fact, in the case of a transfer of shares, no written document is required (it is the registration in the buyer&apos;s account that will materialize the transfer of ownership), whereas in the case of a transfer of company shares, specific formalities must be followed, and a written document must be drawn up to record the said transfer.</p>
             <p>The simplicity of the transfer is an important element to take into account, particularly if you subsequently plan to transform your SASU into an SAS (or your EURL into an SARL).</p>
         </div>
     ),
@@ -277,7 +277,7 @@ const faqs = [
   },
   {
     question: "How is the manager of a SASU paid?",
-    answer: "The sole shareholder who is also the president of the SASU may be remunerated for his corporate mandate. He may also decide not to be remunerated. Furthermore, the sole shareholder may decide to pay themselves dividends. Dividend payments are taxable, but are not subject to social security contributions. The shareholder can choose between income tax or a single flat-rate withholding tax of 30%. The choice between these two mechanisms depends on the shareholder's other sources of income and their marginal tax rate. "
+    answer: "The sole shareholder who is also the president of the SASU may be remunerated for his corporate mandate. He may also decide not to be remunerated. Furthermore, the sole shareholder may decide to pay themselves dividends. Dividend payments are taxable, but are not subject to social security contributions. The shareholder can choose between income tax or a single flat-rate withholding tax of 30%. The choice between these two mechanisms depends on the shareholder&apos;s other sources of income and their marginal tax rate. "
   },
   {
     question: "What is the tax regime for SASU?",

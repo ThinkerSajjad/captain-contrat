@@ -24,7 +24,7 @@ export function NeedToKnow() {
               <p className="text-slate-700 font-medium lg:text-base text-sm">
               According to industrial property law, a trademark is a sign that allows you to distinguish your products and/or services from those of your competitors.  <br /> <br />
 
-              The trademark registration process is necessary to <strong>protect your company's strategic assets by granting you</strong> a 10-year operating monopoly on French territory. This monopoly is renewable indefinitely.  <br /> <br />
+              The trademark registration process is necessary to <strong>protect your company&apos;s strategic assets by granting you</strong> a 10-year operating monopoly on French territory. This monopoly is renewable indefinitely.  <br /> <br />
 
               This procedure gives you the possibility of bringing an action for infringement or unfair competition if a third party uses or imitates your trademark.
               </p>

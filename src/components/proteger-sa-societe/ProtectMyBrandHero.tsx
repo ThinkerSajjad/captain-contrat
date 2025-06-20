@@ -82,7 +82,7 @@ export function ProtectMyBrandHero() {
                     </div>
                     <div className="flex-grow">
                       <p className="lg:text-xl text-lg font-semibold">GDPR compliance</p>
-                      <p className="text-sm md:block hidden text-gray-600">Secure your customers' data</p>
+                      <p className="text-sm md:block hidden text-gray-600">Secure your customers&apos; data</p>
                     </div>
                     <div className="flex-shrink-0">
                         <ChevronRight className="w-6 h-6 text-gray-600" />

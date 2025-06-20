@@ -14,16 +14,16 @@ export function WhyMakeAgreement() {
           {/* Left column - Main text */}
           <div className="lg:w-1/2 bg-white lg:p-6 p-4 rounded-xl">
             <h3 className="lg:text-2xl text-xl font-bold text-slate-800 mb-6">
-              The role of the shareholders' agreement and the 3 essential clauses
+              The role of the shareholders&apos; agreement and the 3 essential clauses
             </h3>
 
             <div className="space-y-6 text-slate-700">
               <p>
-                Departure of a partner, entry of a new partner, sale of intellectual property rights: <strong>the partners' agreement makes it possible to anticipate many situations calmly to avoid any conflict within a company.</strong>
+                Departure of a partner, entry of a new partner, sale of intellectual property rights: <strong>the partners&apos; agreement makes it possible to anticipate many situations calmly to avoid any conflict within a company.</strong>
               </p>
 
               <p>
-                The shareholders' agreement helps <strong>protect the company</strong>, particularly in the event of withdrawal or fault on the part of one of the founders.
+                The shareholders&apos; agreement helps <strong>protect the company</strong>, particularly in the event of withdrawal or fault on the part of one of the founders.
               </p>
 
               <p>
@@ -80,7 +80,7 @@ export function WhyMakeAgreement() {
                   Voting rights
                 </h4>
                 <p className="text-slate-700">
-                  The shareholders' agreement may grant shareholders voting rights that are not proportional to their contributions.
+                  The shareholders&apos; agreement may grant shareholders voting rights that are not proportional to their contributions.
                 </p>
               </div>
             </div>

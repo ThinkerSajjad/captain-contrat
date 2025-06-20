@@ -96,7 +96,7 @@ const faqs = [
           <li>Holding an extraordinary general meeting to approve the transformation</li>
           <li>Filing the updated articles of association with the clerk of the commercial court</li>
           <li>Publishing a notice of transformation in a legal announcement journal</li>
-          <li>Updating the company's registration with the Trade and Companies Register (RCS)</li>
+          <li>Updating the company&apos;s registration with the Trade and Companies Register (RCS)</li>
         </ol>
         
         <p>This transformation does not create a new legal entity, and the company maintains its registration number.</p>
@@ -116,7 +116,7 @@ const faqs = [
           <li>Appointing a president (and other officers if needed)</li>
           <li>Filing the transformation documents with the clerk of the commercial court</li>
           <li>Publishing a notice of transformation in a legal announcement journal</li>
-          <li>Updating the company's registration with the Trade and Companies Register (RCS)</li>
+          <li>Updating the company&apos;s registration with the Trade and Companies Register (RCS)</li>
         </ol>
         
         <p>The transformation may have tax implications that should be carefully considered.</p>
@@ -127,11 +127,11 @@ const faqs = [
     question: "What is limited liability?",
     answer: (
       <div className="space-y-4">
-        <p>Limited liability is a legal concept that separates the personal assets of business owners from the company's assets. In business structures with limited liability (SARL, EURL, SAS, SASU, SA), the financial responsibility of shareholders or partners is limited to the amount of their contributions to the company.</p>
+        <p>Limited liability is a legal concept that separates the personal assets of business owners from the company&apos;s assets. In business structures with limited liability (SARL, EURL, SAS, SASU, SA), the financial responsibility of shareholders or partners is limited to the amount of their contributions to the company.</p>
         
-        <p>This means that if the company faces financial difficulties or bankruptcy, creditors cannot generally pursue the personal assets of the shareholders or partners to recover debts. The shareholders' personal property (home, personal bank accounts, etc.) is protected.</p>
+        <p>This means that if the company faces financial difficulties or bankruptcy, creditors cannot generally pursue the personal assets of the shareholders or partners to recover debts. The shareholders&apos; personal property (home, personal bank accounts, etc.) is protected.</p>
         
-        <p>In contrast, sole proprietorships and general partnerships (SNC) do not offer this protection, and the business owner's personal assets can be seized to pay business debts.</p>
+        <p>In contrast, sole proprietorships and general partnerships (SNC) do not offer this protection, and the business owner&apos;s personal assets can be seized to pay business debts.</p>
       </div>
     ),
   },

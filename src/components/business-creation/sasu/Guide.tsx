@@ -41,7 +41,7 @@ export function Guide() {
                   <li className="flex gap-2">
                     <span className="text-secondary font-bold">•</span>
                     <p>
-                      Finally, if the partner's project develops, the latter can easily welcome new shareholders by <strong>transforming the SASU into an SAS</strong>.
+                      Finally, if the partner&apos;s project develops, the latter can easily welcome new shareholders by <strong>transforming the SASU into an SAS</strong>.
                     </p>
                   </li>
                 </ul>
@@ -106,7 +106,7 @@ export function Guide() {
                       </li>
                       <li className="flex gap-2">
                         <span className="text-secondary font-bold">•</span>
-                        <p>The partner's contributions;</p>
+                        <p>The partner&apos;s contributions;</p>
                       </li>
                       <li className="flex gap-2">
                         <span className="text-secondary font-bold">•</span>
@@ -122,7 +122,7 @@ export function Guide() {
                       </li>
                       <li className="flex gap-2">
                         <span className="text-secondary font-bold">•</span>
-                        <p>The company's management arrangements;</p>
+                        <p>The company&apos;s management arrangements;</p>
                       </li>
                       <li className="flex gap-2">
                         <span className="text-secondary font-bold">•</span>
@@ -159,7 +159,7 @@ export function Guide() {
                   <div>
                     <h4 className="font-semibold mb-2">Step 3: publication of the legal notice</h4>
                     <p>
-                      To register a SASU, a registration notice must be published in a legal announcements journal. This mandatory step is intended to notify third parties of the company's upcoming creation.
+                      To register a SASU, a registration notice must be published in a legal announcements journal. This mandatory step is intended to notify third parties of the company&apos;s upcoming creation.
                     </p>
                   </div>
                   

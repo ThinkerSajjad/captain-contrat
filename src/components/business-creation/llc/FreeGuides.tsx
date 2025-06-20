@@ -28,7 +28,7 @@ export function FreeGuides() {
             </h3>
             <p className="text-gray-700 mb-6">
             Need to create your EURL?
-            Captain Contrat can help. It's simple, easy, and fast.
+            Captain Contrat can help. It&apos;s simple, easy, and fast.
             </p>
             <Link 
               href="#download-guide" 

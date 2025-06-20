@@ -105,7 +105,7 @@ export function CommercialContractHero() {
                       </div>
                     </div>
                     <div className="flex-grow">
-                      <p className="lg:text-xl text-lg font-semibold">Shareholders' agreement</p>
+                      <p className="lg:text-xl text-lg font-semibold">Shareholders&apos; agreement</p>
                       <p className="text-sm md:block hidden text-gray-600">Relationships between partners</p>
                     </div>
                     <div className="flex-shrink-0">
@@ -167,7 +167,7 @@ export function CommercialContractHero() {
         <div className="relative lg:mt-12 mt-8 bg-transparent lg:p-6 p-4 rounded-lg shadow-sm border border-gray-800">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:text-left text-center">
-              <p className="lg:text-xl text-lg font-semibold inline-block mr-2">Do you need another contract? <span className="font-normal">We'll assess it together and recommend the right lawyer.</span></p>
+              <p className="lg:text-xl text-lg font-semibold inline-block mr-2">Do you need another contract? <span className="font-normal">We&apos;ll assess it together and recommend the right lawyer.</span></p>
               
             </div>
             <div className="mt-4 md:mt-0 mb-2">

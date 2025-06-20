@@ -67,7 +67,7 @@ export function BusinessCreationGuide() {
                 <div>
                   <h4 className="font-semibold mb-2">Steps for creating a company</h4>
                   <ul className="list-disc pl-5 space-y-1">
-                    <li>Step 1: Write the company's articles of association</li>
+                    <li>Step 1: Write the company&apos;s articles of association</li>
                     <li>Step 2: Deposit the share capital at the bank or with a notary</li>
                     <li>Step 3: Publish a legal notice in a legal announcements journal (JAL)</li>
                     <li>Step 4: Complete the registration formalities online</li>

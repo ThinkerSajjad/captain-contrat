@@ -12,7 +12,7 @@ const faqs = [
     question: "📌 How to combine unemployment and micro-enterprise?",
     answer: (
       <div className="space-y-2">
-        <p>A micro-entrepreneur who starts their own business can continue to receive unemployment benefits. If the micro-business does not generate any income, the entrepreneur continues to receive their unemployment benefits in full. If the business generates income, the entrepreneur's unemployment salary can no longer receive the unemployment benefit to help you return to work.</p>
+        <p>A micro-entrepreneur who starts their own business can continue to receive unemployment benefits. If the micro-business does not generate any income, the entrepreneur continues to receive their unemployment benefits in full. If the business generates income, the entrepreneur&apos;s unemployment salary can no longer receive the unemployment benefit to help you return to work.</p>
       </div>
     ),
   },
@@ -73,7 +73,7 @@ const faqs = [
           </li>
           <li>
             <strong>Can you hire under the status?</strong>
-            <p>No, you can't hire employees from being enterprises. However, this status is not necessarily suitable for growing micro-enterprises do not allow for deduction of expenses from taxable income. It may therefore be preferable to opt for creating a company if the business grows.</p>
+            <p>No, you can&apos;t hire employees from being enterprises. However, this status is not necessarily suitable for growing micro-enterprises do not allow for deduction of expenses from taxable income. It may therefore be preferable to opt for creating a company if the business grows.</p>
           </li>
         </ul>
       </div>
@@ -120,7 +120,7 @@ const faqs = [
           </li>
           <li>
             <strong>Activity bonus:</strong>
-            <p>If the micro-enterprise's income is low, this aid offered by the CAF can be an activity bonus.</p>
+            <p>If the micro-enterprise&apos;s income is low, this aid offered by the CAF can be an activity bonus.</p>
           </li>
         </ul>
       </div>
@@ -171,7 +171,7 @@ const faqs = [
           </li>
           <li>
             <strong>Compensation and social status:</strong>
-            <p>How do you want to be paid? In a SARL (limited liability company), the manager receives compensation, which is subject to social security contributions. In a micro-enterprise, the business owner simply withdraws funds from the company's account.</p>
+            <p>How do you want to be paid? In a SARL (limited liability company), the manager receives compensation, which is subject to social security contributions. In a micro-enterprise, the business owner simply withdraws funds from the company&apos;s account.</p>
           </li>
           <li>
             <strong>Business development:</strong>
@@ -179,7 +179,7 @@ const faqs = [
           </li>
           <li>
             <strong>Asset protection:</strong>
-            <p>A SARL offers better protection of the company's assets, while the micro-enterprise has reduced accounting obligations.</p>
+            <p>A SARL offers better protection of the company&apos;s assets, while the micro-enterprise has reduced accounting obligations.</p>
           </li>
         </ul>
       </div>

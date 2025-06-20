@@ -24,7 +24,7 @@ export function NeedToKnow() {
               <p className="text-slate-700 font-medium lg:text-lg text-base">
               Designed for small and medium-sized businesses, the SARL (Limited Liability Company) is the second most common legal form in France, after the SAS (Simplified Joint Stock Company). <br />
 
-              Its main advantage is that the partners' liability is limited to the amount of their contributions . They do not have to commit their personal assets in the event of company debts.  
+              Its main advantage is that the partners&apos; liability is limited to the amount of their contributions . They do not have to commit their personal assets in the event of company debts.  
               </p>
             </div>
             
@@ -36,7 +36,7 @@ export function NeedToKnow() {
               <ul className="text-slate-700 mt-3 font-medium lg:text-lg text-base list-disc lg:pl-6 pl-4">
                 <li>There must be a minimum of 2 partners and a maximum of 100. They can be individuals or legal entities (another company can be a partner, for example) . </li>
                 <li><strong>Share capital</strong> can be freely set by the articles of association. This means that the partners can decide how much their share capital will constitute. An LLC can therefore be created with a capital of €1!  </li>
-                <li><strong>The partners' contributions</strong> are the assets that make up the share capital and in return for which they receive social rights (shares). They can be in cash (a sum of money) or in kind (movable property, real estate). Contributions in kind (skills, technical knowledge, know-how) are possible, but do not form part of the share capital.  </li>
+                <li><strong>The partners&apos; contributions</strong> are the assets that make up the share capital and in return for which they receive social rights (shares). They can be in cash (a sum of money) or in kind (movable property, real estate). Contributions in kind (skills, technical knowledge, know-how) are possible, but do not form part of the share capital.  </li>
                 <li><strong>The purpose of an SARL</strong>  can concern any type of activity, civil or commercial. However, certain regulated activities cannot be carried out in the form of an SARL (e.g., insurance, capitalization, and savings companies).</li>
               </ul>
             </div>

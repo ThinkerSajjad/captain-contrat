@@ -28,7 +28,7 @@ const faqs = [
     question: "Why is it important to protect your brand?",
     answer: (
       <div className="space-y-2">
-        <p>Often overlooked, the brand is nonetheless a very important <strong>intangible asset</strong> of your company. It is an identifiable asset for the commercial, industrial and intellectual fields. Like a real extension of your company's heritage, it is an asset that you can enhance. This enhancement can take different forms depending on your activities with: license contracts, brand ranking, or even, create a franchise network, etc.</p>
+        <p>Often overlooked, the brand is nonetheless a very important <strong>intangible asset</strong> of your company. It is an identifiable asset for the commercial, industrial and intellectual fields. Like a real extension of your company&apos;s heritage, it is an asset that you can enhance. This enhancement can take different forms depending on your activities with: license contracts, brand ranking, or even, create a franchise network, etc.</p>
         
         <p>Registering a trademark with the INPI gives you a <strong>monopoly on its exploitation</strong>. This monopoly also grants you powers to protect its exploitation. You will have the opportunity to take action against acts of counterfeiting, for example, or to oppose applications to the similar or identical trademarks. However, for all this to happen, you will need to properly register your trademark.</p>
       </div>
@@ -85,7 +85,7 @@ const faqs = [
         
         <p>To determine if there is a risk of confusion, the INPI will take into account different elements (visual, phonetic, intellectual) and will determine if the consumer can make a connection between the two from a visual, conceptual and/or phonetic point of view.</p>
         
-        <p>Like any preliminary opposition proceedings generally costs - for parties are required to prepare a case, it is better to avoid them. In addition, the INPI's decision sometimes supports and sometimes the parties is this type of action. Therefore, to avoid this situation, it is strongly recommended to conduct a prior art search before filing any application.</p>
+        <p>Like any preliminary opposition proceedings generally costs - for parties are required to prepare a case, it is better to avoid them. In addition, the INPI&apos;s decision sometimes supports and sometimes the parties is this type of action. Therefore, to avoid this situation, it is strongly recommended to conduct a prior art search before filing any application.</p>
         
         <p>Ensuring that no third party holds an intellectual property title is a step identical or similar, as the trademark you intend to protect is an essential preventive measure. This preliminary procedure will allow you to detect any conflicts and to adapt your approach if necessary before finding yourself without your knowledge, at the center of an infringement action.</p>
         
@@ -93,7 +93,7 @@ const faqs = [
         
         <p>INPI parties may at any time challenge the validity of the trademark by means of an action for nullity.</p>
         
-        <p>Thus, the absence of a prior art search or a botched prior art search can have serious consequences for your company's image and all the investments you have already made. After several years of activity, an action for nullity can be dramatic for the very survival of your business.</p>
+        <p>Thus, the absence of a prior art search or a botched prior art search can have serious consequences for your company&apos;s image and all the investments you have already made. After several years of activity, an action for nullity can be dramatic for the very survival of your business.</p>
       </div>
     ),
   },

@@ -55,7 +55,7 @@ export function Testimonials() {
                 </svg>
               </div>
               <p className="text-gray-700 text-base">
-                I'm delighted to give Captain Contrat a very favorable review. A tailor-made service that meets all my company's legal obligations. The specialized staff are all willing to quickly answer your specific questions. The site's navigation is intuitive, simple, and efficient. I recommend it to all businesses, especially emerging ones. Captain Contrat offers excellent value for money. Congratulations to the team.
+                I&apos;m delighted to give Captain Contrat a very favorable review. A tailor-made service that meets all my company&apos;s legal obligations. The specialized staff are all willing to quickly answer your specific questions. The site&apos;s navigation is intuitive, simple, and efficient. I recommend it to all businesses, especially emerging ones. Captain Contrat offers excellent value for money. Congratulations to the team.
               </p>
               <div className="absolute -bottom-4 -right-4 w-8 h-8 rounded-full bg-secondary opacity-30"></div>
             </div>

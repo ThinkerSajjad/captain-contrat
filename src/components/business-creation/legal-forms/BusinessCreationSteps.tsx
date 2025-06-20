@@ -10,7 +10,7 @@ export function BusinessCreationSteps() {
       <PageContainer>
           <div className="mx-auto">
             <h2 className="text-3xl md:text-4xl lg:text-5xl max-w-3xl mx-auto font-bold text-center text-slate-800 mb-20">
-            The 4 steps to drafting your shareholders' agreement
+            The 4 steps to drafting your shareholders&apos; agreement
             </h2>
             <div className="relative max-w-6xl mx-auto">
               {/* Continuous timeline for medium and large screens */}

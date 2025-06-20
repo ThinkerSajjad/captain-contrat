@@ -19,7 +19,7 @@ export function Hero() {
             Company creation
           </Link>
           <ChevronRight className="w-4 h-4" />
-          <span className="text-sm">Drafting a shareholders' agreement</span>
+          <span className="text-sm">Drafting a shareholders&apos; agreement</span>
         </div>
             {/* Heading */}
             <h1 className="text-4xl lg:text-6xl font-bold mb-8 max-w-3xl">
