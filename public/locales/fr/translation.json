@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": {
+      "develop": "Développer",
+      "protect": "Protéger",
+      "launch": "Lancer",
+      "manage": "Gérer",
+      "yourBusiness": "votre entreprise",
+      "effortlessly": "sans effort"
+    },
+    "subtitle": "Avocats, comptables et juristes : toute leur expertise sur une seule plateforme.",
+    "cards": {
+      "createBusiness": {
+        "title": "Créer mon entreprise",
+        "description": "Choix de la forme juridique, obtention du KBIS..."
+      },
+      "entrustAccounting": {
+        "title": "Confier ma comptabilité",
+        "description": "Déclarations fiscales, approbation des comptes..."
+      },
+      "modifyStatus": {
+        "title": "Modifier mes statuts",
+        "description": "Transfert de siège social, transfert..."
+      },
+      "draftingContracts": {
+        "title": "Rédiger des contrats",
+        "description": "Conditions générales, contrat à durée..."
+      },
+      "consultLawyer": {
+        "title": "Consulter un avocat",
+        "description": "Droit des contrats, propriété intellectuelle..."
+      }
+    },
+    "reviews": {
+      "verified": {
+        "rating": "4.6",
+        "reviews": "1693 avis"
+      },
+      "google": {
+        "rating": "4.3",
+        "reviews": "1334 avis"
+      }
+    }
+  }
+} 

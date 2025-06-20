@@ -3,6 +3,7 @@
 @theme {
   --color-primary: #fbeada;
   --color-secondary: #f27c7c;
+  --color-secondary-dark: #e95360;
   --color-tertiary: #1d3d5d;
   --color-lightPrimary: #fef9f4;
   --color-accent: #e32636;
@@ -27,7 +28,7 @@ body {
 }
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2 {
     font-family: var(--font-crimson-pro), serif;
   }
 }

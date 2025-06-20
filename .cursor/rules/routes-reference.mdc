@@ -1,0 +1,176 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Captain Contrat - Routes Reference
+
+This file contains all routes from the site navigation structure for easy reference. Use this as a reference while adding any href in any component.
+
+## Business Creation
+
+### Create My Business
+- `/creer-entreprise/creation-sasu-en-ligne` - Creation of a SASU
+- `/creer-entreprise/creation-sas-en-ligne` - Creation of an SAS
+- `/creer-entreprise/creation-eurl-en-ligne` - Creation of an EURL
+- `/creer-entreprise/creation-llc-en-ligne` - Creation of an LLC
+- `/creer-entreprise/creation-sci-en-ligne` - Creation of an SCI
+- `/creer-entreprise/creer-micro-entreprise` - Creation of a micro-enterprise
+- `/creer-entreprise/rediger-pacte-associes` - Drafting a shareholders' agreement
+- `/creer-entreprise/choisir-la-forme-juridique` - Help in choosing the legal form
+- `/creer-entreprise` - See all business creation offers
+
+### Protect My Brand
+- `/proteger-sa-societe/trademark-filing` - Trademark filing
+- `/proteger-sa-societe/prior-art-search` - Prior art search
+- `/proteger-sa-societe` - See all brand protection offers
+
+### Surround Myself Well
+- `/creer-entreprise/preparation-creation-entreprise` - Preparation for business creation
+- `/partenaires-creation` - Partner benefits
+- `/expertise-comptable` - Online Chartered Accountant
+
+### Top Articles - Business Creation
+- `/creer-son-entreprise/choisir-son-statut/choisir-la-forme-juridique` - How to choose your legal form?
+- `/creer-son-entreprise/les-demarches/creer-son-entreprise-7-etapes` - Opening your business: how to do it?
+- `/creer-son-entreprise/sasu/statuts-et-pacte-associes-sasu` - How to create a SASU?
+- `/creer-son-entreprise/sas/statuts-et-pacte-associes-sas` - How to create an SAS?
+- `/creer-son-entreprise/eurl/statuts-et-pacte-associes-eurl` - How to create an EURL?
+- `/creer-son-entreprise/sas-sarl/sas-ou-sarl` - SAS or SARL: the comparison
+- `/creer-son-entreprise/eurl-sasu/eurl-ou-sasu` - EURL or SASU: the guide
+- `/creer-son-entreprise/assistance-creation-entreprise` - Assistance for business creation
+- `/proteger-sa-societe/trademark-filing` - Filing a trademark: the steps
+
+## Business Management
+
+### Modify My Statuses
+- `/modifier-son-entreprise/transfert-siege-social` - Transfer of registered office
+- `/modifier-son-entreprise/transformation-de-la-societe` - Transformation of society
+- `/modifier-son-entreprise/changement-d-objet-social` - Change of corporate purpose
+- `/modifier-son-entreprise` - See all offers
+
+### Manage My Employees
+- `/gestion-du-personnel/procedure-de-licenciement` - Dismissal procedure
+- `/gestion-du-personnel/termination-conventionnelle` - Conventional termination
+- `/gestion-du-personnel` - See all offers
+
+### Overcoming Disputes
+- `/gestion-des-litiges/litige` - Litigation
+- `/gestion-des-litiges/notification-formelle` - Formal notice
+- `/gestion-des-litiges/ordonnance-de-paiement` - Payment order
+- `/gestion-des-litiges` - See all offers
+
+### Close My Business
+- `/gestion-des-litiges/fermeture-de-micro-entreprise` - Closure of micro-enterprise
+- `/gestion-des-litiges/dissolution-et-radiation` - Dissolution and radiation
+
+### Manage My Business
+- `/modifier-son-entreprise/approbation-des-comptes` - Approval of accounts
+- `/modifier-son-entreprise/transfert-de-parts` - Transfer of shares
+- `/modifier-son-entreprise/augmentation-de-capital` - Capital increase
+- `/gestion-des-litiges/entreprise-en-difficultes` - Company in difficulty
+- `/expertise-comptable` - Accounting management
+
+### Top Articles - Business Management
+- `/resources/la-modification-de-l-entreprise` - The Business Modification Guide
+- `/resources/modifications-aux-statuts` - Changes to the statutes
+- `/resources/transformation-de-l-entreprise-procedures` - Company transformation: procedures
+- `/resources/modification-du-nom-de-la-societe-procedure` - Change of company name: the procedure
+- `/resources/transfert-du-siege-social-formalites` - Transfer of registered office: what formalities?
+- `/resources/augmentation-de-capital-comment-proceder` - Capital increase: how to proceed?
+- `/resources/les-10-principes-comptables-que-vous-devez-connaitre` - The 10 accounting principles you need to know
+- `/resources/fermeture-de-l-entreprise-quelles-sont-les-etapes` - Closing a business: what are the steps?
+- `/resources/dissolution-et-liquidation-de-l-entreprise-guide` - Company dissolution and liquidation: the guide
+
+## Contracts
+
+### General Terms and Conditions
+- `/rediger-un-contrat/rediger-conditions-generales-de-vente` - General Conditions of Sale (GCS)
+- `/rediger-un-contrat/rediger-conditions-generales-d-utilisation` - General Conditions of Use (GCU)
+- `/rediger-un-contrat/rediger-conditions-generales-de-location` - General Rental Conditions (GRC)
+- `/proteger-sa-societe/rediger-politique-confidentialite` - Privacy Policy
+
+### Commercial Contract
+- `/rediger-un-contrat/rediger-contrat-de-prestation-de-services` - Service provision contract
+- `/rediger-un-contrat/rediger-contrat-de-location-commerciale` - Commercial lease
+- `/rediger-un-contrat/rediger-contrat-commercial` - Commercial contract
+- `/rediger-un-contrat/rediger-contrat-de-sous-traitance` - Subcontracting contract
+- `/creer-entreprise/rediger-pacte-associes` - Shareholders' agreement
+- `/rediger-un-contrat` - See all offers
+
+### Employment Contract
+- `/gestion-du-personnel/rediger-contrat-de-travail-permanent` - Drafting a permanent contract
+- `/gestion-du-personnel/rediger-contrat-de-travail-a-duree-determinee` - Drafting a fixed-term contract
+- `/rediger-un-contrat/rediger-contrat-de-freelance` - Drafting a freelance contract
+
+### Top Articles - Contracts
+- `/resources/les-differents-types-de-contrats-commerciaux` - The different types of commercial contracts
+- `/resources/conditions-generales-de-vente-complet-guide-2025` - General Terms and Conditions: The Complete Guide 2025
+- `/resources/contrat-de-freelance-comment-le-rediger-correctement` - Freelance T&Cs: How to write them well?
+- `/resources/contrat-de-prestation-de-services-tout-savoir` - Service provision contract: everything you need to know
+- `/resources/services-et-entrepreneuriat-autonomie` - Services and self-employment
+- `/resources/contrat-de-sous-traitance-comment-le-rediger` - Subcontracting contract: how to write it?
+- `/resources/contrat-de-partenariat-commercial-tout-savoir` - Commercial partnership contract: everything you need to know
+- `/resources/pacte-de-partenariat-comment-le-rediger` - Drafting the partnership agreement: the guide
+
+## Accompaniment
+
+### Find a Lawyer
+- `/avocat/avocat-droit-commercial` - Business law
+- `/avocat/avocat-droit-des-affaires` - Contract law
+- `/avocat/avocat-droit-des-brevets` - Intellectual Property Law
+- `/avocat/avocat-droit-du-travail` - Labor law
+- `/avocat` - See all specialties
+
+### Keep My Accounts
+- `/expertise-comptable` - Chartered accountant
+- `/expertise-comptable/expertise-comptable-pour-sci` - Accounting expertise for SCI
+
+### Delegate My Legal
+- `/abonnement-juridique-essentiel` - Essential Support
+
+### Top Articles - Accompaniment
+- `/resources/aide-juridique-definition-et-explications` - Legal assistance: definition and explanations
+- `/resources/creation-de-societe-avec-avocat` - Setting up your business with a lawyer
+- `/resources/politique-de-confidentialite-tout-savoir` - Privacy Policy: Everything you need to know
+- `/resources/trouver-le-bon-avocat-pour-son-entreprise` - Finding the Right Business Lawyer
+- `/resources/choisir-un-avocat` - How to choose a lawyer?
+- `/resources/comptable-ou-avocat-choisir-le-bon-support` - Accountant or lawyer: choosing the right support
+- `/resources/rediger-ses-statuts-avec-ou-sans-avocat` - Drafting your statutes: with or without a lawyer?
+
+## Resources
+
+### Creation Files
+- `/creer-son-entreprise/creation-d-une-entreprise-7-etapes` - Starting a business: the steps
+- `/creer-son-entreprise/sasu/interet-statut-sasu` - SASU
+- `/creer-son-entreprise/sas/interet-statut-sas` - SAS
+- `/creer-son-entreprise/eurl/interet-statut-eurl` - EURL
+- `/creer-son-entreprise/sarl/interet-statut-sarl` - SARL
+- `/creer-son-entreprise/sci/interet-statut-sci` - SCI
+- `/creer-son-entreprise/micro-entreprise/interet-micro-entreprise` - Micro-enterprise
+- `/creer-son-entreprise/entreprise-individuelle/interet-entreprise-individuelle` - Sole proprietorship
+- `/creer-son-entreprise/association/interet-association` - Association
+
+### Company Life Files
+- `/resources/proteger-vos-creations-le-guide` - Protecting your creations: the guide
+- `/resources/les-differents-types-de-contrats-commerciaux` - The various commercial contracts
+- `/resources/la-gestion-de-l-entreprise-de-a-z` - Business management from A to Z
+- `/resources/la-modification-de-l-entreprise` - The Business Modification Guide
+- `/resources/recrutement-et-gestion-de-son-personnel` - Recruitment and management of its employees
+- `/resources/gestion-des-litiges-et-prevention` - Dispute management and prevention
+- `/resources/fermeture-de-l-entreprise-quelles-sont-les-etapes` - How to close your business?
+- `/resources` - Access the blog
+
+### PDF Guides
+- `/ebook/guide-pratique-pour-les-createurs-d-entreprise` - Practical guide for business creators
+- `/ebook/guide-aide-creation-entreprise-et-acquisition` - Guide to assistance for business creation and takeover
+- `/ebook/guide-remuneration-directeurs-administrateurs` - Executive Remuneration Guide
+- `/ebook/guide-legal-contrats-commerciaux` - Legal Guide to Commercial Contracts
+- `/ebook/guide-declaration-tva-15-minutes` - 15-minute VAT declaration guide
+- `/ebook` - See all free guides
+
+### Simulators
+- `/simulateur/choix-de-la-forme-juridique` - Choice of legal form
+- `/simulateur/eligibilite-acre` - Eligibility for ACRE
+- `/simulateur/choix-de-regime-fiscale-et-tva` - Choice of tax and VAT regime
+- `/simulateur/optimisation-du-revenu-du-manager` - Optimizing the manager's income 
