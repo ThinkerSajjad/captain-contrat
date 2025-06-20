@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "title": {
+      "develop": "Develop",
+      "protect": "Protect",
+      "launch": "Launch",
+      "manage": "Manage",
+      "yourBusiness": "your business",
+      "effortlessly": "effortlessly"
+    },
+    "subtitle": "Lawyers, accountants and attorneys: all their expertise on a single platform.",
+    "cards": {
+      "createBusiness": {
+        "title": "Create my business",
+        "description": "Choosing the legal form, obtaining the KBIS..."
+      },
+      "entrustAccounting": {
+        "title": "Entrust my accounting",
+        "description": "Tax returns, approval of accounts..."
+      },
+      "modifyStatus": {
+        "title": "Modify my statuses",
+        "description": "Transfer of headquarters, transfer..."
+      },
+      "draftingContracts": {
+        "title": "Drafting contracts",
+        "description": "General terms and conditions, fixed-..."
+      },
+      "consultLawyer": {
+        "title": "Consult a lawyer",
+        "description": "Contract law, intellectual property..."
+      }
+    },
+    "reviews": {
+      "verified": {
+        "rating": "4.6",
+        "reviews": "1693 reviews"
+      },
+      "google": {
+        "rating": "4.3",
+        "reviews": "1334 reviews"
+      }
+    }
+  }
+} 

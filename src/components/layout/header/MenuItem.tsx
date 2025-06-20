@@ -55,7 +55,7 @@ export function MenuItem({ item, isActive, onClick }: MenuItemProps) {
             <Link 
               href={item.href || "#"} 
               className={`text-sm font-semibold ${isActive ? "text-blue-600" : "text-gray-800 hover:text-blue-600"} transition-colors`}
-              onClick={() => onClick()}
+              onClick={handleClick}
             >
               {item.label}
             </Link>
@@ -72,7 +72,7 @@ export function MenuItem({ item, isActive, onClick }: MenuItemProps) {
           aria-orientation="vertical"
           aria-labelledby="menu-button"
         >
-          <MenuDropdown dropdown={item.dropdown} />
+          <MenuDropdown dropdown={item.dropdown} onLinkClick={onClick} />
         </div>
       )}
     </>

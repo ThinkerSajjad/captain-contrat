@@ -4,13 +4,20 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Star } from "lucide-react"
 import { useState, useEffect, useMemo } from "react"
+import { useTranslation } from "react-i18next"
 
 import avisVerifiesLogo from "../../../public/images/hero/avis-verifies-logo.png"
 import googleLogo from "../../../public/images/hero/google-logo.svg"
 import PageContainer from "../layout/PageContainer"
 
 export function Hero() {
-  const words = useMemo(() => ["Develop", "Protect", "Launch", "Manage"], [])
+  const { t } = useTranslation();
+  const words = useMemo(() => [
+    t('hero.title.develop'),
+    t('hero.title.protect'),
+    t('hero.title.launch'),
+    t('hero.title.manage')
+  ], [t]);
   const [currentWord, setCurrentWord] = useState(words[0])
   const [animationClass, setAnimationClass] = useState("")
   
@@ -75,12 +82,11 @@ export function Hero() {
               <span className={animationClass}>{currentWord}</span>
             </div>
             <span className="text-tertiary relative lg:text-6xl text-4xl">
-              your business <span className="relative">effortlessly <div className="absolute -bottom-2 right-0 transform lg:w-64 w-40 lg:h-1.5 h-1 rounded-full bg-secondary"></div></span>
-              
+              {t('hero.title.yourBusiness')} <span className="relative">{t('hero.title.effortlessly')} <div className="absolute -bottom-2 right-0 transform lg:w-64 w-40 lg:h-1.5 h-1 rounded-full bg-secondary"></div></span>
             </span>
           </h1>
           <p className="text-xl text-gray-800 max-w-5xl mx-auto lg:mt-6 mt-3 font-lato">
-            Lawyers, accountants and attorneys: all their expertise on <strong>a single platform.</strong>
+            {t('hero.subtitle')}
           </p>
         </div>
         <div className="relative grid grid-cols-1 lg:grid-cols-5 gap-3 xl:px-16 lg:px-0 px-0 lg:mt-16 mt-8 mx-auto items-stretch">
@@ -97,8 +103,8 @@ export function Hero() {
                 />
               </div>
               <div className="flex flex-col flex-grow min-w-0">
-                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">Create my business</h3>
-                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">Choosing the legal form, obtaining the KBIS...</p>
+                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">{t('hero.cards.createBusiness.title')}</h3>
+                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">{t('hero.cards.createBusiness.description')}</p>
                 <div className="flex-grow" />
                 <div className="flex justify-end items-end w-full">
                   <div className="text-[#f27c7c]">
@@ -122,8 +128,8 @@ export function Hero() {
                 />
               </div>
               <div className="flex flex-col flex-grow min-w-0">
-                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">Entrust my accounting</h3>
-                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">Tax returns, approval of accounts...</p>
+                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">{t('hero.cards.entrustAccounting.title')}</h3>
+                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">{t('hero.cards.entrustAccounting.description')}</p>
                 <div className="flex-grow" />
                 <div className="flex justify-end items-end w-full">
                   <div className="text-[#f27c7c]">
@@ -147,8 +153,8 @@ export function Hero() {
                 />
               </div>
               <div className="flex flex-col flex-grow min-w-0">
-                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">Modify my statuses</h3>
-                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">Transfer of headquarters, transfer...</p>
+                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">{t('hero.cards.modifyStatus.title')}</h3>
+                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">{t('hero.cards.modifyStatus.description')}</p>
                 <div className="flex-grow" />
                 <div className="flex justify-end items-end w-full">
                   <div className="text-[#f27c7c]">
@@ -172,8 +178,8 @@ export function Hero() {
                 />
               </div>
               <div className="flex flex-col flex-grow min-w-0">
-                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">Drafting contracts</h3>
-                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">General terms and conditions, fixed-...</p>
+                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">{t('hero.cards.draftingContracts.title')}</h3>
+                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">{t('hero.cards.draftingContracts.description')}</p>
                 <div className="flex-grow" />
                 <div className="flex justify-end items-end w-full">
                   <div className="text-[#f27c7c]">
@@ -197,8 +203,8 @@ export function Hero() {
                 />
               </div>
               <div className="flex flex-col flex-grow min-w-0">
-                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">Consult a lawyer</h3>
-                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">Contract law, intellectual property...</p>
+                <h3 className="lg:text-2xl text-xl font-semibold text-black mb-3 font-lato text-left">{t('hero.cards.consultLawyer.title')}</h3>
+                <p className="text-base text-gray-600 lg:mb-4 mb-2 font-lato text-left">{t('hero.cards.consultLawyer.description')}</p>
                 <div className="flex-grow" />
                 <div className="flex justify-end items-end w-full">
                   <div className="text-[#f27c7c]">
@@ -222,7 +228,7 @@ export function Hero() {
               ))}
             </div>
             <span className="text-gray-700 text-sm font-lato">
-              <strong>4.6</strong> (<span className="underline">1693 reviews</span>)
+              <strong>{t('hero.reviews.verified.rating')}</strong> (<span className="underline">{t('hero.reviews.verified.reviews')}</span>)
             </span>
           </div>
           <div className="flex items-center gap-3">
@@ -236,7 +242,7 @@ export function Hero() {
               <Star className="w-4 h-4 text-gray-700 fill-current opacity-50" />
             </div>
             <span className="text-gray-700 text-sm font-lato">
-              <strong>4.3</strong> (<span className="underline">1334 reviews</span>)
+              <strong>{t('hero.reviews.google.rating')}</strong> (<span className="underline">{t('hero.reviews.google.reviews')}</span>)
             </span>
           </div>
         </div>

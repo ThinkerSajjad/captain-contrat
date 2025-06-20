@@ -16,17 +16,20 @@ export function HeaderMenu({ onMenuActiveChange }: HeaderMenuProps) {
   const handleMenuClick = (key: string) => {
     setActiveMenu(prev => {
       const newValue = prev === key ? null : key;
-      onMenuActiveChange(newValue !== null);
       return newValue;
     });
   };
+
+  // Update parent component when activeMenu changes
+  useEffect(() => {
+    onMenuActiveChange(activeMenu !== null);
+  }, [activeMenu, onMenuActiveChange]);
 
   // Handle click outside to close the dropdown
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
         setActiveMenu(null);
-        onMenuActiveChange(false);
       }
     }
     
@@ -37,7 +40,7 @@ export function HeaderMenu({ onMenuActiveChange }: HeaderMenuProps) {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [activeMenu, onMenuActiveChange]);
+  }, [activeMenu]);
 
   return (
     <div className="relative" ref={menuRef}>

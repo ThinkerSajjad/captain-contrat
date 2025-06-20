@@ -4,9 +4,10 @@ import Link from "next/link";
 import { HeaderLogo } from "./HeaderLogo";
 import { HeaderMenu } from "./HeaderMenu";
 import { useEffect, useRef, useState } from "react";
-import PageContainer from "../PageContainer";
 import { Menu as MenuIcon, X as CloseIcon, Search, Phone, UserCog } from "lucide-react";
 import { MobileMenu } from "./MobileMenu";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import HeaderContainer from "../HeaderContainer copy";
 
 export function Header() {
   const headerRef = useRef<HTMLElement>(null);
@@ -43,16 +44,18 @@ export function Header() {
 
   return (
     <header ref={headerRef} className={`w-full sticky top-0 z-40 transition-colors duration-200 ${headerBg}`}>
-      <PageContainer>
+      <HeaderContainer>
         <div className="w-full flex items-center justify-between gap-8 py-3.5">
           {/* Left: Logo */}
           <div className="flex items-center">
             <HeaderLogo />
           </div>
           {/* Right: Desktop menu and actions */}
-          <div className="hidden xl:flex items-center space-x-4 w-full justify-between">
+          <div className="hidden xl:flex items-center space-x-3 w-full justify-between">
             <HeaderMenu onMenuActiveChange={setIsMenuActive} />
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
+              {/* Language Switcher */}
+              <LanguageSwitcher />
               {/* Search Icon */}
               <button className="text-gray-700 hover:shadow-md p-2 rounded-lg cursor-pointer transition-colors">
                <Search className="w-5 h-5" />
@@ -69,27 +72,28 @@ export function Header() {
             </div>
           </div>
           {/* Mobile: phone, user, burger/cross */}
-          <div className="flex xl:hidden items-center space-x-3">
-            <Link href="tel:0183816725" className=" hover:shadow-md border bg-tertiary border-tertiary text-white rounded-xl p-2 transition-colors focus:outline-none cursor-pointer">
-              <Phone className="w-5 h-5"/>
+          <div className="flex xl:hidden items-center space-x-2">
+            <LanguageSwitcher />
+            <Link href="tel:0183816725" className=" hover:shadow-md border bg-tertiary border-tertiary text-white rounded-lg p-1.5 transition-colors focus:outline-none cursor-pointer">
+              <Phone className="w-4 h-4"/>
             </Link>
-            <Link href="/account" className="text-gray-700 hover:shadow-md border border-tertiary rounded-xl p-2 transition-colors focus:outline-none cursor-pointer">
-              <UserCog className="w-5 h-5"/>
+            <Link href="/account" className="text-gray-700 hover:shadow-md border border-tertiary rounded-lg p-1.5 transition-colors focus:outline-none cursor-pointer">
+              <UserCog className="w-4 h-4"/>
             </Link>
             <button
-              className="text-gray-700 hover:shadow-md border-2 border-tertiary rounded-xl p-1.5 transition-colors focus:outline-none cursor-pointer"
+              className="text-gray-700 hover:shadow-md border-2 border-tertiary rounded-lg p-1 transition-colors focus:outline-none cursor-pointer"
               aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
               onClick={() => setMobileMenuOpen((open) => !open)}
             >
               {mobileMenuOpen ? (
-                <CloseIcon className="w-6 h-6" />
+                <CloseIcon className="w-5 h-5" />
               ) : (
-                <MenuIcon className="w-6 h-6" />
+                <MenuIcon className="w-5 h-5" />
               )}
             </button>
           </div>
         </div>
-      </PageContainer>
+      </HeaderContainer>
       {/* MobileMenu slides from top, under header, full viewport width */}
       <div
         className={`fixed left-0 right-0 w-full z-50 transition-transform duration-300 xl:hidden ${mobileMenuOpen ? 'translate-y-0' : '-translate-y-[-100%]'} `}

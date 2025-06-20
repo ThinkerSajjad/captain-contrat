@@ -2,9 +2,9 @@ import { Hero } from "@/components/home/Hero"
 import { WhyEntrepreneursLove } from "@/components/home/WhyEntrepreneursLove"
 import { BusinessPlatform } from "@/components/home/BusinessPlatform"
 import { ExpertTrio } from "@/components/home/ExpertTrio"
-import { SupportersCarousel } from "@/components/home/SupportersCarousel"
+import { SupportersCarousel } from "@/components/common/SupportersCarousel"
 import { BusinessStages } from "@/components/home/BusinessStages"
-import { TrustedByEntrepreneurs } from "@/components/home/TrustedByEntrepreneurs"
+import { TrustedByEntrepreneurs } from "@/components/common/TrustedByEntrepreneurs"
 import { BlogCategories } from "@/components/home/BlogCategories"
 
 export default function Home() {

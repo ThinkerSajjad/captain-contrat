@@ -7,9 +7,10 @@ import PageContainer from "../PageContainer";
 
 interface MenuDropdownProps {
   dropdown: MenuDropdownType;
+  onLinkClick?: () => void;
 }
 
-export function MenuDropdown({ dropdown }: MenuDropdownProps) {
+export function MenuDropdown({ dropdown, onLinkClick }: MenuDropdownProps) {
   const { sections, rightPanel } = dropdown;
   const [isVisible, setIsVisible] = useState(false);
 
@@ -21,6 +22,12 @@ export function MenuDropdown({ dropdown }: MenuDropdownProps) {
     
     return () => clearTimeout(timer);
   }, []);
+
+  const handleLinkClick = () => {
+    if (onLinkClick) {
+      onLinkClick();
+    }
+  };
 
   return (
     <div className={`w-full bg-white shadow-lg z-50 transform transition-all duration-300 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'}`}>
@@ -38,9 +45,30 @@ export function MenuDropdown({ dropdown }: MenuDropdownProps) {
                     <li key={linkIndex}>
                       <Link
                         href={link.href}
-                        className="text-gray-700 hover:underline text-sm transition-colors"
+                        className={`text-sm ${
+                          link.label.includes("See all offers") || link.label.includes("Access the blog")
+                            ? "text-blue-600 text-base font-semibold flex items-center"
+                            : "text-gray-700 hover:underline transition-colors"
+                        }`}
+                        onClick={handleLinkClick}
                       >
                         {link.label}
+                        {(link.label.includes("See all offers") || link.label.includes("Access the blog")) && (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-4 w-4 ml-1"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M14 5l7 7m0 0l-7 7m7-7H3"
+                            />
+                          </svg>
+                        )}
                       </Link>
                     </li>
                   ))}
@@ -63,6 +91,7 @@ export function MenuDropdown({ dropdown }: MenuDropdownProps) {
                           ? "text-black text-base font-semibold flex items-center"
                           : "text-gray-700 hover:underline transition-colors"
                       }`}
+                      onClick={handleLinkClick}
                     >
                       {link.label}
                       {link.label.includes("Access the blog") && (
