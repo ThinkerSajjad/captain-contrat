@@ -4,6 +4,7 @@ import { useState, useRef } from 'react';
 import Image from 'next/image';
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import PageContainer from '../layout/PageContainer';
+import { StaticImageData } from 'next/image';
 
 // Import placeholder images for testimonials
 import testimonial1Image from '../../../public/images/common/testimonial-avater/SAS4.png';
@@ -17,7 +18,7 @@ interface Testimonial {
   name: string;
   role: string;
   company: string;
-  image: any;
+  image: StaticImageData;
   rating: number;
   title: string;
   text: string;
