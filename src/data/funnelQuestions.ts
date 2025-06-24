@@ -7,30 +7,6 @@ import { sciQuestions } from "./questions/sci";
 import { microQuestions } from "./questions/micro";
 import { shareholderAgreementQuestions } from "./questions/shareholder-agreement";
 
-// Helper function to convert QuestionsData to FunnelQuestion[]
-function convertToFunnelQuestions(data: any): FunnelQuestion[] {
-  // If it's already a FunnelQuestion[], return as is
-  if (Array.isArray(data)) {
-    return data;
-  }
-  
-  // If it's QuestionsData format, convert it
-  if (data.sections) {
-    return data.sections.map((section: any) => ({
-      id: section.id,
-      type: "info",
-      title: section.title,
-      description: section.content?.join("\n"),
-      helpText: section.list?.map((item: any) => 
-        typeof item === 'string' ? item : `${item.title}: ${item.description}`
-      ).join("\n")
-    }));
-  }
-  
-  // Default case
-  return [];
-}
-
 // Business types configuration
 const businessTypes: BusinessType[] = [
   {

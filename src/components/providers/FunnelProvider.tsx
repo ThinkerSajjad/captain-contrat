@@ -2,14 +2,14 @@
 
 import { createContext, useContext, useState, ReactNode, useEffect, useCallback } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
-import { FunnelContextType, UserResponse } from '@/types/funnel';
+import { FunnelContextType, UserResponse, QuestionResponse } from '@/types/funnel';
 import { getFunnelQuestions, getBusinessTypeByPath } from '@/data/funnelQuestions';
 import { generateOrderId } from '@/lib/utils';
 
 const FunnelContext = createContext<FunnelContextType | undefined>(undefined);
 
 // Helper function to safely parse JSON from localStorage
-const getStoredValue = (key: string, defaultValue: any) => {
+const getStoredValue = <T extends string | object | number[] | null>(key: string, defaultValue: T): T => {
   if (typeof window === 'undefined') return defaultValue;
   
   try {
@@ -28,20 +28,20 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
   
   // Initialize state from localStorage if available
   const [responses, setResponses] = useState<UserResponse>(() => 
-    getStoredValue('funnelResponses', {}));
+    getStoredValue<UserResponse>('funnelResponses', {}));
   
   const [currentStep, setCurrentStep] = useState<number>(1);
   
   const [businessType, setBusinessType] = useState<string>(() => 
-    getStoredValue('funnelBusinessType', ''));
+    getStoredValue<string>('funnelBusinessType', ''));
   
   const [questionPath, setQuestionPath] = useState<number[]>(() => 
-    getStoredValue('funnelPath', [1]));
+    getStoredValue<number[]>('funnelPath', [1]));
   
   const [orderId, setOrderId] = useState<string>(() => 
-    getStoredValue('funnelOrderId', ''));
+    getStoredValue<string>('funnelOrderId', ''));
   
-  const [lastUpdatedResponse, setLastUpdatedResponse] = useState<{id: string, value: any} | null>(null);
+  const [lastUpdatedResponse, setLastUpdatedResponse] = useState<{id: string, value: QuestionResponse} | null>(null);
 
   // Reset funnel state
   const resetFunnel = useCallback(() => {
