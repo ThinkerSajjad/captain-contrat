@@ -3,7 +3,7 @@
 import { createContext, useContext, useState, ReactNode, useEffect, useCallback } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import { FunnelContextType, UserResponse, QuestionResponse } from '@/types/funnel';
-import { getFunnelQuestions, getBusinessTypeByPath } from '@/data/funnelQuestions';
+import { getFunnelQuestions } from '@/data/funnelQuestions';
 import { generateOrderId } from '@/lib/utils';
 
 const FunnelContext = createContext<FunnelContextType | undefined>(undefined);
