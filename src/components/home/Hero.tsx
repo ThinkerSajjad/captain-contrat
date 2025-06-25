@@ -89,7 +89,7 @@ export function Hero() {
             {t('hero.subtitle')}
           </p>
         </div>
-        <div className="relative grid grid-cols-1 lg:grid-cols-5 gap-3 xl:px-16 lg:px-0 px-0 lg:mt-16 mt-8 mx-auto items-stretch">
+        <div className="relative grid grid-cols-1 lg:grid-cols-5 gap-3 xl:px-6 lg:px-0 px-0 lg:mt-16 mt-8 mx-auto items-stretch">
           {/* Card 1 */}
           <Link href="#" className="block w-full h-full">
             <div className="bg-white md:py-4 py-3 px-3 rounded-lg shadow-sm flex lg:flex-col flex-row h-full cursor-pointer hover:shadow-md transition-shadow">

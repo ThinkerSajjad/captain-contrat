@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Crimson_Pro, Lato } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/layout/header/Header";
-import { Footer } from "@/components/layout/footer/Footer";
 import { I18nProvider } from "@/components/providers/I18nProvider";
+import { LayoutWrapper } from "@/components/layout/LayoutWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,13 +43,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${crimsonPro.variable} ${lato.variable} antialiased`}
       >
         <I18nProvider>
-          <Header />
-          <div className="w-full mx-auto">
-            <main className="min-h-screen">
-              {children}
-            </main>
-          </div>
-          <Footer />
+          <LayoutWrapper>
+            {children}
+          </LayoutWrapper>
         </I18nProvider>
       </body>
     </html>
