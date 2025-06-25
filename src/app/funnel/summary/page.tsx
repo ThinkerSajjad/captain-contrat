@@ -1,5 +1,6 @@
 'use client';
 
+export const dynamic = "force-dynamic";
 import { useState } from 'react';
 import { useFunnel } from '@/components/providers/FunnelProvider';
 import { getBusinessTypeById, getFunnelQuestions } from '@/data/funnelQuestions';
