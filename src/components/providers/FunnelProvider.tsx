@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, ReactNode, useEffect, useCallback } from 'react';
-import { useRouter, usePathname, useSearchParams } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { FunnelContextType, UserResponse, QuestionResponse } from '@/types/funnel';
 import { getFunnelQuestions, getBusinessTypeByPath } from '@/data/funnelQuestions';
 import { generateOrderId } from '@/lib/utils';
@@ -24,7 +24,6 @@ const getStoredValue = <T extends string | object | number[] | null>(key: string
 export function FunnelProvider({ children }: { children: ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   
   // Initialize state from localStorage if available
   const [responses, setResponses] = useState<UserResponse>(() => 
@@ -58,22 +57,6 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
       localStorage.removeItem('funnelOrderId');
     }
   }, []);
-
-  // Check source parameter when funnel starts
-  useEffect(() => {
-    const source = searchParams.get('source');
-    if (source) {
-      const newBusinessType = getBusinessTypeByPath(decodeURIComponent(source))?.id;
-      
-      // If starting from a different business type page, reset the funnel
-      if (newBusinessType && newBusinessType !== businessType) {
-        console.log('Starting funnel from new business type:', newBusinessType);
-        resetFunnel();
-        setBusinessType(newBusinessType);
-        localStorage.setItem('funnelBusinessType', JSON.stringify(newBusinessType));
-      }
-    }
-  }, [searchParams, businessType, resetFunnel]);
 
   // Persist state to localStorage whenever it changes
   useEffect(() => {

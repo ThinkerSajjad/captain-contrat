@@ -1,6 +1,5 @@
 'use client';
 
-export const dynamic = "force-dynamic";
 import { useEffect, useState } from 'react';
 import { useParams, useSearchParams, useRouter } from 'next/navigation';
 import { useFunnel } from '@/components/providers/FunnelProvider';
