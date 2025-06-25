@@ -44,7 +44,7 @@ export function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
-              <Link href="#prices" className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
+              <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Faide-au-choix-forme-juridique" className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
                 Make an appointment
               </Link>
               

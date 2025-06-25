@@ -6,6 +6,7 @@ import { llcQuestions } from "./questions/llc";
 import { sciQuestions } from "./questions/sci";
 import { microQuestions } from "./questions/micro";
 import { shareholderAgreementQuestions } from "./questions/shareholder-agreement";
+import { legalFormQuestions } from "./questions/legalform";
 
 // Business types configuration
 const businessTypes: BusinessType[] = [
@@ -50,6 +51,12 @@ const businessTypes: BusinessType[] = [
     name: "Pacte d'associés",
     path: "/creer-entreprise/rediger-pacte-associes",
     questions: shareholderAgreementQuestions,
+  },
+  {
+    id: "legal_form",
+    name: "Forme juridique",
+    path: "/creer-entreprise/aide-au-choix-forme-juridique",
+    questions: legalFormQuestions,
   }
 ];
 
