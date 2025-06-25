@@ -54,7 +54,7 @@ export function Hero() {
               <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Frediger-pacte-associes" className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
                 Obtain my partnership agreement
               </Link>
-              <Link href="#contact" className="bg-white border border-gray-300 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-50 transition-all">
+              <Link href="/meetings/rdv-captain-contrat" className="bg-white border border-gray-300 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-50 transition-all">
                 Contact a coach
               </Link>
             </div>

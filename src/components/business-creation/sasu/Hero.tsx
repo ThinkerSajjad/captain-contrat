@@ -58,7 +58,7 @@ export function Hero() {
               >
                 Discover the prices
               </Link>
-              <Link href="#contact" className="bg-white border border-gray-300 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-50 transition-all">
+              <Link href="/meetings/rdv-captain-contrat" className="bg-white border border-gray-300 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-50 transition-all">
                 Contact a coach
               </Link>
             </div>
