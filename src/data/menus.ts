@@ -31,7 +31,7 @@ export const mainMenus: MainMenu[] = [
         {
           title: "Surround myself well",
           links: [
-            { label: "Preparation for business creation", href: "/creer-entreprise/preparation-creation-entreprise" },
+            { label: "Preparation for business creation", href: "/creer-entreprise/projet-creation-dentreprise" },
             { label: "Partner benefits", href: "/partenaires-creation" },
             { label: "Online Chartered Accountant", href: "/expertise-comptable" },
           ],
@@ -63,16 +63,16 @@ export const mainMenus: MainMenu[] = [
           title: "Modify my statuses",
           links: [
             { label: "Transfer of registered office", href: "/modifier-son-entreprise/transfert-siege-social" },
-            { label: "Transformation of society", href: "/modifier-son-entreprise/transformation-de-la-societe" },
-            { label: "Change of corporate purpose", href: "/modifier-son-entreprise/changement-d-objet-social" },
+            { label: "Transformation of society", href: "/modifier-son-entreprise/transformation-sarl-en-sas" },
+            { label: "Change of corporate purpose", href: "/modifier-son-entreprise/modification-objet-social" },
             { label: "See all offers", href: "/modifier-son-entreprise" },
           ],
         },
         {
           title: "Manage my employees",
           links: [
-            { label: "Dismissal procedure", href: "/gestion-du-personnel/procedure-de-licenciement" },
-            { label: "Conventional termination", href: "/gestion-du-personnel/termination-conventionnelle" },
+            { label: "Dismissal procedure", href: "/gestion-du-personnel/licencier-un-salarie" },
+            { label: "Conventional termination", href: "/gestion-du-personnel/procedure-rupture-conventionnelle" },
             { label: "See all offers", href: "/gestion-du-personnel" },
           ],
         },
@@ -80,26 +80,26 @@ export const mainMenus: MainMenu[] = [
         {
           title: "Overcoming Disputes",
           links: [
-            { label: "Litigation", href: "/gestion-des-litiges/litige" },
-            { label: "Formal notice", href: "/gestion-des-litiges/notification-formelle" },
-            { label: "Payment order", href: "/gestion-des-litiges/ordonnance-de-paiement" },
+            { label: "Litigation", href: "/avocat/contentieux" },
+            { label: "Formal notice", href: "/gestion-des-litiges/faire-une-mise-demeure-en-ligne" },
+            { label: "Payment order", href: "/gestion-des-litiges/injonction-de-payer-en-ligne" },
             { label: "See all offers", href: "/gestion-des-litiges" },
           ],
         },
         {
           title: "Close my business",
           links: [
-            { label: "Closure of micro-enterprise", href: "/gestion-des-litiges/fermeture-de-micro-entreprise" },
-            { label: "Dissolution and radiation", href: "/gestion-des-litiges/dissolution-et-radiation" },
+            { label: "Closure of micro-enterprise", href: "/gestion-des-litiges/fermer-une-micro-entreprise" },
+            { label: "Dissolution and radiation", href: "/gestion-des-litiges/fermer-une-societe" },
           ],
         },
         {
           title: "Manage my business",
           links: [
-            { label: "Approval of accounts", href: "/modifier-son-entreprise/approbation-des-comptes" },
-            { label: "Transfer of shares", href: "/modifier-son-entreprise/transfert-de-parts" },
-            { label: "Capital increase", href: "/modifier-son-entreprise/augmentation-de-capital" },
-            { label: "Company in difficulty", href: "/gestion-des-litiges/entreprise-en-difficultes" },
+            { label: "Approval of accounts", href: "/modifier-son-entreprise/approbation-comptes-en-ligne" },
+            { label: "Transfer of shares", href: "/modifier-son-entreprise/contrat-cession-parts-sociales" },
+            { label: "Capital increase", href: "/modifier-son-entreprise/augmenter-capital" },
+            { label: "Company in difficulty", href: "/gestion-des-litiges/entreprise-en-difficulte" },
             { label: "Accounting management", href: "/expertise-comptable" },
           ],
         },

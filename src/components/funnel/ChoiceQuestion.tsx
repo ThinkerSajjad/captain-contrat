@@ -8,6 +8,7 @@ import { IconType } from 'react-icons';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { getFunnelQuestions } from '@/data/funnelQuestions';
+import MultiChoiceQuestion from './MultiChoiceQuestion';
 
 interface ChoiceQuestionProps {
   question: FunnelQuestion;
@@ -19,46 +20,29 @@ export default function ChoiceQuestion({ question }: ChoiceQuestionProps) {
   const [isNavigating, setIsNavigating] = useState(false);
   const router = useRouter();
 
+  // If it's a multi-select question, render the MultiChoiceQuestion component
+  if (question.multiSelect) {
+    return <MultiChoiceQuestion question={question} />;
+  }
+
   const handleOptionSelect = (value: string) => {
     if (isNavigating) return; // Prevent multiple clicks
     
     console.log(`Selected option for ${question.id}:`, value);
     setIsNavigating(true);
     
-    // Update the response
+    // Update the response for state persistence
     updateResponse(question.id, value);
     
-    // Special handling for coach_appointment
-    if (question.id === 'coach_appointment') {
-      setTimeout(() => {
-        if (value === 'no_appointment') {
-          console.log('Selected no_appointment, finding kbis_timing step');
-          const questions = getFunnelQuestions(businessType);
-          if (questions) {
-            const kbisTimingIndex = questions.findIndex(q => q.id === 'kbis_timing');
-            if (kbisTimingIndex !== -1) {
-              const kbisStep = kbisTimingIndex + 1; // +1 because steps are 1-indexed
-              console.log('Navigating directly to kbis_timing step:', kbisStep);
-              router.push(`/funnel/service_choices/${kbisStep}`);
-              setIsNavigating(false);
-              return;
-            }
-          }
-        }
-        // For make_appointment or fallback, use standard navigation
-        goToNextStep();
-        setIsNavigating(false);
-      }, 500); // Delay for visual feedback
-      
-      return;
-    }
-    
-    // For other questions, use standard behavior
+    // For questions with auto-progress, navigate immediately with the new value
     if (question.navigation?.autoProgress) {
-      // Small delay to show the selection state
+      // Use a short delay for visual feedback before navigating
       setTimeout(() => {
-        console.log(`Auto-progressing after selecting ${value} for ${question.id}`);
-        goToNextStep();
+        // Pass the new value directly to goToNextStep to avoid stale state
+        goToNextStep({
+          questionId: question.id,
+          value: value,
+        });
         setIsNavigating(false);
       }, 300);
     } else {

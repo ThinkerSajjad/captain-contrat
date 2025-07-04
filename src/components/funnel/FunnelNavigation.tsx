@@ -3,6 +3,7 @@
 import { useFunnel } from '../providers/FunnelProvider';
 import { getFunnelQuestions } from '@/data/funnelQuestions';
 import { ChevronRight } from 'lucide-react';
+import { MouseEvent } from 'react';
 
 interface FunnelNavigationProps {
   canProceed: boolean;
@@ -28,13 +29,18 @@ export default function FunnelNavigation({ canProceed }: FunnelNavigationProps) 
   // Check if skip button should be shown
   const showSkip = currentQuestion?.navigation?.showSkip || currentQuestion?.isOptional;
 
+  const handleNext = (e: MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    goToNextStep();
+  };
+
   return (
     <div className="mt-8 pt-6 border-gray-200">
       <div className="flex justify-end items-center gap-4">
         {/* Skip button */}
         {showSkip && (
           <button
-            onClick={goToNextStep}
+            onClick={handleNext}
             className="lg:px-6 px-4 lg:py-3 py-2 text-gray-600 hover:text-gray-700 transition-colors cursor-pointer underline"
           >
             Skip for now
@@ -44,11 +50,11 @@ export default function FunnelNavigation({ canProceed }: FunnelNavigationProps) 
         {/* Continue button */}
         {showContinue && (
           <button
-            onClick={goToNextStep}
+            onClick={handleNext}
             className={`flex items-center gap-2 lg:px-6 px-4 lg:py-3 py-2 rounded-full font-semibold text-white transition-colors cursor-pointer ${
               canProceed
                 ? 'bg-red-400 hover:bg-red-500 hover:shadow-md duration-300'
-                : 'bg-gray-400 cursor-not-allowed'
+                : 'bg-red-400 hover:bg-red-500 hover:shadow-md duration-300'
             }`}
             disabled={!canProceed}
           >
