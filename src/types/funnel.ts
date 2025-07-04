@@ -50,8 +50,8 @@ export interface FunnelQuestion {
     subLabel?: string;
     value: string;
     icon?: {
-      type: 'lucide' | 'image' | 'react-icon' | 'emoji';
-      name: string | StaticImageData | LucideIcon | IconType;
+      type: 'image' | 'emoji';
+      name: string | StaticImageData;
       color?: string;
     };
   }[];
