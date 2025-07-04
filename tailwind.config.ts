@@ -16,7 +16,33 @@ export default {
         'crimson': ['var(--font-crimson-pro)', 'serif'],
         'lato': ['var(--font-lato)', 'sans-serif'],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: {
+              fontFamily: 'var(--font-lato)',
+              color: 'var(--tertiary)',
+            },
+            h2: {
+              fontFamily: 'var(--font-lato)',
+              color: 'var(--tertiary)',
+            },
+            h3: {
+              fontFamily: 'var(--font-lato)',
+              color: 'var(--tertiary)',
+            },
+            a: {
+              color: 'var(--tertiary)',
+              '&:hover': {
+                color: 'var(--tertiary-dark)',
+              },
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 } satisfies Config;

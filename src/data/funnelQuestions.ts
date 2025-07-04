@@ -23,6 +23,7 @@ import { approvalOfAccountQuestions } from './questions/approval-of-account';
 import { transferOfSharesQuestions } from './questions/transfer-of-shares';
 import { capitalIncreaseQuestions } from './questions/capital-increase';
 import { companyInDifficultiesQuestions } from './questions/company-in-difficulties';
+import { cguQuestions } from "./questions/cguQuestions";
 
 // Business types configuration
 const businessTypes: BusinessType[] = [
@@ -169,6 +170,12 @@ const businessTypes: BusinessType[] = [
     name: "Company in Difficulties",
     path: "/gestion-des-litiges/entreprise-en-difficulte",
     questions: companyInDifficultiesQuestions,
+  },
+  {
+    id: "rediger_cgu",
+    name: "Rediger Cgu",
+    path: "/rediger-un-contrat/rediger-cgu",
+    questions: cguQuestions,
   },
 ];
 

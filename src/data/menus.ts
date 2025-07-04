@@ -131,7 +131,7 @@ export const mainMenus: MainMenu[] = [
           title: "General Terms and Conditions",
           links: [
             { label: "General Conditions of Sale (GCS)", href: "/rediger-un-contrat/rediger-conditions-generales-de-vente" },
-            { label: "General Conditions of Use (GCU)", href: "/rediger-un-contrat/rediger-conditions-generales-d-utilisation" },
+            { label: "General Conditions of Use (GCU)", href: "/rediger-un-contrat/rediger-cgu" },
             { label: "General Rental Conditions (GRC)", href: "/rediger-un-contrat/rediger-conditions-generales-de-location" },
             { label: "Privacy Policy", href: "/proteger-sa-societe/rediger-politique-confidentialite" },
           ],
@@ -246,7 +246,7 @@ export const mainMenus: MainMenu[] = [
             { label: "Recruitment and management of its employees", href: "/resources/recrutement-et-gestion-de-son-personnel" },
             { label: "Dispute management and prevention", href: "/resources/gestion-des-litiges-et-prevention" },
             { label: "How to close your business?", href: "/resources/fermeture-de-l-entreprise-quelles-sont-les-etapes" },
-            { label: "Access the blog", href: "/resources" },
+            { label: "Access the blog", href: "/ressources" },
           ],
         },
         {
