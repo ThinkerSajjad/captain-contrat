@@ -42,6 +42,8 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
   
   const [lastUpdatedResponse, setLastUpdatedResponse] = useState<{id: string, value: QuestionResponse} | null>(null);
 
+  console.log('lastUpdatedResponse', lastUpdatedResponse);
+
   // Reset funnel state
   const resetFunnel = useCallback(() => {
     setResponses({});

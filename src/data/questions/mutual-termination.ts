@@ -3,7 +3,6 @@ import user from "../../../public/icons/user.png";
 import employee from "../../../public/icons/employee.png";
 import hurry from "../../../public/icons/hurry.png";
 import nohurry from "../../../public/icons/nohurry.png";
-import ccLogo from "../../../public/icons/cc-logo.png";
 
 export const mutualTerminationQuestions: FunnelQuestion[] = [
     {

@@ -1,5 +1,4 @@
 import { FunnelQuestion } from "@/types/funnel";
-import user from "../../../public/icons/user.png";
 import employee from "../../../public/icons/employee.png";
 import question from "../../../public/icons/question.png";
 import hurry from "../../../public/icons/hurry.png";

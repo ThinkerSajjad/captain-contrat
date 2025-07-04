@@ -1,7 +1,6 @@
 import { FunnelQuestion } from "@/types/funnel";
 import user from "../../../public/icons/user.png";
 import company from "../../../public/icons/company.png";
-import check from "../../../public/icons/check.png";
 
 export const eligibilityForACREQuestions: FunnelQuestion[] = [
     {

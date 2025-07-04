@@ -1,8 +1,7 @@
 "use client"
 
-import { useState } from "react"
+
 import PageContainer from "@/components/layout/PageContainer"
-import { Clock, Play } from "lucide-react"
 
 function getYouTubeEmbedUrl(url: string) {
   // Remove the @ prefix
@@ -63,14 +62,8 @@ const videoData = [
 ]
 
 export function VideoGuide() {
-  const [playingVideos, setPlayingVideos] = useState<Record<number, boolean>>({})
 
-  const toggleVideo = (videoId: number) => {
-    setPlayingVideos(prev => ({
-      ...prev,
-      [videoId]: !prev[videoId]
-    }))
-  }
+
 
   return (
     <section className="lg:py-12 py-8 bg-lightPrimary">

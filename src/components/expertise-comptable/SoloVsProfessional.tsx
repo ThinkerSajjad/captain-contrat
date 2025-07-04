@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import PageContainer from "@/components/layout/PageContainer";
 
 export function SoloVsProfessional() {

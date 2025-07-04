@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, ChevronRight, Star } from "lucide-react"
+import { ArrowRight, ChevronRight } from "lucide-react"
 import PageContainer from "@/components/layout/PageContainer"
 
 export function Hero() {

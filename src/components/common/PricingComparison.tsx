@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import PageContainer from '../layout/PageContainer';
-import { BiCheckCircle } from 'react-icons/bi';
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 
 interface ComparisonFeature {

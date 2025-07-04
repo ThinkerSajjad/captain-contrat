@@ -1,5 +1,5 @@
 import { MakeAnAppointment } from "@/components/common/MakeAnAppointment";
-import PricingComparison from "@/components/common/PricingComparison";
+
 import { SupportersCarousel } from "@/components/common/SupportersCarousel";
 import { TestimonialCarousel } from "@/components/common/TestimonialCarousel";
 import { TrustMetrics } from "@/components/common/TrustMetrics";

@@ -6,8 +6,6 @@ import Image, { StaticImageData } from 'next/image';
 import { LucideIcon } from 'lucide-react';
 import { IconType } from 'react-icons';
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { getFunnelQuestions } from '@/data/funnelQuestions';
 import MultiChoiceQuestion from './MultiChoiceQuestion';
 
 interface ChoiceQuestionProps {
@@ -15,10 +13,9 @@ interface ChoiceQuestionProps {
 }
 
 export default function ChoiceQuestion({ question }: ChoiceQuestionProps) {
-  const { responses, updateResponse, goToNextStep, businessType } = useFunnel();
+  const { responses, updateResponse, goToNextStep } = useFunnel();
   const selectedValue = responses[question.id] as string;
   const [isNavigating, setIsNavigating] = useState(false);
-  const router = useRouter();
 
   // If it's a multi-select question, render the MultiChoiceQuestion component
   if (question.multiSelect) {

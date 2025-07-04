@@ -1,4 +1,4 @@
-import { LegalStatusChoice } from "@/components/business-creation/legal-forms/LegalStatusChoice";
+
 import { MakeAnAppointment } from "@/components/common/MakeAnAppointment";
 import { TestimonialCarousel } from "@/components/common/TestimonialCarousel";
 import { FAQ } from "@/components/gestion-des-litiges/formal-notice/FAQ";

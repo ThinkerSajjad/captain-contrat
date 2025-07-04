@@ -1,7 +1,6 @@
 import { FunnelQuestion } from "@/types/funnel";
 import handshake from "../../../public/icons/handshake.png";
 import company from "../../../public/icons/company.png";
-import loading from "../../../public/icons/loading.png";
 import check from "../../../public/icons/check.png";
 
 export const vatAndTaxRegimeQuestions: FunnelQuestion[] = [
