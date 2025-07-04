@@ -13,8 +13,7 @@ export const changeYourCompanyQuestions: FunnelQuestion[] = [
         multiSelect: true,
         title: "What type(s) of change(s) do you want to make to your business?",
         navigation: {
-            autoProgress: false,
-            showSkip: false,
+            showSkip: true,
             showContinue: true,
         },
         options: [

@@ -1,24 +1,33 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { FunnelQuestion } from '@/types/funnel';
+import { useFunnel } from '../providers/FunnelProvider';
 
 interface MultiChoiceQuestionProps {
   question: FunnelQuestion;
 }
 
 export default function MultiChoiceQuestion({ question }: MultiChoiceQuestionProps) {
+  const { responses, updateResponse } = useFunnel();
   const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
 
+  // Initialize from existing responses
+  useEffect(() => {
+    const existingResponse = responses[question.id];
+    if (existingResponse && Array.isArray(existingResponse)) {
+      setSelectedOptions(existingResponse as string[]);
+    }
+  }, [question.id, responses]);
+
   const toggleOption = (value: string) => {
-    setSelectedOptions(prev => {
-      if (prev.includes(value)) {
-        return prev.filter(v => v !== value);
-      } else {
-        return [...prev, value];
-      }
-    });
+    const newSelectedOptions = selectedOptions.includes(value)
+      ? selectedOptions.filter(v => v !== value)
+      : [...selectedOptions, value];
+
+    setSelectedOptions(newSelectedOptions);
+    updateResponse(question.id, newSelectedOptions);
   };
 
   return (
@@ -50,8 +59,8 @@ export default function MultiChoiceQuestion({ question }: MultiChoiceQuestionPro
               </div>
 
               {/* Icon */}
-              <div className="flex-shrink-0">
-                {option.icon?.type === 'image' ? (
+              <div className="flex-shrink-0 text-2xl">
+                {option.icon?.type === 'image' && (
                   <Image
                     src={option.icon.name}
                     alt={option.label}
@@ -59,8 +68,9 @@ export default function MultiChoiceQuestion({ question }: MultiChoiceQuestionPro
                     height={24}
                     className="w-6 h-6"
                   />
-                ) : (
-                  <span className="text-2xl">{option.icon?.name}</span>
+                )}
+                {option.icon?.type === 'emoji' && (
+                  <span>{String(option.icon.name)}</span>
                 )}
               </div>
 
