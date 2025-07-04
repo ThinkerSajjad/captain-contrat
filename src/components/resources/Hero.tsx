@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import PageContainer from "@/components/layout/PageContainer";
 
 function BooksIcon() {

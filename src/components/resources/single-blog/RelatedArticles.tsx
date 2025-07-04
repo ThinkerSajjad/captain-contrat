@@ -1,5 +1,5 @@
 "use client"
-import { useState, useRef, useEffect } from "react";
+import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BlogArticle } from "@/data/blogs";
