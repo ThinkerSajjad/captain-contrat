@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import { IconType } from "react-icons";
 import { LucideIcon } from "lucide-react";
 
-export type QuestionType = 'text' | 'choice' | 'contact_form' | 'info';
+export type QuestionType = 'choice' | 'text' | 'contact_form' | 'info';
 
 export type QuestionResponse = string | string[] | Record<string, string>;
 
@@ -35,23 +35,34 @@ export interface FunnelQuestion {
   id: string;
   type: QuestionType;
   title: string;
-  description?: string;
   placeholder?: string;
   helpText?: string;
-  options?: ChoiceOption[];
+  isOptional?: boolean;
+  nextStep?: ((response: QuestionResponse) => string) | string;
+  navigation?: {
+    showContinue?: boolean;
+    showSkip?: boolean;
+    autoProgress?: boolean;
+  };
+  options?: {
+    id: string;
+    label: string;
+    subLabel?: string;
+    value: string;
+    icon?: {
+      type: 'image' | 'emoji';
+      name: string | StaticImageData;
+      color?: string;
+    };
+  }[];
   fields?: {
     id: string;
     label: string;
-    placeholder: string;
+    placeholder?: string;
     required?: boolean;
   }[];
-  isOptional?: boolean;
-  nextStep?: string | ((response: QuestionResponse) => string);
-  navigation?: {
-    showContinue?: boolean;
-    autoProgress?: boolean;
-    showSkip?: boolean;
-  };
+  description?: string;
+  multiSelect?: boolean;
 }
 
 export interface BusinessType {
@@ -72,7 +83,7 @@ export interface FunnelContextType {
   businessType: string;
   orderId: string;
   updateResponse: (questionId: string, value: QuestionResponse) => void;
-  goToNextStep: () => void;
+  goToNextStep: (override?: { questionId: string, value: QuestionResponse }) => void;
   goToPreviousStep: () => void;
   setBusinessType: (type: string) => void;
   resetFunnel: () => void;

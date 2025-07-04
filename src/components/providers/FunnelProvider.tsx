@@ -42,6 +42,8 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
   
   const [lastUpdatedResponse, setLastUpdatedResponse] = useState<{id: string, value: QuestionResponse} | null>(null);
 
+  console.log('lastUpdatedResponse', lastUpdatedResponse);
+
   // Reset funnel state
   const resetFunnel = useCallback(() => {
     setResponses({});
@@ -130,7 +132,7 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
     }));
   }, []);
 
-  const goToNextStep = () => {
+  const goToNextStep = (override?: { questionId: string, value: QuestionResponse }) => {
     const questions = getFunnelQuestions(businessType);
     if (!questions) return;
     
@@ -140,7 +142,7 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
     console.log('Current question:', currentQuestion.id);
     console.log('Current responses:', responses);
     
-    // Special handling for contact_info to show analysis before pricing
+    // Navigate to analysis page first
     if (currentQuestion.id === 'contact_info') {
       // Log all responses for debugging
       console.log('Final responses:', responses);
@@ -148,41 +150,6 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
       // Navigate to analysis page first
       router.push('/funnel/analyzing');
       return;
-    }
-    
-    // Special handling for coach_appointment
-    if (currentQuestion.id === 'coach_appointment') {
-      // Always use the lastUpdatedResponse for coach_appointment to ensure we have the latest selection
-      const coachResponse = lastUpdatedResponse?.id === 'coach_appointment' 
-        ? lastUpdatedResponse.value 
-        : responses['coach_appointment'];
-        
-      console.log('Coach appointment response:', coachResponse);
-      
-      // Always respect the current selection regardless of history
-      if (coachResponse === 'make_appointment') {
-        // Find the appointment_slot step and navigate to it
-        const slotIndex = questions.findIndex(q => q.id === 'appointment_slot');
-        if (slotIndex !== -1) {
-          const slotStep = slotIndex + 1; // +1 because steps are 1-indexed
-          console.log('Going to appointment_slot step:', slotStep);
-          setQuestionPath(prev => [...prev, slotStep]);
-          router.push(`/funnel/service_choices/${slotStep}`);
-          return;
-        }
-      } else if (coachResponse === 'no_appointment') {
-        // Find the kbis_timing step and navigate directly to it
-        const kbisTimingIndex = questions.findIndex(q => q.id === 'kbis_timing');
-        if (kbisTimingIndex !== -1) {
-          const kbisStep = kbisTimingIndex + 1; // +1 because steps are 1-indexed
-          console.log('Skipping to kbis_timing step:', kbisStep);
-          setQuestionPath(prev => [...prev, kbisStep]);
-          router.push(`/funnel/service_choices/${kbisStep}`);
-          return;
-        }
-      }
-      // If no valid response, continue to next step
-      console.log('No valid coach response found, continuing to next step');
     }
     
     // Special handling for appointment_contact to ensure it goes to the dashboard
@@ -213,8 +180,9 @@ export function FunnelProvider({ children }: { children: ReactNode }) {
     
     // Check if this question has a custom nextStep function or value
     if (currentQuestion.nextStep) {
-      const currentResponse = lastUpdatedResponse?.id === currentQuestion.id 
-        ? lastUpdatedResponse.value 
+      // Use the override value if provided, otherwise use the value from state
+      const currentResponse = override?.questionId === currentQuestion.id
+        ? override.value
         : responses[currentQuestion.id];
         
       console.log('Current response for', currentQuestion.id, ':', currentResponse);

@@ -29,7 +29,7 @@ export function MakeAnAppointment() {
           </div>
           
           <Link 
-            href="/contact"
+            href="/meetings/rdv-captain-contrat"
             className="bg-secondary font-semibold text-white px-8 py-3 rounded-full hover:bg-opacity-90 transition-colors"
           >
             Make an appointment
