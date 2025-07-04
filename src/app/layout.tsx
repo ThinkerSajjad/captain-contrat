@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Crimson_Pro, Lato } from "next/font/google";
 import "./globals.css";
+import '../styles/scrollbar-hide.css';
 import { I18nProvider } from "@/components/providers/I18nProvider";
 import { LayoutWrapper } from "@/components/layout/LayoutWrapper";
 
