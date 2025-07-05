@@ -293,7 +293,7 @@ export const mainMenus: MainMenu[] = [
             },
             {
               label: "Subcontracting contract",
-              href: "/rediger-un-contrat/rediger-contrat-de-sous-traitance",
+              href: "/rediger-un-contrat/rediger-contrat-sous-traitance",
             },
             {
               label: "Shareholders' agreement",

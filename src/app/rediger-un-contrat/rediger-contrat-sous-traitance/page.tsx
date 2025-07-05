@@ -5,16 +5,15 @@ import { TestimonialCarousel } from "@/components/common/TestimonialCarousel";
 import { TrustMetrics } from "@/components/common/TrustMetrics";
 import { FreeGuides } from "@/components/rediger-un-contrat/subcontracting-contract/FreeGuide";
 import { BusinessCreationSteps } from "@/components/rediger-un-contrat/subcontracting-contract/BusinessCreationSteps";
-import { FAQ } from "@/components/rediger-un-contrat/subcontracting-contract/FAQ";
+import { FAQ } from "@/components/rediger-un-contrat/commercial-contract/FAQ";
 import { Hero } from "@/components/rediger-un-contrat/subcontracting-contract/Hero";
-import { SoloVsProfessional } from "@/components/rediger-un-contrat/subcontracting-contract/SoloVsProfessional";
 
 export default function RedigerConditionsGeneralesLocationPage() {
   return (
     <div className="min-h-screen">
       <Hero />
       <BusinessCreationSteps />
-      <SoloVsProfessional />
+      {/* <SoloVsProfessional /> */}
       <BusinessBenefitsAccordion />
       <TrustMetrics />
       <TestimonialCarousel />
