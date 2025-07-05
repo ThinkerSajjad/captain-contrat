@@ -3,11 +3,11 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import PageContainer from "../layout/PageContainer";
+import PageContainer from "@/components/layout/PageContainer";
 
-import teamExperts from "../../../public/images/modify-business/Équipe dispo.gif";
-import onlineProcess from "../../../public/images/modify-business/En ligne.gif";
-import transparentPrices from "../../../public/images/modify-business/Tarifs.gif";
+import teamExperts from "../../../../public/images/modify-business/Équipe dispo.gif";
+import onlineProcess from "../../../../public/images/modify-business/En ligne.gif";
+import transparentPrices from "../../../../public/images/modify-business/Tarifs.gif";
 
 interface AccordionItemProps {
   title: string;
@@ -58,19 +58,19 @@ export function BusinessBenefitsAccordion() {
     {
       title: "Tailor-made quotes at a fair price",
       content:
-        "Our partner lawyers offer a personalized package for each case at a preferential rate*, fixed, with no additional fees, for a project without unpleasant surprises.",
+        "Our partner lawyers offer a personalized package for each case at a preferential, fixed rate, with no additional fees, for a project without any unpleasant surprises.",
       image: teamExperts,
     },
     {
       title: "A fast, online service",
       content:
-        "Your lawyer will ensure initial contact and a quote is sent within 24 hours. Your communications are secure and unlimited, ensuring the service is completed within 72 hours.",
+        "Your lawyer will ensure initial contact and a quote is sent within 24 hours. Your communications are secure and unlimited, ensuring the service is completed within 72 hours. ",
       image: onlineProcess,
     },
     {
       title: "A lawyer chosen specifically for you",
       content:
-        "Our selected partner lawyers meet every legal need thanks to their expertise in different business sectors. ",
+        "Our 100 selected partner lawyers meet every legal need thanks to their expertise in different business sectors.",
       image: transparentPrices,
     },
   ];

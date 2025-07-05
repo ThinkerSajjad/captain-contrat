@@ -3,11 +3,11 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import PageContainer from "../layout/PageContainer";
+import PageContainer from "@/components/layout/PageContainer";
 
-import teamExperts from "../../../public/images/modify-business/Équipe dispo.gif";
-import onlineProcess from "../../../public/images/modify-business/En ligne.gif";
-import transparentPrices from "../../../public/images/modify-business/Tarifs.gif";
+import teamExperts from "../../../../public/images/modify-business/Équipe dispo.gif";
+import onlineProcess from "../../../../public/images/modify-business/En ligne.gif";
+import transparentPrices from "../../../../public/images/modify-business/Tarifs.gif";
 
 interface AccordionItemProps {
   title: string;
@@ -56,22 +56,28 @@ export function BusinessBenefitsAccordion() {
 
   const accordionItems = [
     {
-      title: "Tailor-made quotes at a fair price",
+      title: "Fair and transparent prices",
       content:
-        "Our partner lawyers offer a personalized package for each case at a preferential rate*, fixed, with no additional fees, for a project without unpleasant surprises.",
+        "Our rates for legal assistance are negotiated and fixed, ensuring a project without any unpleasant surprises.",
       image: teamExperts,
     },
     {
-      title: "A fast, online service",
+      title: "A 100% secure online platform",
       content:
-        "Your lawyer will ensure initial contact and a quote is sent within 24 hours. Your communications are secure and unlimited, ensuring the service is completed within 72 hours.",
+        "Exchanges with your lawyer and download your documents from your entrepreneur space: save time in your process.",
       image: onlineProcess,
     },
     {
       title: "A lawyer chosen specifically for you",
       content:
-        "Our selected partner lawyers meet every legal need thanks to their expertise in different business sectors. ",
+        "Our 100 selected partner lawyers meet every legal need thanks to their expertise in different business sectors.",
       image: transparentPrices,
+    },
+    {
+      title: "A network of trusted partners",
+      content:
+        "For comprehensive support, we have selected reliable partners: lawyers, accountants, online banking, etc. ",
+      image: onlineProcess,
     },
   ];
 
