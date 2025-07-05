@@ -307,15 +307,15 @@ export const mainMenus: MainMenu[] = [
           links: [
             {
               label: "Drafting a permanent contract",
-              href: "/gestion-du-personnel/rediger-contrat-de-travail-permanent",
+              href: "/rediger-un-contrat/rediger-contrat-travail-indetermine",
             },
             {
               label: "Drafting a fixed-term contract",
-              href: "/gestion-du-personnel/rediger-contrat-de-travail-a-duree-determinee",
+              href: "/rediger-un-contrat/rediger-contrat-travail-a-duree-determinee",
             },
             {
               label: "Drafting a freelance contract",
-              href: "/rediger-un-contrat/rediger-contrat-de-freelance",
+              href: "/rediger-un-contrat/rediger-contrat-travail-indetermine",
             },
           ],
         },
