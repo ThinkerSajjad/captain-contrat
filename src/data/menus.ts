@@ -285,7 +285,7 @@ export const mainMenus: MainMenu[] = [
             },
             {
               label: "Commercial lease",
-              href: "/rediger-un-contrat/rediger-contrat-de-location-commerciale",
+              href: "/rediger-un-contrat/redaction-bail-commercial",
             },
             {
               label: "Commercial contract",
