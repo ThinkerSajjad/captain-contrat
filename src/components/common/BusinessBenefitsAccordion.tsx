@@ -70,7 +70,7 @@ export function BusinessBenefitsAccordion() {
     {
       title: "A lawyer chosen specifically for you",
       content:
-        "Our 100 selected partner lawyers meet every legal need thanks to their expertise in different business sectors. ",
+        "Our selected partner lawyers meet every legal need thanks to their expertise in different business sectors. ",
       image: transparentPrices,
     },
   ];
