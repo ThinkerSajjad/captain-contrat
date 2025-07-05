@@ -1,9 +1,7 @@
-import { SupportersCarousel } from "@/components/common/SupportersCarousel";
 import { TestimonialCarousel } from "@/components/common/TestimonialCarousel";
 import { TrustMetrics } from "@/components/common/TrustMetrics";
 import { BusinessCreationSteps } from "@/components/rediger-un-contrat/partnership-agreement/BusinessCreationSteps";
 import { Hero } from "@/components/rediger-un-contrat/partnership-agreement/Hero";
-import { SoloVsProfessional } from "@/components/rediger-un-contrat/partnership-agreement/SoloVsProfessional";
 import { FAQ } from "@/components/rediger-un-contrat/partnership-agreement/FAQ";
 import EssentialsToKnow from "@/components/rediger-un-contrat/partnership-agreement/EssentialsToKnow";
 import AnyQuestions from "@/components/common/AnyQuestions";
