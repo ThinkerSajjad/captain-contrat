@@ -1,3 +1,4 @@
+import AnyQuestions from "@/components/common/AnyQuestions";
 import { BusinessBenefitsAccordion } from "@/components/common/BusinessBenefitsAccordion";
 import { SupportersCarousel } from "@/components/common/SupportersCarousel";
 import { TestimonialCarousel } from "@/components/common/TestimonialCarousel";
@@ -15,6 +16,7 @@ export default function RedigerConditionsGeneralesLocationPage() {
       <TrustMetrics />
       <TestimonialCarousel />
       <SupportersCarousel />
+      <AnyQuestions />
       <FAQ />
     </div>
   );
