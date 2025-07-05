@@ -311,11 +311,11 @@ export const mainMenus: MainMenu[] = [
             },
             {
               label: "Drafting a fixed-term contract",
-              href: "/rediger-un-contrat/rediger-contrat-travail-a-duree-determinee",
+              href: "/rediger-un-contrat/rediger-contrat-travail-determine",
             },
             {
               label: "Drafting a freelance contract",
-              href: "/rediger-un-contrat/rediger-contrat-travail-indetermine",
+              href: "/rediger-un-contrat/rediger-contrat-freelance",
             },
           ],
         },
