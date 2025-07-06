@@ -372,7 +372,7 @@ export const mainMenus: MainMenu[] = [
             { label: "Business law", href: "/avocat/droit-affaires" },
             {
               label: "Contract law",
-              href: "/avocat/avocat-droit-des-affaires",
+              href: "/avocat/droit-contrats",
             },
             {
               label: "Intellectual Property Law",
