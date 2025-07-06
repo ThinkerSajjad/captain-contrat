@@ -5,7 +5,6 @@ import { useRef } from "react";
 import capitalDeposit from "../../../public/images/common/business-support-icons/capital-deposit.png";
 import domiciliation from "../../../public/images/common/business-support-icons/domiciliation.svg";
 import trademarkFiling from "../../../public/images/common/business-support-icons/trademark-filling.svg";
-import charteredAccountant from "../../../public/images/common/business-support-icons/ca.svg";
 import Image from "next/image";
 
 export function BusinessSupportServices() {

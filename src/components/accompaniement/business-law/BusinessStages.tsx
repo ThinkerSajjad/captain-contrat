@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import PageContainer from "@/components/layout/PageContainer";
 
 import firstStage from "../../../../public/images/home/business-stages/Lancer votre entreprise_1x.webp";

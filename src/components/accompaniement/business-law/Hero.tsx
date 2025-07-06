@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, Star } from "lucide-react";
+import {  Star } from "lucide-react";
 
 import avisVerifiesLogo from "../../../../public/images/hero/avis-verifies-logo.png";
 import sasuMockup from "../../../../public/images/business/sasu/img+mock-up-desktop_sasu.webp";

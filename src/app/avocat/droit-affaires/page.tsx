@@ -1,9 +1,6 @@
 import { FAQ } from "@/components/accompaniement/business-law/FAQ";
-import { FreeGuides } from "@/components/accompaniement/business-law/FreeGuides";
 import { Guide } from "@/components/accompaniement/business-law/Guide";
 import { Hero } from "@/components/accompaniement/business-law/Hero";
-import OfferPricing from "@/components/accompaniement/business-law/OfferPricing";
-import { SoloVsProfessional } from "@/components/accompaniement/business-law/SoloVsProfessional";
 import { BusinessCreationSteps } from "@/components/common/BusinessCreationSteps";
 import { BusinessSupportServices } from "@/components/common/BusinessSupportServices";
 import { SupportersCarousel } from "@/components/common/SupportersCarousel";
