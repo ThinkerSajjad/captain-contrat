@@ -369,7 +369,7 @@ export const mainMenus: MainMenu[] = [
         {
           title: "Find a lawyer",
           links: [
-            { label: "Business law", href: "/avocat/avocat-droit-commercial" },
+            { label: "Business law", href: "/avocat/droit-affaires" },
             {
               label: "Contract law",
               href: "/avocat/avocat-droit-des-affaires",
