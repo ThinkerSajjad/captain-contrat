@@ -25,9 +25,11 @@ export function Hero() {
             </div> */}
             {/* Heading */}
             <h1 className="text-4xl lg:text-6xl font-bold mb-8">
-              <span className="text-tertiary">Find a </span>
-              <span className="text-secondary-dark">contract law attorney</span>
-              {/* <span className="text-tertiary"> online easily</span> */}
+              {/* <span className="text-tertiary">Find a </span> */}
+              <span className="text-secondary-dark">
+                Find an intellectual property
+              </span>
+              <span className="text-tertiary"> lawyer</span>
             </h1>
 
             {/* Bullet Points */}

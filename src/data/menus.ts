@@ -376,7 +376,7 @@ export const mainMenus: MainMenu[] = [
             },
             {
               label: "Intellectual Property Law",
-              href: "/avocat/avocat-droit-des-brevets",
+              href: "/avocat/droit-propriete-intellectuelle",
             },
             { label: "Labor law", href: "/avocat/avocat-droit-du-travail" },
             {
