@@ -392,7 +392,7 @@ export const mainMenus: MainMenu[] = [
             { label: "Chartered accountant", href: "/expertise-comptable" },
             {
               label: "Accounting expertise for SCI",
-              href: "/expertise-comptable/expertise-comptable-pour-sci",
+              href: "/expertise-comptable/ec-sci",
             },
           ],
         },
@@ -401,7 +401,7 @@ export const mainMenus: MainMenu[] = [
           links: [
             {
               label: "Essential Support",
-              href: "/abonnement-juridique-essentiel",
+              href: "/expertise-comptable/ec-sci",
             },
           ],
         },
