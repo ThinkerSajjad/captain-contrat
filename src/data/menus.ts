@@ -401,7 +401,7 @@ export const mainMenus: MainMenu[] = [
           links: [
             {
               label: "Essential Support",
-              href: "/expertise-comptable/ec-sci",
+              href: "/abonnement-juridique-essentiel",
             },
           ],
         },
