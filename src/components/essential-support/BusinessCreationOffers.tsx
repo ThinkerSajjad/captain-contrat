@@ -9,11 +9,11 @@ import { LuHandshake } from "react-icons/lu";
 import { FaPersonSnowboarding } from "react-icons/fa6";
 
 type OfferTab = "company" | "self-employed";
-type TooltipCard = "serenity" | "standard" | "solo" | "basic" | null;
+// type TooltipCard = "serenity" | "standard" | "solo" | "basic" | null;
 
 export function BusinessCreationOffers() {
-  const [activeTab, setActiveTab] = useState<OfferTab>("company");
-  const [activeTooltip, setActiveTooltip] = useState<TooltipCard>(null);
+  const [activeTab] = useState<OfferTab>("company");
+  // const [activeTooltip, setActiveTooltip] = useState<TooltipCard>(null);
 
   return (
     <section className="relative lg:py-20 py-10">
