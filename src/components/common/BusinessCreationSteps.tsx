@@ -8,11 +8,11 @@ export function BusinessCreationSteps() {
       <PageContainer>
         <div className="mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl mx-auto font-bold text-center text-slate-800 mb-4">
-            The 4 steps to check the availability of your brand
+            The 4 steps to consulting a lawyer
           </h1>
-          <p className="lg:mb-20 mb-10 text-center text-slate-700 font-medium lg:text-xl text-base">
+          {/* <p className="lg:mb-20 mb-10 text-center text-slate-700 font-medium lg:text-xl text-base">
             🚀 You develop your business, we manage your legal affairs!
-          </p>
+          </p> */}
           <div className="relative max-w-6xl mx-auto">
             {/* Continuous timeline for medium and large screens */}
             <div className="hidden md:block absolute left-1/2 top-8 bottom-8 w-[2.5px] bg-secondary transform -translate-x-1/2 z-0"></div>
