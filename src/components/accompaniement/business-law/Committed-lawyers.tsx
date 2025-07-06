@@ -14,11 +14,11 @@ export default function CommittedLawyers() {
           <div className="flex flex-col lg:flex-row gap-16">
             {/* Image Section */}
             <div className="lg:w-1/3 flex-shrink-0">
-              <div className="lg:h-64  flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <Image
                   src="/images/committed-lawyers/userr.svg"
                   alt="Me Tiphaine Dubreux"
-                  className="w-[90%] object-cover rounded-2xl"
+                  className="w-[90%]  rounded-2xl"
                   width={500}
                   height={500}
                 />

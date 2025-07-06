@@ -381,7 +381,7 @@ export const mainMenus: MainMenu[] = [
             { label: "Labor law", href: "/avocat/droit-travail" },
             {
               label: "Commercial law",
-              href: "/avocat/avocat-droit-commercial",
+              href: "/avocat/droit-commercial",
             },
             { label: "See all specialties", href: "/avocat" },
           ],

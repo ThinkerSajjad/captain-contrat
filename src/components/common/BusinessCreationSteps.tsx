@@ -8,7 +8,7 @@ export function BusinessCreationSteps() {
       <PageContainer>
         <div className="mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl mx-auto font-bold text-center text-slate-800 mb-4">
-            The 4 steps to consulting a lawyer
+            The 4 steps to consulting a commercial law attorney
           </h1>
           {/* <p className="lg:mb-20 mb-10 text-center text-slate-700 font-medium lg:text-xl text-base">
             🚀 You develop your business, we manage your legal affairs!
