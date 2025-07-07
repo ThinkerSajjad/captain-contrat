@@ -68,7 +68,7 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
               <Link
-                href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Fcreation-sasu-en-ligne"
+                href="/funnel/service_choices/1?source=%2Favocat%2Ffind-a-lawyer"
                 className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all"
               >
                 Consult a lawyers

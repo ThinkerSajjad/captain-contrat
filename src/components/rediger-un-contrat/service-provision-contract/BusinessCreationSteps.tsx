@@ -35,7 +35,7 @@ export function BusinessCreationSteps() {
                       Our questionnaire helps us understand your needs.{" "}
                       <Link
                         className="underline"
-                        href="funnel/commande/5ed36a8844d9402d9cd9f8188bdb7e8f/dossier#navbar-default"
+                        href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-prestation-de-services"
                       >
                         Get started
                       </Link>
@@ -121,7 +121,7 @@ export function BusinessCreationSteps() {
 
       <div className="mt-10 flex justify-center">
         <Link
-          href="/funnel/service_choices/1?source=%2Fgestion-des-litiges%2Ffermer-une-societe"
+          href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-prestation-de-services"
           className="bg-[#F25C54] text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all w-full sm:w-auto text-center"
         >
           Get my contract

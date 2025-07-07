@@ -8,12 +8,11 @@ import { BusinessCreationSteps } from "@/components/rediger-un-contrat/subcontra
 import { FAQ } from "@/components/rediger-un-contrat/commercial-contract/FAQ";
 import { Hero } from "@/components/rediger-un-contrat/subcontracting-contract/Hero";
 
-export default function RedigerConditionsGeneralesLocationPage() {
+export default function RedigerContratSousTraitancePage() {
   return (
     <div className="min-h-screen">
       <Hero />
       <BusinessCreationSteps />
-      {/* <SoloVsProfessional /> */}
       <BusinessBenefitsAccordion />
       <TrustMetrics />
       <TestimonialCarousel />

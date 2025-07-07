@@ -10,7 +10,7 @@ const experts = [
     description:
       "Thanks to significant experience within a startup, I practice my profession according to your needs: with responsiveness, availability and transparency.",
     img: "/images/home/Tiphaine - Avocat_1x.webp",
-    button: { label: "Consult a lawyer", href: "#" },
+    button: { label: "Consult a lawyer", href: "/meetings/rdv-captain-contrat" },
   },
   {
     name: "Bilal S.",
@@ -19,7 +19,7 @@ const experts = [
     description:
       "As a lawyer, I work in business law, both in business litigation and in consulting for a clientele of entrepreneurs in various sectors.",
     img: "/images/home/Bilal - Juriste_1x.webp",
-    button: { label: "See all the procedures", href: "#" },
+    button: { label: "See all the procedures", href: "/meetings/rdv-captain-contrat" },
   },
   {
     name: "Ines L.",
@@ -28,7 +28,7 @@ const experts = [
     description:
       "A lawyer for 6 years, Margaux will be able to support you with pragmatism and responsiveness on your legal issues in commercial contract law. ",
     img: "/images/home/Ines.png",
-    button: { label: "Entrust my accounting", href: "#" },
+    button: { label: "Entrust my accounting", href: "/meetings/rdv-captain-contrat" },
   },
   {
     // name: "Mr. Dubreux",
@@ -37,7 +37,7 @@ const experts = [
     description:
       "I work in the areas of corporate law, mergers and acquisitions, private equity, and commercial law. I assist startups and SMEs from the outset and throughout all aspects of their life.",
     img: "/images/home/Tiphaine - Avocat_1x.webp",
-    button: { label: "Consult a lawyer", href: "#" },
+    button: { label: "Consult a lawyer", href: "/meetings/rdv-captain-contrat" },
   },
   {
     name: "Bilal S.",
@@ -46,7 +46,7 @@ const experts = [
     description:
       "I am in charge of managing a portfolio of companies to which I offer long-term legal support for a budget adapted to the specificities and needs of each structure.",
     img: "/images/home/Bilal - Juriste_1x.webp",
-    button: { label: "See all the procedures", href: "#" },
+    button: { label: "See all the procedures", href: "/meetings/rdv-captain-contrat" },
   },
   {
     name: "Ines L.",
@@ -55,7 +55,7 @@ const experts = [
     description:
       "My practice includes advising and defending companies in matters of commercial law, contract law, intellectual property law and new technologies before the courts.",
     img: "/images/home/Ines.png",
-    button: { label: "Entrust my accounting", href: "#" },
+    button: { label: "Entrust my accounting", href: "/meetings/rdv-captain-contrat" },
   },
   {
     // name: "Mr. Dubreux",
@@ -64,7 +64,7 @@ const experts = [
     description:
       "I work in corporate law, commercial law and business law in difficulty, both in the areas of advice and litigation, demonstrating great responsiveness.",
     img: "/images/home/Tiphaine - Avocat_1x.webp",
-    button: { label: "Consult a lawyer", href: "#" },
+    button: { label: "Consult a lawyer", href: "/meetings/rdv-captain-contrat" },
   },
   {
     name: "Bilal S.",
@@ -73,7 +73,7 @@ const experts = [
     description:
       "Registered with the Paris Bar for over 15 years, I specialize in intellectual property law, both in consulting and litigation, as well as in business law.",
     img: "/images/home/Bilal - Juriste_1x.webp",
-    button: { label: "See all the procedures", href: "#" },
+    button: { label: "See all the procedures", href: "/meetings/rdv-captain-contrat" },
   },
 ];
 

@@ -56,7 +56,7 @@ export function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
-              <Link href="/funnel/service_choices/1?source=%2Fgestion-des-litiges%2Ffermer-une-societe" className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
+              <Link href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-conditions-generales-de-vente" className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all">
                 Get my T&C
               </Link>
               <Link href="/meetings/rdv-captain-contrat" className="bg-white border border-gray-300 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-50 transition-all">

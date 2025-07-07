@@ -61,7 +61,7 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
               <Link
-                href="/funnel/service_choices/1?source=%2Fgestion-des-litiges%2Ffermer-une-societe"
+                href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-location-commerciale"
                 className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all"
               >
                 Get my contract

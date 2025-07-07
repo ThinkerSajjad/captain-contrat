@@ -297,7 +297,7 @@ export const mainMenus: MainMenu[] = [
             },
             {
               label: "Shareholders' agreement",
-              href: "/rediger-un-contrat/rediger-pacte-associes",
+              href: "/creer-entreprise/rediger-pacte-associes",
             },
             { label: "See all offers", href: "/rediger-un-contrat" },
           ],

@@ -220,7 +220,7 @@ export function SoloVsProfessional() {
 
         <div className="mt-10 flex justify-center">
           <Link
-            href="/funnel/service_choices/1?source=%2Fgestion-des-litiges%2Ffermer-une-societe"
+            href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-commercial"
             className="bg-[#F25C54] text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all w-full sm:w-auto text-center"
           >
             Get my Contract

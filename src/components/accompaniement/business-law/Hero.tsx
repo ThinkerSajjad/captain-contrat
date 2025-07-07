@@ -12,17 +12,7 @@ export function Hero() {
       <PageContainer>
         <div className="flex flex-col lg:flex-row justify-between gap-8 items-center">
           <div>
-            {/* Breadcrumb */}
-            {/* <div className="flex items-center gap-2 text-gray-600 mb-10">
-              <Link
-                href="/creer-entreprise"
-                className="text-sm hover:underline"
-              >
-                Company creation
-              </Link>
-              <ChevronRight className="w-4 h-4" />
-              <span className="text-sm">Creation of SASU</span>
-            </div> */}
+           
             {/* Heading */}
             <h1 className="text-4xl lg:text-6xl font-bold mb-8">
               <span className="text-tertiary">Meet your </span>
@@ -30,30 +20,7 @@ export function Hero() {
               {/* <span className="text-tertiary"> online easily</span> */}
             </h1>
 
-            {/* Bullet Points */}
-            {/* <div className="space-y-4 mb-8">
-              <div className="flex items-start gap-2">
-                <div className="mt-1 bg-secondary-dark rounded-full p-1 w-4 h-4"></div>
-                <p className="text-gray-800">
-                  <span className="font-semibold">Trusted partner :</span> a
-                  lawyer supports you at every stage
-                </p>
-              </div>
-              <div className="flex items-start gap-2">
-                <div className="mt-1 bg-secondary-dark rounded-full p-1 w-4 h-4"></div>
-                <p className="text-gray-800">
-                  <span className="font-semibold">Intuitive platform :</span>{" "}
-                  your file completed in just a few minutes
-                </p>
-              </div>
-              <div className="flex items-start gap-2">
-                <div className="mt-1 bg-secondary-dark rounded-full p-1 w-4 h-4"></div>
-                <p className="text-gray-800">
-                  <span className="font-semibold">Affordable prices :</span>{" "}
-                  offers starting at just €0
-                </p>
-              </div>
-            </div> */}
+            
 
             {/* intro */}
             <div className="mb-8">
@@ -66,7 +33,7 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
               <Link
-                href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Fcreation-sasu-en-ligne"
+                href="/funnel/service_choices/1?source=%2Favocat%2Ffind-a-lawyer"
                 className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all"
               >
                 Consult a lawyers

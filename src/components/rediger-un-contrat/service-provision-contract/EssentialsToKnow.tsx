@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 // button color code: bg-[
@@ -35,9 +36,12 @@ const EssentialsToKnow = () => {
           </div>
 
           <div className="pt-4">
-            <button className="bg-[#ef6c77] hover:bg-[#e95360] text-white font-semibold px-10 py-4 rounded-full transition-colors duration-200 shadow-lg hover:shadow-xl text-lg w-full">
-              Get my contract
-            </button>
+            <Link
+              href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-prestation-de-services"
+              className="bg-[#ef6c77] hover:bg-[#e95360] text-white font-semibold px-10 py-4 rounded-full transition-colors duration-200 shadow-lg hover:shadow-xl text-lg w-full"
+            >
+              Customize my contract
+            </Link>
           </div>
         </div>
 

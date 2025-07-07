@@ -26,30 +26,30 @@ export function Hero() {
        
             {/* Heading */}
             <h1 className="text-4xl lg:text-6xl font-bold mb-8 max-w-3xl">
-              <span className="text-tertiary">Get your </span>
-              <span className="text-secondary-dark">General Terms and Conditions of Sale </span>
-              <span className="text-tertiary">(GTC) online</span>
+              <span className="text-tertiary">Have your  </span>
+              <span className="text-secondary-dark">General Conditions of Use </span>
+              <span className="text-tertiary">(GCU) written online</span>
             </h1>
-            <p className="text-gray-800 mb-4 lg:text-lg text-base">Your business closure with complete peace of mind thanks to support from A to Z</p>
+            <p className="text-gray-800 mb-4 lg:text-lg text-base">After an initial free exchange, obtain a fixed-price quote from a specialist lawyer in less than 24 hours.</p>
 
             {/* Bullet Points */}
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-2">
                 <div className="mt-1 bg-secondary-dark rounded-full p-1 w-4 h-4"></div>
                 <p className="text-gray-800">
-                  Recommendation of a lawyer specializing in your sector of activity
+                Take advantage of the recommendation of a specialized lawyer <span className="font-semibold">for your needs</span>
                 </p>
               </div>
               <div className="flex items-start gap-2">
                 <div className="mt-1 bg-secondary-dark rounded-full p-1 w-4 h-4"></div>
                 <p className="text-gray-800">
-                First free exchange with this lawyer
+                Benefit from a <span className="font-semibold">free initial exchange</span> with this lawyer
                 </p>
               </div>
               <div className="flex items-start gap-2">
                 <div className="mt-1 bg-secondary-dark rounded-full p-1 w-4 h-4"></div>
                 <p className="text-gray-800">
-                Fixed-price, no-obligation quote in less than 24 hours 
+                Get a <span className="font-semibold">fixed-price quote</span> in less than 24 hours 
                 </p>
               </div>
             </div>

@@ -28,7 +28,7 @@ export function Hero() {
 
             {/* Heading */}
             <h1 className="text-4xl lg:text-6xl font-bold mb-8 max-w-3xl">
-              <span className="text-tertiary">Get your </span>
+              <span className="text-tertiary">Have your  online </span>
               <span className="text-secondary-dark">
                 Subcontracting Contract{" "}
               </span>
@@ -62,7 +62,7 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
               <Link
-                href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-cgu"
+                href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-sous-traitance"
                 className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all"
               >
                 I get my document

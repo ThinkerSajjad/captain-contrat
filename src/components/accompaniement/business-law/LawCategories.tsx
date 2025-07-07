@@ -5,55 +5,55 @@ const lawLinks = [
   // New entries from the DOM with English labels
   {
     label: "Contract Law",
-    href: "/avocat/droit-contrats",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Association Law",
-    href: "/avocat/droit-associations",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Franchise Law",
-    href: "/avocat/droit-franchise",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Digital Law",
-    href: "/avocat/droit-internet-technologies",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Intellectual Property Law",
-    href: "/avocat/droit-propriete-intellectuelle",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Labor Law",
-    href: "/avocat/droit-travail",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Tax Law",
-    href: "/avocat/droit-fiscal",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Commercial Law",
-    href: "/avocat/droit-commercial",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Real Estate and Construction Law",
-    href: "/avocat/droit-immobilier-construction",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Litigation",
-    href: "/avocat/contentieux",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Competition Law",
-    href: "/avocat/droit-concurrence",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Distressed Companies Law",
-    href: "/avocat/entreprises-difficultes",
+    href: "/meetings/rdv-captain-contrat",
   },
   {
     label: "Corporate Law",
-    href: "/avocat/droit-societes",
+    href: "/meetings/rdv-captain-contrat",
   },
 ];
 

@@ -14,14 +14,14 @@ export function BusinessSupportServices() {
     <section className="py-8 md:py-20 bg-white">
       <PageContainer>
         <div className="mx-auto relative">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl mx-auto font-bold text-center text-slate-800 lg:mb-16 mb-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl mx-auto font-bold text-center text-slate-800 lg:mb-16 mb-8">
             Manage all your administrative and legal obligations in one place
           </h2>
 
           {/* Desktop/Tablet grid layout */}
-          <div className="hidden md:grid md:grid-cols-1 lg:grid-cols-3 gap-6 mx-auto">
+          <div className="hidden md:grid md:grid-cols-1 lg:grid-cols-4 gap-4 mx-auto">
             {/* Approval and filing of annual accounts card */}
-            <div className="bg-primary rounded-xl p-6 flex flex-col items-center">
+            <div className="bg-primary rounded-xl p-5 flex flex-col items-center">
               <div className="mb-6">
                 <Image src={capitalDeposit} alt="Capital deposit" />
               </div>

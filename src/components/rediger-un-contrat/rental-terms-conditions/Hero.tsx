@@ -24,25 +24,12 @@ export function Hero() {
       <PageContainer>
         <div className="flex flex-col lg:flex-row justify-between gap-8 items-center">
           <div>
-            {/* Breadcrumb */}
-            <div className="flex items-center gap-2 text-gray-600 mb-10">
-              <Link
-                href="/rediger-un-contrat"
-                className="text-sm hover:underline"
-              >
-                Rediger un contrat
-              </Link>
-              <ChevronRight className="w-4 h-4" />
-              <span className="text-sm">
-                Drafting of general terms and conditions
-              </span>
-            </div>
 
             {/* Heading */}
             <h1 className="text-4xl lg:text-6xl font-bold mb-8 max-w-3xl">
               <span className="text-tertiary">Get your </span>
               <span className="text-secondary-dark">
-                General Terms and Conditions of Rental{" "}
+              General Rental Conditions 
               </span>
               <span className="text-tertiary">(GLC)</span>
             </h1>
@@ -77,7 +64,7 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10">
               <Link
-                href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-cgu"
+                href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-conditions-generales-de-location"
                 className="bg-secondary-dark text-white px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all"
               >
                 I get my document
