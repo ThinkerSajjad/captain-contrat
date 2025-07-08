@@ -28,7 +28,7 @@ export function ProtectMyBrandHero() {
             {/* First row - 3 cards */}
             {/* SAS/SASU Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sasu-en-ligne" className="block h-full">
+              <Link href="/proteger-sa-societe/depot-de-marque-inpi-en-ligne" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -50,7 +50,7 @@ export function ProtectMyBrandHero() {
             
             {/* SARL/EURL Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-eurl-en-ligne" className="block h-full">
+              <Link href="/proteger-sa-societe/depot-de-dessins-et-modeles" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -72,7 +72,7 @@ export function ProtectMyBrandHero() {
             
             {/* Micro-enterprise Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creer-micro-entreprise" className="block h-full">
+              <Link href="/proteger-sa-societe/conformite-rgpd" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -95,7 +95,7 @@ export function ProtectMyBrandHero() {
             {/* Second row - 2 cards centered */}
             {/* SCI Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sci-en-ligne" className="block h-full">
+              <Link href="/rediger-un-contrat/rediger-politique-confidentialite" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -117,7 +117,7 @@ export function ProtectMyBrandHero() {
             
             {/* Sole proprietorship Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise" className="block h-full">
+              <Link href="/creer-entreprise/rediger-pacte-associes" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">

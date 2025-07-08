@@ -452,39 +452,39 @@ export const mainMenus: MainMenu[] = [
           links: [
             {
               label: "Starting a business: the steps",
-              href: "creer-son-entreprise/creation-d-une-entreprise-7-etapes",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "SASU",
-              href: "creer-son-entreprise/sasu/interet-statut-sasu",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "SAS",
-              href: "creer-son-entreprise/sas/interet-statut-sas",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "EURL",
-              href: "creer-son-entreprise/eurl/interet-statut-eurl",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "SARL",
-              href: "creer-son-entreprise/sarl/interet-statut-sarl",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "SCI",
-              href: "creer-son-entreprise/sci/interet-statut-sci",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "Micro-enterprise",
-              href: "creer-son-entreprise/micro-entreprise/interet-micro-entreprise",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "Sole proprietorship",
-              href: "creer-son-entreprise/entreprise-individuelle/interet-entreprise-individuelle",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
             {
               label: "Association",
-              href: "creer-son-entreprise/association/interet-association",
+              href: "/ressources/mandatory-sasu-registers-guide",
             },
           ],
         },
@@ -493,31 +493,31 @@ export const mainMenus: MainMenu[] = [
           links: [
             {
               label: "Protecting your creations: the guide",
-              href: "/resources/proteger-vos-creations-le-guide",
+              href: "/ressources/guide-protection-creations",
             },
             {
               label: "The various commercial contracts",
-              href: "/resources/les-differents-types-de-contrats-commerciaux",
+              href: "/ressources/guide-protection-creations",
             },
             {
               label: "Business management from A to Z",
-              href: "/resources/la-gestion-de-l-entreprise-de-a-z",
+              href: "/ressources/guide-protection-creations",
             },
             {
               label: "The Business Modification Guide",
-              href: "/resources/la-modification-de-l-entreprise",
+              href: "/ressources/guide-protection-creations",
             },
             {
               label: "Recruitment and management of its employees",
-              href: "/resources/recrutement-et-gestion-de-son-personnel",
+              href: "/ressources/guide-protection-creations",
             },
             {
               label: "Dispute management and prevention",
-              href: "/resources/gestion-des-litiges-et-prevention",
+              href: "/ressources/guide-protection-creations",
             },
             {
               label: "How to close your business?",
-              href: "/resources/fermeture-de-l-entreprise-quelles-sont-les-etapes",
+              href: "/ressources/guide-protection-creations",
             },
             { label: "Access the blog", href: "/ressources" },
           ],
@@ -527,25 +527,25 @@ export const mainMenus: MainMenu[] = [
           links: [
             {
               label: "Practical guide for business creators",
-              href: "/ebook/guide-pratique-pour-les-createurs-d-entreprise",
+              href: "/ebook/ebook-new-etapes-creation",
             },
             {
               label: "Guide to assistance for business creation and takeover",
-              href: "/ebook/guide-aide-creation-entreprise-et-acquisition",
+              href: "/ebook/ebook-new-financement-societe",
             },
             {
               label: "Executive Remuneration Guide",
-              href: "/ebook/guide-remuneration-directeurs-administrateurs",
+              href: "/ebook/ebook-new-remuneration-dirigeant",
             },
             {
               label: "Legal Guide to Commercial Contracts",
-              href: "/ebook/guide-legal-contrats-commerciaux",
+              href: "/ebook/ebook-new-etapes-creation",
             },
             {
               label: "15-minute VAT declaration guide",
-              href: "/ebook/guide-declaration-tva-15-minutes",
+              href: "/ebook/ebook-new-remuneration-dirigeant",
             },
-            { label: "See all free guides", href: "/ebook" },
+            { label: "See all free guides", href: "/tous-nos-guides" },
           ],
         },
         {

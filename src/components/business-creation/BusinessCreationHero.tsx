@@ -27,7 +27,7 @@ export function BusinessCreationHero() {
         
         <div className="relative mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-2">
           {/* SAS/SASU Card */}
-          <Link href="/creer-entreprise/creation-sasu-en-ligne" className="block">
+          <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Fcreation-sas-en-ligne" className="block">
             <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
               <div className="flex items-center">
                 <div className="flex-shrink-0 mr-5">
@@ -47,7 +47,7 @@ export function BusinessCreationHero() {
           </Link>
           
           {/* SARL/EURL Card */}
-          <Link href="/creer-entreprise/creation-eurl-en-ligne" className="block">
+          <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Fcreation-eurl-en-ligne" className="block">
             <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
               <div className="flex items-center">
                 <div className="flex-shrink-0 mr-5">
@@ -67,7 +67,7 @@ export function BusinessCreationHero() {
           </Link>
           
           {/* Micro-enterprise Card */}
-          <Link href="/creer-entreprise/creer-micro-entreprise" className="block">
+          <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Fcreer-micro-entreprise" className="block">
             <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
               <div className="flex items-center">
                 <div className="flex-shrink-0 mr-5">
@@ -87,7 +87,7 @@ export function BusinessCreationHero() {
           </Link>
           
           {/* SCI Card */}
-          <Link href="/creer-entreprise/creation-sci-en-ligne" className="block">
+          <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Fcreation-sci-en-ligne" className="block">
             <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
               <div className="flex items-center">
                 <div className="flex-shrink-0 mr-5">
@@ -107,7 +107,7 @@ export function BusinessCreationHero() {
           </Link>
           
           {/* Sole proprietorship Card */}
-          <Link href="/creer-entreprise" className="block">
+          <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Frediger-pacte-associes" className="block">
             <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
               <div className="flex items-center">
                 <div className="flex-shrink-0 mr-5">
@@ -116,7 +116,7 @@ export function BusinessCreationHero() {
                   </div>
                 </div>
                 <div className="flex-grow">
-                  <p className="lg:text-xl text-lg font-semibold">Sole proprietorship</p>
+                  <p className="lg:text-xl text-lg font-semibold">Shareholder agreement</p>
                   <p className="text-sm md:block hidden text-gray-600">Flexible & simple</p>
                 </div>
                 <div className="flex-shrink-0">
@@ -154,7 +154,7 @@ export function BusinessCreationHero() {
               <span className="text-gray-600 lg:text-lg text-base font-medium">Take advantage of our free tools: simulators, PDF guides, articles, etc.</span>
             </div>
             <div className="mt-4 md:mt-0 mb-2">
-              <Link href="/resources" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
+              <Link href="/creer-entreprise/projet-creation-dentreprise" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
                 Deepen my project
               </Link>
             </div>
