@@ -7,8 +7,10 @@ import { Footer } from './footer/Footer';
 export function LayoutWrapper({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isFunnelRoute = pathname?.startsWith('/funnel');
+  const isClientRoute = pathname?.startsWith('/client');
 
-  if (isFunnelRoute) {
+  // Skip header and footer for funnel and client routes
+  if (isFunnelRoute || isClientRoute) {
     return <>{children}</>;
   }
 

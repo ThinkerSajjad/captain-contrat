@@ -2,14 +2,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BlogArticle } from "@/data/blogs";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
+import { getBlogArticles } from "@/lib/api/blogs";
 
-interface TopArticlesProps {
-  articles: BlogArticle[];
-}
-
-export function TopArticles({ articles }: TopArticlesProps) {
+export function TopArticles() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [articles, setArticles] = useState<BlogArticle[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchArticles = async () => {
+      try {
+        setIsLoading(true);
+        const data = await getBlogArticles();
+        setArticles(data);
+      } catch (error) {
+        console.error("Failed to fetch articles:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchArticles();
+  }, []);
 
   const scroll = (direction: 'left' | 'right') => {
     if (!scrollContainerRef.current) return;
@@ -23,6 +38,29 @@ export function TopArticles({ articles }: TopArticlesProps) {
       behavior: 'smooth'
     });
   };
+
+  if (isLoading) {
+    return (
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-lato font-bold text-tertiary mb-12">
+            Our top articles
+          </h2>
+          <div className="flex justify-center">
+            <div className="animate-pulse flex space-x-4">
+              <div className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {[1, 2, 3].map((item) => (
+                    <div key={item} className="h-64 bg-gray-200 rounded-lg w-[300px]"></div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="py-16">

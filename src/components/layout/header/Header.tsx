@@ -66,7 +66,7 @@ export function Header() {
                 <span className="font-medium">01 83 81 67 25</span>
               </Link>
               {/* User Profile */}
-              <Link href="/account" className="text-gray-700 hover:shadow-md p-2 rounded-lg cursor-pointer border border-tertiary transition-colors">
+              <Link href="/client" className="text-gray-700 hover:shadow-md p-2 rounded-lg cursor-pointer border border-tertiary transition-colors">
                 <UserCog className="w-5 h-5"/>
               </Link>
             </div>
@@ -77,7 +77,7 @@ export function Header() {
             <Link href="tel:0183816725" className=" hover:shadow-md border bg-tertiary border-tertiary text-white rounded-lg p-1.5 transition-colors focus:outline-none cursor-pointer">
               <Phone className="w-4 h-4"/>
             </Link>
-            <Link href="/account" className="text-gray-700 hover:shadow-md border border-tertiary rounded-lg p-1.5 transition-colors focus:outline-none cursor-pointer">
+            <Link href="/client" className="text-gray-700 hover:shadow-md border border-tertiary rounded-lg p-1.5 transition-colors focus:outline-none cursor-pointer">
               <UserCog className="w-4 h-4"/>
             </Link>
             <button

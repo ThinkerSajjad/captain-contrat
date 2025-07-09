@@ -4,11 +4,11 @@ import PageContainer from "@/components/layout/PageContainer";
 import { StartBusinessSection } from "@/components/resources/StartBusinessSection";
 
 // Import guide covers
-import businessCreatorGuide from "../../../public/images/guide/create-company/Frame 20 (14).png";
+import businessCreatorGuide from "../../../public/images/guide/create-company/Frame 20 (20).png";
 import businessAssistanceGuide from "../../../public/images/guide/create-company/Frame 20 (15).png";
 import commercialContractsGuide from "../../../public/images/guide/create-company/Frame 20 (16).png";
-import sciGuide from "../../../public/images/guide/create-company/Frame 20 (17).png";
-import sasGuide from "../../../public/images/guide/create-company/Frame 20 (18).png";
+import sciGuide from "../../../public/images/guide/create-company/Frame 20 (5).png";
+import sasGuide from "../../../public/images/guide/create-company/Frame 20 (6).png";
 import sasuGuide from "../../../public/images/guide/create-company/Frame 20 (19).png";
 
 const guides = [
