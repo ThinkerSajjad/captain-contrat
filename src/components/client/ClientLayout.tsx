@@ -2,7 +2,7 @@
 import { ReactNode, useState, useEffect } from "react";
 import Header2 from "./Header2";
 import Sidebar from "./Sidebar";
-import { ChevronRight, Menu, X } from "lucide-react";
+import { ChevronRight, X } from "lucide-react";
 
 interface ClientLayoutProps {
   children: ReactNode;

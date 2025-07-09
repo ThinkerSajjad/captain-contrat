@@ -7,27 +7,30 @@ export default function SimulatorsPage() {
   const mainSimulators = [
     {
       id: "vat_and_tax_regime",
-      title: "Choice of tax and VAT regime",
+      title: "Commercial lease",
       emoji: "📊",
-      buttonText: "Discover my tax regime"
+      path: "/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-location-commerciale",
+      buttonText: "Commercial lease"
     },
     {
       id: "eligibility_for_ACRE",
       title: "Eligibility for ACRE",
       emoji: "📋",
+      path: "/funnel/service_choices/1?source=%2Fproteger-sa-societe%2Fdepot-de-marque-inpi-en-ligne",
       buttonText: "Test my eligibility"
     },
     {
       id: "manager_income_optimization",
       title: "Optimizing the manager's income",
       emoji: "💰",
-      path: "/simulateur/optimisation-du-revenu-du-manager",
+      path: "/funnel/service_choices/1?source=%2Favocat%2Ffind-a-lawyer",
       buttonText: "Discover my options"
     },
     {
       id: "find_my_legal_form",
       title: "Choice of legal form",
       emoji: "⚖️",
+      path: "/funnel/service_choices/1?source=%2Fcreer-entreprise%2Faide-au-choix-forme-juridique",
       buttonText: "Discover my legal form"
     }
   ];

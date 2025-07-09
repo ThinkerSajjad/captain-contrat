@@ -127,7 +127,7 @@ export function SoloVsProfessional() {
 
         <div className="mt-10 flex justify-center">
           <Link 
-            href="/creer-entreprise/creation-sasu-en-ligne#start" 
+            href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Fcreation-sasu-en-ligne" 
             className="bg-[#F25C54] text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all w-full sm:w-auto text-center"
           >
             Create a SASU

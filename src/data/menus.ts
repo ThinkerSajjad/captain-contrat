@@ -78,39 +78,39 @@ export const mainMenus: MainMenu[] = [
         links: [
           {
             label: "How to choose your legal form?",
-            href: "/creer-son-entreprise/choisir-son-statut/choisir-la-forme-juridique",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
             label: "Opening your business: how to do it?",
-            href: "/creer-son-entreprise/les-demarches/creer-son-entreprise-7-etapes",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
             label: "How to create a SASU?",
-            href: "/creer-son-entreprise/sasu/statuts-et-pacte-associes-sasu",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
             label: "How to create an SAS?",
-            href: "/creer-son-entreprise/sas/statuts-et-pacte-associes-sas",
+            href: "/ressources/how-does-sas-work",
           },
           {
             label: "How to create an EURL?",
-            href: "/creer-son-entreprise/eurl/statuts-et-pacte-associes-eurl",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
             label: "SAS or SARL: the comparison",
-            href: "/creer-son-entreprise/sas-sarl/sas-ou-sarl",
+            href: "/ressources/share-capital-reduction-taxation",
           },
           {
             label: "EURL or SASU: the guide",
-            href: "/creer-son-entreprise/eurl-sasu/eurl-ou-sasu",
+            href: "/ressources/sarl-vs-sas-comparison",
           },
           {
             label: "Assistance for business creation",
-            href: "/creer-son-entreprise/assistance-creation-entreprise",
+            href: "/ressources/trademark-registration-france-guide",
           },
           {
             label: "Filing a trademark: the steps",
-            href: "/proteger-sa-societe/trademark-filing",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           { label: "Access the blog", href: "/resources" },
         ],
@@ -210,40 +210,40 @@ export const mainMenus: MainMenu[] = [
         title: "Top articles",
         links: [
           {
-            label: "The Business Modification Guide",
-            href: "/resources/la-modification-de-l-entreprise",
+            label: "How to choose your legal form?",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
-            label: "Changes to the statutes",
-            href: "/resources/modifications-aux-statuts",
+            label: "Opening your business: how to do it?",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
-            label: "Company transformation: procedures",
-            href: "/resources/transformation-de-l-entreprise-procedures",
+            label: "How to create a SASU?",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
-            label: "Change of company name: the procedure",
-            href: "/resources/modification-du-nom-de-la-societe-procedure",
+            label: "How to create an SAS?",
+            href: "/ressources/how-does-sas-work",
           },
           {
-            label: "Transfer of registered office: what formalities?",
-            href: "/resources/transfert-du-siege-social-formalites",
+            label: "How to create an EURL?",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
-            label: "Capital increase: how to proceed?",
-            href: "/resources/augmentation-de-capital-comment-proceder",
+            label: "SAS or SARL: the comparison",
+            href: "/ressources/share-capital-reduction-taxation",
           },
           {
-            label: "The 10 accounting principles you need to know",
-            href: "/resources/les-10-principes-comptables-que-vous-devez-connaitre",
+            label: "EURL or SASU: the guide",
+            href: "/ressources/sarl-vs-sas-comparison",
           },
           {
-            label: "Closing a business: what are the steps?",
-            href: "/resources/fermeture-de-l-entreprise-quelles-sont-les-etapes",
+            label: "Assistance for business creation",
+            href: "/ressources/trademark-registration-france-guide",
           },
           {
-            label: "Company dissolution and liquidation: the guide",
-            href: "/resources/dissolution-et-liquidation-de-l-entreprise-guide",
+            label: "Filing a trademark: the steps",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           { label: "Access the blog", href: "/resources" },
         ],
@@ -324,37 +324,40 @@ export const mainMenus: MainMenu[] = [
         title: "Top articles",
         links: [
           {
-            label: "The different types of commercial contracts",
-            href: "/resources/les-differents-types-de-contrats-commerciaux",
+            label: "How to choose your legal form?",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
-            label: "General Terms and Conditions: The Complete Guide 2025",
-            href: "/resources/conditions-generales-de-vente-complet-guide-2025",
+            label: "Opening your business: how to do it?",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
-            label: "Freelance T&Cs: How to write them well?",
-            href: "/resources/contrat-de-freelance-comment-le-rediger-correctement",
+            label: "How to create a SASU?",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
-            label: "Service provision contract: everything you need to know",
-            href: "/resources/contrat-de-prestation-de-services-tout-savoir",
+            label: "How to create an SAS?",
+            href: "/ressources/how-does-sas-work",
           },
           {
-            label: "Services and self-employment",
-            href: "/resources/services-et-entrepreneuriat-autonomie",
+            label: "How to create an EURL?",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
-            label: "Subcontracting contract: how to write it?",
-            href: "/resources/contrat-de-sous-traitance-comment-le-rediger",
+            label: "SAS or SARL: the comparison",
+            href: "/ressources/share-capital-reduction-taxation",
           },
           {
-            label:
-              "Commercial partnership contract: everything you need to know",
-            href: "/resources/contrat-de-partenariat-commercial-tout-savoir",
+            label: "EURL or SASU: the guide",
+            href: "/ressources/sarl-vs-sas-comparison",
           },
           {
-            label: "Drafting the partnership agreement: the guide",
-            href: "/resources/pacte-de-partenariat-comment-le-rediger",
+            label: "Assistance for business creation",
+            href: "/ressources/trademark-registration-france-guide",
+          },
+          {
+            label: "Filing a trademark: the steps",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           { label: "Access the blog", href: "/resources" },
         ],
@@ -383,7 +386,6 @@ export const mainMenus: MainMenu[] = [
               label: "Commercial law",
               href: "/avocat/droit-commercial",
             },
-            { label: "See all specialties", href: "/avocat" },
           ],
         },
         {
@@ -410,32 +412,40 @@ export const mainMenus: MainMenu[] = [
         title: "Top articles",
         links: [
           {
-            label: "Legal assistance: definition and explanations",
-            href: "/resources/aide-juridique-definition-et-explications",
+            label: "How to choose your legal form?",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
-            label: "Setting up your business with a lawyer",
-            href: "/resources/creation-de-societe-avec-avocat",
+            label: "Opening your business: how to do it?",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
-            label: "Privacy Policy: Everything you need to know",
-            href: "/resources/politique-de-confidentialite-tout-savoir",
+            label: "How to create a SASU?",
+            href: "/ressources/eurl-dissolution-procedure",
           },
           {
-            label: "Finding the Right Business Lawyer",
-            href: "/resources/trouver-le-bon-avocat-pour-son-entreprise",
+            label: "How to create an SAS?",
+            href: "/ressources/how-does-sas-work",
           },
           {
-            label: "How to choose a lawyer?",
-            href: "/resources/choisir-un-avocat",
+            label: "How to create an EURL?",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           {
-            label: "Accountant or lawyer: choosing the right support",
-            href: "/resources/comptable-ou-avocat-choisir-le-bon-support",
+            label: "SAS or SARL: the comparison",
+            href: "/ressources/share-capital-reduction-taxation",
           },
           {
-            label: "Drafting your statutes: with or without a lawyer?",
-            href: "/resources/rediger-ses-statuts-avec-ou-sans-avocat",
+            label: "EURL or SASU: the guide",
+            href: "/ressources/sarl-vs-sas-comparison",
+          },
+          {
+            label: "Assistance for business creation",
+            href: "/ressources/trademark-registration-france-guide",
+          },
+          {
+            label: "Filing a trademark: the steps",
+            href: "/ressources/mandatory-sasu-registers-guide",
           },
           { label: "Access the blog", href: "/resources" },
         ],
@@ -552,20 +562,20 @@ export const mainMenus: MainMenu[] = [
           title: "Simulators",
           links: [
             {
-              label: "Choice of legal form",
-              href: "/simulateur/choix-de-la-forme-juridique",
+              label: "Commercial lease",
+              href: "/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-location-commerciale",
             },
             {
               label: "Eligibility for ACRE",
-              href: "/simulateur/eligibilite-acre",
+              href: "/funnel/service_choices/1?source=%2Fproteger-sa-societe%2Fdepot-de-marque-inpi-en-ligne",
             },
             {
-              label: "Choice of tax and VAT regime",
-              href: "/simulateur/choix-de-regime-fiscale-et-tva",
+              label: "Choice of legal form",
+              href: "/funnel/service_choices/1?source=%2Fcreer-entreprise%2Faide-au-choix-forme-juridique",
             },
             {
               label: "Optimizing the manager's income",
-              href: "/simulateur/optimisation-du-revenu-du-manager",
+              href: "/funnel/service_choices/1?source=%2Favocat%2Ffind-a-lawyer",
             },
           ],
         },

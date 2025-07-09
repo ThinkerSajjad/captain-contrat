@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FileText, Video } from 'lucide-react';
 
 interface ArticleCardProps {
   id: string;
@@ -16,7 +15,6 @@ interface ArticleCardProps {
 }
 
 export default function ArticleCard({
-  id,
   title,
   description,
   image,

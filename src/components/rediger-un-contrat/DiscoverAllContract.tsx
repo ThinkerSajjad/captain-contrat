@@ -34,132 +34,67 @@ export function DiscoverAllContract() {
     {
       title: "Commercial lease",
       description: "Drafting of your commercial lease by one of our partner lawyers",
-      link: "/modifier-son-entreprise/transfert-siege-social"
+      link: "/rediger-un-contrat/redaction-bail-commercial"
     },
     {
-      title: "General Terms and Conditions",
+      title: "General Condition of Sale",
       description: "Inform your customers of the rules for selling your products and services by writing your T&Cs!",
-      link: "/modifier-son-entreprise/changement-d-objet-social"
+      link: "/rediger-un-contrat/rediger-conditions-generales-de-vente"
     },
     {
       title: "Subcontracting contract",
       description: "Define the conditions for subletting your property in a contract drawn up by a lawyer",
-      link: "/modifier-son-entreprise/transfert-de-parts"
+      link: "/rediger-un-contrat/rediger-contrat-sous-traitance"
     },
     {
       title: "General Conditions of Use (GCU)",
       description: "Frame your service's terms of use with lawyer-drafted T&Cs",
-      link: "/modifier-son-entreprise/transfert-de-parts"
+      link: "/rediger-un-contrat/rediger-cgu"
     },
     {
       title: "Commercial contract",
       description: "Entrust the drafting of your commercial contract to a specialist lawyer",
-      link: "/modifier-son-entreprise/transformation-de-la-societe"
-    },
-    {
-      title: "Assignment of copyright",
-      description: "Secure your transfer with a contract that sets out the scope of the transfer, its price and the obligations of each party.",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/rediger-un-contrat/rediger-contrat-commercial"
     },
     {
       title: "E-commerce General Terms and Conditions",
       description: "Supervise and secure the commercial relationship with your online customers by having your e-commerce general terms and conditions drawn up",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/rediger-un-contrat/rediger-conditions-generales-de-vente"
     },
     {
       title: "Service provision contract",
       description: "Determine the scope of the mission to be carried out and the client's expectations in a contract drawn up by a lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/rediger-un-contrat/rediger-contrat-de-prestation-de-services"
     },
     {
-      title: "General conditions of purchase",
+      title: "General conditions of Rental",
       description: "Define the purchasing conditions you wish to impose (payment terms, delivery, etc.)",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "License Agreement",
-      description: "Grant a third party the right to use your trademark and set out the terms in a contract drawn up by a lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Distribution contract",
-      description: "Have a distribution contract drawn up by a specialist lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/rediger-un-contrat/rediger-conditions-generales-location"
     },
     {
       title: "Professional lease",
       description: "Entrust us with the drafting of your professional lease and start your business with peace of mind",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/rediger-un-contrat/redaction-bail-commercial"
     },
     {
       title: "General rental conditions",
       description: "Define the rental conditions of a property (object, duration and price) with General Terms and Conditions drawn up by a lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Legal notices",
-      description: "Add the necessary legal notices to your website by generating them with Captain Contrat",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Software transfer",
-      description: "Secure your transfer with a contract that sets out the scope of the transfer, its price and the obligations of each party.",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Sublease agreement",
-      description: "Define the conditions for subletting your property in a contract drawn up by a lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "IT service contract",
-      description: "Frame your relationship with your partner in a contract drawn up by a lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Competition rules",
-      description: "Formalize the rules of your competition in a document before launching the game!",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Website design contract",
-      description: "Are you creating your website? Have your complete and personalized design contract drawn up",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "SaaS Software Contract",
-      description: "Grant a third party the right to use your software and set out the terms in a contract drawn up by a lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Contract for the sale of goods",
-      description: "Frame the sale of your property by defining the rules and obligations in a contract",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Terms and Conditions in English",
-      description: "Do you have an international clientele? English-language T&Cs are essential.",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Commercial agent contract",
-      description: "Frame the mission of your commercial agent by specifying the scope and nature of his mission",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/rediger-un-contrat/rediger-conditions-generales-location"
     },
     {
       title: "Freelance contract",
       description: "Frame your relationships with your subcontractors in a contract drawn up by a lawyer",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/rediger-un-contrat/rediger-contrat-freelance"
     },
     {
-      title: "Business contribution contract",
-      description: "Have a contract drawn up containing all the essential information such as remuneration, duration, etc.",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      title: "Permanent contract",
+      description: "Have a permanent contract drawn up by a lawyer",
+      link: "/rediger-un-contrat/rediger-contrat-travail-indetermine"
     },
     {
-      title: "Letter of intent",
-      description: "Formalize your negotiations and frame the commercial relationship with a letter of intent",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      title: "Essential support",
+      description: "Formalize your business relationships with a lawyer",
+      link: "/abonnement-juridique-essentiel"
     },
     
     

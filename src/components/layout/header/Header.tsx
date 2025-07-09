@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { Menu as MenuIcon, X as CloseIcon, Search, Phone, UserCog } from "lucide-react";
 import { MobileMenu } from "./MobileMenu";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { CountrySwitcher } from "./CountrySwitcher";
 import HeaderContainer from "../HeaderContainer copy";
 
 export function Header() {
@@ -54,6 +55,8 @@ export function Header() {
           <div className="hidden xl:flex items-center space-x-3 w-full justify-between">
             <HeaderMenu onMenuActiveChange={setIsMenuActive} />
             <div className="flex items-center space-x-2">
+              {/* Country Switcher */}
+              <CountrySwitcher />
               {/* Language Switcher */}
               <LanguageSwitcher />
               {/* Search Icon */}
@@ -63,7 +66,7 @@ export function Header() {
               {/* Phone */}
               <Link href="tel:0183816725" className="flex items-center bg-tertiary text-white text-sm font-semibold gap-2 rounded-full px-4 py-2 transition-colors hover:bg-[#394e64]">
                 <Phone className="w-4 h-4" />
-                <span className="font-medium">01 83 81 67 25</span>
+                <span className="font-medium text-sm">01 83 81 67 25</span>
               </Link>
               {/* User Profile */}
               <Link href="/client" className="text-gray-700 hover:shadow-md p-2 rounded-lg cursor-pointer border border-tertiary transition-colors">
@@ -71,12 +74,9 @@ export function Header() {
               </Link>
             </div>
           </div>
-          {/* Mobile: phone, user, burger/cross */}
+          {/* Mobile: language switcher, user, burger/cross */}
           <div className="flex xl:hidden items-center space-x-2">
             <LanguageSwitcher />
-            <Link href="tel:0183816725" className=" hover:shadow-md border bg-tertiary border-tertiary text-white rounded-lg p-1.5 transition-colors focus:outline-none cursor-pointer">
-              <Phone className="w-4 h-4"/>
-            </Link>
             <Link href="/client" className="text-gray-700 hover:shadow-md border border-tertiary rounded-lg p-1.5 transition-colors focus:outline-none cursor-pointer">
               <UserCog className="w-4 h-4"/>
             </Link>

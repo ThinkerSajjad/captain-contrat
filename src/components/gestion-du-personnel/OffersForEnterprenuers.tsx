@@ -32,40 +32,35 @@ export function OffersForEnterprenuers() {
   
   const services = [
     {
-      title: "CDI",
-      description: "Our specialist labor law attorneys will advise you and draft your permanent employment contract with the essential information.",
+      title: "Transfer of head office",
+      description: "Change the address of your head office: we will complete the formalities and you will receive your amended Kbis",
       link: "/modifier-son-entreprise/transfert-siege-social"
     },
     {
-      title: "Dismissal procedure",
-      description: "Be sure to respect the dismissal procedure by calling on a partner lawyer",
-      link: "/modifier-son-entreprise/changement-d-objet-social"
+      title: "Company in difficulties",
+      description: "We help you find a solution to your financial difficulties",
+      link: "/gestion-des-litiges/entreprise-en-difficulte"
     },
     {
-      title: "Internal regulations",
-      description: "Specify the obligations that the employee and the employer are required to respect on the company premises",
-      link: "/modifier-son-entreprise/augmentation-de-capital"
+      title: "Capital increase",
+      description: "Our partner lawyers support you throughout the procedure",
+      link: "/modifier-son-entreprise/augmenter-capital"
     },
     {
-      title: "Fixed-term contract",
-      description: "Our specialist labor law attorneys will advise you and draft your fixed-term contract with the essential information.",
-      link: "/modifier-son-entreprise/transfert-de-parts"
+      title: "Transfer of shares",
+      description: "Our partner lawyers draw up your deed and we take care of the transfer formalities",
+      link: "/modifier-son-entreprise/contrat-cession-parts-sociales"
     },
     {
-      title: "Conventional termination",
-      description: "Separate yourself from your employee calmly by respecting the deadlines and obtaining the necessary documents",
-      link: "/modifier-son-entreprise/transformation-de-la-societe"
+      title: "Amendment of statutes",
+      description: "We amend your articles of association and complete the necessary formalities. You will receive your amended Kbis!",
+      link: "/modifier-son-entreprise"
     },
     {
-      title: "Trial period renewal letter",
-      description: "Renew your employee's trial period by respecting the necessary formalities with the renewal letter",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
-    {
-      title: "Trial period renewal letter",
-      description: "Renew your employee's trial period by respecting the necessary formalities with the renewal letter",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
+      title: "Approval of accounts",
+      description: "Approve your accounts and have them filed with the registry within 6 months of the end of your financial year",
+      link: "/modifier-son-entreprise/approbation-comptes-en-ligne"
+    }
     
     
   ];

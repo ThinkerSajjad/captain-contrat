@@ -1,6 +1,6 @@
 'use client';
 import Link from "next/link";
-import { Home, FileText, Calculator, BookOpen, Settings } from "lucide-react";
+import { Home, FileText, Calculator, BookOpen } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 export default function Sidebar() {

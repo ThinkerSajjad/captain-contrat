@@ -34,48 +34,38 @@ export function OffersForEnterprenuers() {
     {
       title: "Dissolution - Radiation",
       description: "Entrust us with the closure of your company. Drafting of documents and management of formalities",
-      link: "/modifier-son-entreprise/transfert-siege-social"
+      link: "/gestion-des-litiges/fermer-une-societe"
     },
     {
       title: "Formal notice for recovery",
       description: "Call on Captain Contrat to draft the formal notice and initiate payment of the amount owed to you.",
-      link: "/modifier-son-entreprise/changement-d-objet-social"
+      link: "/gestion-des-litiges/faire-une-mise-demeure-en-ligne"
     },
     {
       title: "Payment order",
       description: "Call a lawyer to recover your unpaid debts!",
-      link: "/modifier-son-entreprise/augmentation-de-capital"
+      link: "/gestion-des-litiges/injonction-de-payer-en-ligne"
     },
     {
       title: "Injunction to do",
       description: "Call a lawyer to force your service provider to fulfill its obligation",
-      link: "/modifier-son-entreprise/transfert-de-parts"
-    },
-    {
-      title: "Summons for unfair competition",
-      description: "Stop an act of unfair competition and obtain damages",
-      link: "/modifier-son-entreprise/transformation-de-la-societe"
+      link: "/avocat/contentieux"
     },
     {
       title: "Assignment for counterfeiting",
       description: "Have you detected counterfeit products? Let us help you!",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/gestion-des-litiges/fermer-une-societe"
     },
-    {
-      title: "Acknowledgment of debt",
-      description: "Obtain an acknowledgement of debt and provide proof in case of future disputes",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    },
+      {
+        title: "Acknowledgment of debt",
+        description: "Obtain an acknowledgement of debt and provide proof in case of future disputes",
+        link: "/gestion-des-litiges/fermer-une-societe"
+      },
     {
       title: "Managing a company in difficulty",
       description: "We support you in the steps to save your business!",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/gestion-des-litiges/entreprise-en-difficulte"
     },
-    {
-      title: "Management of unpaid debts",
-      description: "Call on experts to manage your unpaid bills",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
-    }
   ];
 
   const visibleServices = showAll ? services : services.slice(0, 6);

@@ -261,7 +261,7 @@ export function SoloVsProfessional() {
 
         <div className="mt-10 flex justify-center">
           <Link 
-            href="/proteger-sa-societe/depot-de-marque-inpi-en-ligne#start" 
+            href="/funnel/service_choices/1?source=%2Fproteger-sa-societe%2Fdepot-de-marque-inpi-en-ligne" 
             className="bg-[#F25C54] text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all w-full sm:w-auto text-center"
           >
             Register my trademark

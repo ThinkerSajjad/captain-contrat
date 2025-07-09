@@ -250,7 +250,7 @@ const businessTypes: BusinessType[] = [
   },
   {
     id: "business_law",
-    name: "Business Law",
+    name: "Find a Lawyer",
     path: "/avocat/find-a-lawyer",
     questions: businessLawQuestions,
   },

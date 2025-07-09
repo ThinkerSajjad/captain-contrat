@@ -28,7 +28,7 @@ export function ManageMyEmployeesHero() {
             {/* First row - 3 cards */}
             {/* SAS/SASU Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sasu-en-ligne" className="block h-full">
+              <Link href="/rediger-un-contrat/rediger-contrat-commercial" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -50,7 +50,7 @@ export function ManageMyEmployeesHero() {
             
             {/* SARL/EURL Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-eurl-en-ligne" className="block h-full">
+              <Link href="/rediger-un-contrat/rediger-contrat-travail-determine" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -72,7 +72,7 @@ export function ManageMyEmployeesHero() {
             
             {/* Micro-enterprise Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creer-micro-entreprise" className="block h-full">
+              <Link href="/rediger-un-contrat/rediger-contrat-travail-indetermine" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -95,7 +95,7 @@ export function ManageMyEmployeesHero() {
             {/* Second row - 2 cards centered */}
             {/* SCI Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sci-en-ligne" className="block h-full">
+              <Link href="/gestion-du-personnel/procedure-rupture-conventionnelle" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -117,7 +117,7 @@ export function ManageMyEmployeesHero() {
             
             {/* Sole proprietorship Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise" className="block h-full">
+              <Link href="/gestion-du-personnel/licencier-un-salarie" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -148,7 +148,7 @@ export function ManageMyEmployeesHero() {
               
             </div>
             <div className="mt-4 md:mt-0 mb-2">
-              <Link href="/resources" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
+              <Link href="/funnel/service_choices/1?source=%2Favocat%2Ffind-a-lawyer" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
                 All changes to the status
               </Link>
             </div>
