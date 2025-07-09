@@ -61,7 +61,7 @@ export default function RelatedArticles({ currentArticle, articles }: RelatedArt
   };
   
   return (
-    <div className="py-12 bg-gray-50">
+    <div className="lg:py-12 py-8 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-tertiary mb-10">
           You may also be interested in these articles

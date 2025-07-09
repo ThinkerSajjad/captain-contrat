@@ -5,7 +5,7 @@ import PageContainer from "@/components/layout/PageContainer";
 
 export function StartBusinessSection() {
   return (
-    <section className=" py-16">
+    <section className="lg:py-16 py-8">
       <PageContainer>
         <div className="text-center p-6 rounded-xl mx-auto bg-red-50">
           <h2 className="text-3xl lg:text-4xl font-bold text-tertiary mb-6">
