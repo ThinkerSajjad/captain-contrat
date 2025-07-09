@@ -1,20 +1,23 @@
 import { FeaturedBlog } from "@/components/resources/FeaturedBlog";
 import { Hero } from "@/components/resources/Hero";
 import { TopArticles } from "@/components/resources/TopArticles";
-import { getFeaturedArticle, getBlogArticles } from "@/lib/api/blogs";
+import { BusinessLifeStages } from "@/components/resources/BusinessLifeStages";
+import { getFeaturedArticle } from "@/lib/api/blogs";
+import { LegalFormsOverview } from "@/components/resources/LegalFormsOverview";
+import { StartBusinessSection } from "@/components/resources/StartBusinessSection";
 
 export default async function ResourcesPage() {
-  // Fetch data in parallel
-  const [featuredArticle, articles] = await Promise.all([
-    getFeaturedArticle(),
-    getBlogArticles()
-  ]);
+  // Fetch data for featured article only
+  const featuredArticle = await getFeaturedArticle();
 
   return (
     <main>
-        <Hero />
+      <Hero />
       <FeaturedBlog article={featuredArticle} />
-      <TopArticles articles={articles} />
+      <TopArticles />
+      <BusinessLifeStages />
+      <LegalFormsOverview />
+      <StartBusinessSection />
     </main>
   );
 } 

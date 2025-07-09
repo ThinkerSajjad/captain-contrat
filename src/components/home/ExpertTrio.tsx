@@ -10,7 +10,7 @@ const experts = [
     description:
       "Our team includes lawyers specializing in all areas of business law (commerce, contracts, labor, intellectual property, etc.).",
     img: "/images/home/Tiphaine - Avocat_1x.webp",
-    button: { label: "Consult a lawyer", href: "#" },
+    button: { label: "Consult a lawyer", href: "/avocat/droit-affaires" },
   },
   {
     name: "Bilal S.",
@@ -19,7 +19,7 @@ const experts = [
     description:
       "Our lawyers, specialized in business law, manage the administrative procedures for you (creation, modification of statutes, closure, etc.).",
     img: "/images/home/Bilal - Juriste_1x.webp",
-    button: { label: "See all the procedures", href: "#" },
+    button: { label: "See all the procedures", href: "/avocat/droit-affaires" },
   },
   {
     name: "Ines L.",
@@ -28,7 +28,7 @@ const experts = [
     description:
       "Members of the Order of Chartered Accountants, they advise you and help you manage your company (tax optimization, management of obligations, etc.).",
     img: "/images/home/Ines.png",
-    button: { label: "Entrust my accounting", href: "#" },
+    button: { label: "Entrust my accounting", href: "/expertise-comptable" },
   },
 ];
 

@@ -34,29 +34,29 @@ export function OffersForEnterprenuers() {
       link: "/modifier-son-entreprise/transfert-siege-social"
     },
     {
-      title: "Change of leadership",
-      description: "Appoint, revoke or change a manager: we complete the formalities and you will receive your amended Kbis",
-      link: "/modifier-son-entreprise/changement-d-objet-social"
+      title: "Company in difficulties",
+      description: "We help you find a solution to your financial difficulties",
+      link: "/gestion-des-litiges/entreprise-en-difficulte"
     },
     {
       title: "Capital increase",
       description: "Our partner lawyers support you throughout the procedure",
-      link: "/modifier-son-entreprise/augmentation-de-capital"
+      link: "/modifier-son-entreprise/augmenter-capital"
     },
     {
       title: "Transfer of shares",
       description: "Our partner lawyers draw up your deed and we take care of the transfer formalities",
-      link: "/modifier-son-entreprise/transfert-de-parts"
+      link: "/modifier-son-entreprise/contrat-cession-parts-sociales"
     },
     {
       title: "Amendment of statutes",
       description: "We amend your articles of association and complete the necessary formalities. You will receive your amended Kbis!",
-      link: "/modifier-son-entreprise/transformation-de-la-societe"
+      link: "/modifier-son-entreprise"
     },
     {
       title: "Approval of accounts",
       description: "Approve your accounts and have them filed with the registry within 6 months of the end of your financial year",
-      link: "/modifier-son-entreprise/approbation-des-comptes"
+      link: "/modifier-son-entreprise/approbation-comptes-en-ligne"
     }
   ];
 

@@ -2,16 +2,16 @@ import Link from "next/link";
 import PageContainer from "../layout/PageContainer";
 
 const categories = [
-  { label: "Prepare your creation", href: "/blog/prepare-your-creation" },
-  { label: "Create your own business", href: "/blog/create-your-own-business" },
-  { label: "Business management", href: "/blog/business-management" },
-  { label: "Protection of creations", href: "/blog/protection-of-creations" },
-  { label: "To exercise a profession", href: "/blog/to-exercise-a-profession" },
-  { label: "Company modification", href: "/blog/company-modification" },
-  { label: "Disputes", href: "/blog/disputes" },
-  { label: "Commercial contracts & general T&C", href: "/blog/commercial-contracts-and-general-terms-and-conditions" },
-  { label: "Recruiting and managing employees", href: "/blog/recruiting-and-managing-employees" },
-  { label: "Closing", href: "/blog/closing" },
+  { label: "Prepare your creation", href: "/ressources" },
+  { label: "Create your own business", href: "/ressources" },
+  { label: "Business management", href: "/ressources" },
+  { label: "Protection of creations", href: "/ressources" },
+  { label: "To exercise a profession", href: "/ressources" },
+  { label: "Company modification", href: "/ressources" },
+  { label: "Disputes", href: "/ressources" },
+  { label: "Commercial contracts & general T&C", href: "/ressources" },
+  { label: "Recruiting and managing employees", href: "/ressources" },
+  { label: "Closing", href: "/ressources" },
 ];
 
 export function BlogCategories() {
@@ -33,7 +33,7 @@ export function BlogCategories() {
                 </Link>
               ))}
             </div>
-            <Link href="/blog" className="text-tertiary text-lg font-medium hover:underline mt-2">
+            <Link href="/ressources" className="text-tertiary text-lg font-medium hover:underline mt-2">
               See the entire blog
             </Link>
           </div>

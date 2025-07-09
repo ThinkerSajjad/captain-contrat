@@ -91,7 +91,7 @@ export function Hero() {
         </div>
         <div className="relative grid grid-cols-1 lg:grid-cols-5 gap-3 xl:px-6 lg:px-0 px-0 lg:mt-16 mt-8 mx-auto items-stretch">
           {/* Card 1 */}
-          <Link href="#" className="block w-full h-full">
+          <Link href="/creer-entreprise" className="block w-full h-full">
             <div className="bg-white md:py-4 py-3 px-3 rounded-lg shadow-sm flex lg:flex-col flex-row h-full cursor-pointer hover:shadow-md transition-shadow">
               <div className="flex-shrink-0 flex justify-start items-center lg:mb-4 mb-0 mr-4 lg:mr-0">
                 <Image
@@ -116,7 +116,7 @@ export function Hero() {
             </div>
           </Link>
           {/* Card 2 */}
-          <Link href="#" className="block w-full h-full">
+          <Link href="/expertise-comptable" className="block w-full h-full">
             <div className="bg-white md:py-4 py-3 px-3 rounded-lg shadow-sm flex lg:flex-col flex-row h-full cursor-pointer hover:shadow-md transition-shadow">
               <div className=" flex-shrink-0 flex justify-start items-center lg:mb-4 mb-0 mr-4 lg:mr-0">
                 <Image
@@ -141,7 +141,7 @@ export function Hero() {
             </div>
           </Link>
           {/* Card 3 */}
-          <Link href="#" className="block w-full h-full">
+          <Link href="/modifier-son-entreprise" className="block w-full h-full">
             <div className="bg-white md:py-4 py-3 px-3 rounded-lg shadow-sm flex lg:flex-col flex-row h-full cursor-pointer hover:shadow-md transition-shadow">
               <div className=" flex-shrink-0 flex justify-start items-center lg:mb-4 mb-0 mr-4 lg:mr-0">
                 <Image
@@ -166,7 +166,7 @@ export function Hero() {
             </div>
           </Link>
           {/* Card 4 */}
-          <Link href="#" className="block w-full h-full">
+          <Link href="/rediger-un-contrat" className="block w-full h-full">
             <div className="bg-white md:py-4 py-3 px-3 rounded-lg shadow-sm flex lg:flex-col flex-row h-full cursor-pointer hover:shadow-md transition-shadow">
               <div className=" flex-shrink-0 flex justify-start items-center lg:mb-4 mb-0 mr-4 lg:mr-0">
                 <Image
@@ -191,7 +191,7 @@ export function Hero() {
             </div>
           </Link>
           {/* Card 5 */}
-          <Link href="#" className="block w-full h-full">
+          <Link href="/avocat/droit-affaires" className="block w-full h-full">
             <div className="bg-white md:py-4 py-3 px-3 rounded-lg shadow-sm flex lg:flex-col flex-row h-full cursor-pointer hover:shadow-md transition-shadow">
               <div className=" flex-shrink-0 flex justify-start items-center lg:mb-4 mb-0 mr-4 lg:mr-0">
                 <Image

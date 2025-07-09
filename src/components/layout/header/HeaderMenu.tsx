@@ -44,7 +44,7 @@ export function HeaderMenu({ onMenuActiveChange }: HeaderMenuProps) {
 
   return (
     <div className="relative" ref={menuRef}>
-      <nav className="flex items-center space-x-1">
+      <nav className="flex items-center space-x-0">
         {mainMenus.map((menu: MainMenu) => (
           <MenuItem
             key={menu.key}

@@ -31,32 +31,32 @@ export function ReadyToStart() {
     {
       title: "Trademark filing",
       description: "Register your trademark with the INPI to protect it and use it with peace of mind.",
-      link: "/proteger-sa-societe/trademark-filing"
+      link: "/proteger-sa-societe/depot-de-marque-inpi-en-ligne"
     },
     {
       title: "Confidentiality Agreement",
       description: "Protecting the confidentiality of your information during negotiations with a client or partner",
-      link: "/rediger-un-contrat/rediger-contrat-commercial"
+      link: "/creer-entreprise/rediger-pacte-associes"
     },
     {
       title: "Filing of designs and models",
       description: "Protect your creations against counterfeiting. Our partner lawyers register them with the INPI (French Intellectual Property Institute).",
-      link: "/proteger-sa-societe"
+      link: "/proteger-sa-societe/depot-de-dessins-et-modeles"
     },
     {
       title: "Legal support for GDPR",
       description: "Benefit from the expertise of one of our partner lawyers to ensure your compliance with the GDPR",
-      link: "/avocat/avocat-droit-des-affaires"
+      link: "/proteger-sa-societe/conformite-rgpd"
     },
     {
       title: "Prior art search",
       description: "When you want to register a trademark for use, it is essential to first verify that the trademark is available. You will need to conduct a prior art search, also known as an availability search.",
-      link: "/proteger-sa-societe/prior-art-search"
+      link: "/proteger-sa-societe/recherche-anteriorite"
     },
     {
       title: "GDPR Privacy Policy",
       description: "Have a privacy policy written for your company to comply with GDPR rules",
-      link: "/proteger-sa-societe/rediger-politique-confidentialite"
+      link: "/rediger-un-contrat/rediger-politique-confidentialite"
     }
   ];
 

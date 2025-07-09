@@ -4,8 +4,8 @@ import { SupportersCarousel } from "@/components/common/SupportersCarousel";
 import { TestimonialCarousel } from "@/components/common/TestimonialCarousel";
 import { TrustMetrics } from "@/components/common/TrustMetrics";
 import { BusinessCreationSteps } from "@/components/rediger-un-contrat/use-terms-conditions/BusinessCreationSteps";
+import { FAQ } from "@/components/rediger-un-contrat/use-terms-conditions/FAQ";
 import { Hero } from "@/components/rediger-un-contrat/use-terms-conditions/Hero";
-import { HowToCreate } from "@/components/rediger-un-contrat/use-terms-conditions/HowToCreate";
 import { NeedToKnow } from "@/components/rediger-un-contrat/use-terms-conditions/NeedToKnow";
 import { SoloVsProfessional } from "@/components/rediger-un-contrat/use-terms-conditions/SoloVsProfessional";
 
@@ -25,7 +25,7 @@ export default function RedigerCGUPage() {
       <TestimonialCarousel />
       <SupportersCarousel />
       <MakeAnAppointment />
-      <HowToCreate />
+      <FAQ />
     </div>
   );
 } 

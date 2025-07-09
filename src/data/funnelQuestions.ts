@@ -24,6 +24,17 @@ import { transferOfSharesQuestions } from './questions/transfer-of-shares';
 import { capitalIncreaseQuestions } from './questions/capital-increase';
 import { companyInDifficultiesQuestions } from './questions/company-in-difficulties';
 import { cguQuestions } from "./questions/cguQuestions";
+import { salesTermsConditionsQuestions } from "./questions/sales-termsconditions";
+import { rentalTermsConditionsQuestions } from "./questions/rental-terms-conditions";
+import { privacyPolicyQuestions } from "./questions/privacy-policy";
+import { serviceContractQuestions } from "./questions/service-contract";
+import { commercialLeaseQuestions } from "./questions/commercial-lease";
+import { commercialContractQuestions } from "./questions/commercial-contract";
+import { subcontractingQuestions } from "./questions/subcontracting";
+import { permanentContractQuestions } from "./questions/permanent-contract";
+import { fixedTermContractQuestions } from "./questions/fixed-term-contract";
+import { freelanceContractQuestions } from "./questions/freelance-contract";
+import { businessLawQuestions } from "./questions/business-law";
 
 // Business types configuration
 const businessTypes: BusinessType[] = [
@@ -176,6 +187,72 @@ const businessTypes: BusinessType[] = [
     name: "Rediger Cgu",
     path: "/rediger-un-contrat/rediger-cgu",
     questions: cguQuestions,
+  },
+  {
+    id: "sales_terms_conditions",
+    name: "Sales Terms and Conditions",
+    path: "/rediger-un-contrat/rediger-conditions-generales-de-vente",
+    questions: salesTermsConditionsQuestions,
+  },
+  {
+    id: "rental_terms_conditions",
+    name: "Rental Terms and Conditions",
+    path: "/rediger-un-contrat/rediger-conditions-generales-de-location",
+    questions: rentalTermsConditionsQuestions,
+  },
+  {
+    id: "privacy_policy",
+    name: "Privacy Policy",
+    path: "/rediger-un-contrat/rediger-politique-confidentialite",
+    questions: privacyPolicyQuestions,
+  },
+  {
+    id: "service_contract",
+    name: "Service Contract",
+    path: "/rediger-un-contrat/rediger-contrat-de-prestation-de-services",
+    questions: serviceContractQuestions,
+  },
+  {
+    id: "commercial_lease",
+    name: "Commercial Lease",
+    path: "/rediger-un-contrat/rediger-contrat-de-location-commerciale",
+    questions: commercialLeaseQuestions,
+  },
+  {
+    id: "commercial_contract",
+    name: "Commercial Contract",
+    path: "/rediger-un-contrat/rediger-contrat-commercial",
+    questions: commercialContractQuestions,
+  },
+  {
+    id: "subcontracting",
+    name: "Subcontracting Contract",
+    path: "/rediger-un-contrat/rediger-contrat-de-sous-traitance",
+    questions: subcontractingQuestions,
+  },
+  {
+    id: "permanent_contract",
+    name: "Permanent Contract",
+    path: "/gestion-du-personnel/rediger-contrat-de-travail-permanent",
+    questions: permanentContractQuestions,
+  },
+  {
+    id: "fixed_term_contract",
+    name: "Fixed-Term Contract",
+    path: "/gestion-du-personnel/rediger-contrat-de-travail-a-duree-determinee",
+    questions: fixedTermContractQuestions,
+  },
+  {
+    id: "freelance_contract",
+    name: "Freelance Contract",
+    path: "/rediger-un-contrat/rediger-contrat-de-freelance",
+    questions: freelanceContractQuestions,
+  },
+  {
+    id: "business_law",
+    name: "Find a Lawyer",
+    path: "/avocat/find-a-lawyer",
+    questions: businessLawQuestions,
   },
 ];
 

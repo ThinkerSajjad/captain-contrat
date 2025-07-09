@@ -1,7 +1,7 @@
 'use client';
 
 import { useFunnel } from '../providers/FunnelProvider';
-import { getFunnelQuestions } from '@/data/funnelQuestions';
+import { getFunnelQuestions, getBusinessTypeById } from '@/data/funnelQuestions';
 import { ChevronLeft } from 'lucide-react';
 
 export default function ProgressSteps() {
@@ -12,6 +12,10 @@ export default function ProgressSteps() {
 
   // Get the current question
   const currentQuestion = questions[currentStep - 1];
+  
+  // Get the business type name
+  const businessTypeObj = getBusinessTypeById(businessType);
+  const businessTypeName = businessTypeObj?.name || businessType;
   
   // Hide back button on first step or dashboard
   const showBackButton = currentStep !== 1 && currentQuestion?.id !== 'appointment_dashboard';
@@ -31,8 +35,8 @@ export default function ProgressSteps() {
 
 
       {/* Business type label */}
-      <div className="mt-2 text-base text-gray-600 text-center">
-        Creating your {businessType?.toUpperCase()}
+      <div className="mt-2 text-base text-gray-600 text-center font-medium">
+        {businessTypeName}
       </div>
 
       {/* Progress bar */}

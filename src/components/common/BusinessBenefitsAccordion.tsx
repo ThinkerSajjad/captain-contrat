@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { ChevronDown, ChevronUp } from 'lucide-react';
-import PageContainer from '../layout/PageContainer';
+import { useState } from "react";
+import Image from "next/image";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import PageContainer from "../layout/PageContainer";
 
 import teamExperts from "../../../public/images/modify-business/Équipe dispo.gif";
 import onlineProcess from "../../../public/images/modify-business/En ligne.gif";
@@ -16,21 +16,32 @@ interface AccordionItemProps {
   onClick: () => void;
 }
 
-const AccordionItem = ({ title, content, isOpen, onClick }: AccordionItemProps) => {
+const AccordionItem = ({
+  title,
+  content,
+  isOpen,
+  onClick,
+}: AccordionItemProps) => {
   return (
-    <div 
-      className={`border-l-4 ${isOpen ? 'border-red-500' : 'border-gray-200'} transition-all duration-300 cursor-pointer`}
+    <div
+      className={`border-l-4 ${
+        isOpen ? "border-red-500" : "border-gray-200"
+      } transition-all duration-300 cursor-pointer`}
       onClick={onClick}
     >
       <div className="py-6 pl-6 pr-4 flex justify-between items-center">
-        <h3 className={`text-xl lg:text-2xl font-semibold ${isOpen ? 'text-red-500' : 'text-tertiary'}`}>
+        <h3
+          className={`text-xl lg:text-2xl font-semibold ${
+            isOpen ? "text-red-500" : "text-tertiary"
+          }`}
+        >
           {title}
         </h3>
-        <div className={`${isOpen ? 'text-red-500' : 'text-gray-400'}`}>
+        <div className={`${isOpen ? "text-red-500" : "text-gray-400"}`}>
           {isOpen ? <ChevronUp size={24} /> : <ChevronDown size={24} />}
         </div>
       </div>
-      
+
       {isOpen && (
         <div className="pl-6 pr-4 pb-6">
           <p className="text-gray-600">{content}</p>
@@ -42,23 +53,26 @@ const AccordionItem = ({ title, content, isOpen, onClick }: AccordionItemProps) 
 
 export function BusinessBenefitsAccordion() {
   const [openIndex, setOpenIndex] = useState(1); // Default to second item open
-  
+
   const accordionItems = [
     {
-      title: "A team of experts",
-      content: "Our team of specialized lawyers and legal experts is at your service to guide you through every step of your business modification process.",
-      image: teamExperts
+      title: "Tailor-made quotes at a fair price",
+      content:
+        "Our partner lawyers offer a personalized package for each case at a preferential rate*, fixed, with no additional fees, for a project without unpleasant surprises.",
+      image: teamExperts,
     },
     {
-      title: "An online process, 100% secure",
-      content: "Online forms, remote exchanges with our lawyers and electronic signature: gain efficiency at every stage of your project.",
-      image: onlineProcess
+      title: "A fast, online service",
+      content:
+        "Your lawyer will ensure initial contact and a quote is sent within 24 hours. Your communications are secure and unlimited, ensuring the service is completed within 72 hours.",
+      image: onlineProcess,
     },
     {
-      title: "Fair and transparent prices",
-      content: "We offer competitive, transparent pricing with no hidden fees. Get a clear quote before you start and pay only for what you need.",
-      image: transparentPrices
-    }
+      title: "A lawyer chosen specifically for you",
+      content:
+        "Our selected partner lawyers meet every legal need thanks to their expertise in different business sectors. ",
+      image: transparentPrices,
+    },
   ];
 
   const handleClick = (index: number) => {
@@ -86,13 +100,15 @@ export function BusinessBenefitsAccordion() {
               />
             ))}
           </div>
-          
+
           <div className="w-full lg:w-1/2 relative h-80 lg:h-96">
             {accordionItems.map((item, index) => (
-              <div 
+              <div
                 key={index}
                 className={`absolute inset-0 transition-opacity duration-500 ${
-                  index === openIndex ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                  index === openIndex
+                    ? "opacity-100"
+                    : "opacity-0 pointer-events-none"
                 }`}
               >
                 <Image
@@ -109,4 +125,4 @@ export function BusinessBenefitsAccordion() {
       </PageContainer>
     </section>
   );
-} 
+}

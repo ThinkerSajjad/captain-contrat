@@ -2,8 +2,9 @@
 
 import { mainMenus } from "@/data/menus";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Phone } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { CountrySwitcher } from "./CountrySwitcher";
 
 interface MobileMenuProps {
   open: boolean;
@@ -57,7 +58,8 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
         className={`absolute left-0 right-0 top-0 h-full w-full bg-white shadow-lg z-50 transform transition-all duration-300
           ${open ? 'translate-y-0 opacity-100' : '-translate-y-8 opacity-0'}`}
       >
-        <nav className="flex flex-col px-2 py-4 bg-white overflow-y-auto h-[calc(100vh-64px)]">
+         
+        <nav className="flex flex-col px-2 py-4 bg-white overflow-y-auto h-[calc(100vh-64px-72px)]">
           {mainMenus.map((menu) => (
             <div key={menu.key} className="mb-2">
               {menu.dropdown ? (
@@ -128,7 +130,19 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
               )}
             </div>
           ))}
+        {/* Country switcher and call button */}
+        <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200 bg-white -mb-8">
+          <CountrySwitcher />
+          <Link 
+            href="tel:0183816725" 
+            className="flex items-center bg-tertiary text-white text-sm font-semibold gap-2 rounded-full px-4 py-2 transition-colors hover:bg-[#394e64]"
+          >
+            <Phone className="w-4 h-4" />
+            <span className="font-medium text-sm whitespace-nowrap">01 83 81 67 25</span>
+          </Link>
+        </div>
         </nav>
+ 
       </div>
     </div>
   );

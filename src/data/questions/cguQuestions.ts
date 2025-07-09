@@ -137,8 +137,8 @@ export const cguQuestions: FunnelQuestion[] = [
                 }
             }
         ]
-    },
-    {
+            },
+            {
         id: "existing_cgu",
         type: "choice",
         title: "Have you already started writing your T&Cs?",

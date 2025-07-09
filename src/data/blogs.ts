@@ -584,5 +584,193 @@ export const blogArticles: BlogArticle[] = [
         </ul>
       </section>
     `
-  }
+  },
+
+  {
+    id: "7",
+    image: "https://images.unsplash.com/photo-1586282391129-76a6df230234",
+    title: "Protection of creations: the guide",
+    description: "Protect your intellectual property with our comprehensive guide to trademark registration and protection.",
+    updatedDate: "January 19, 2024",
+    readingTime: 5,
+    slug: "guide-protection-creations",
+    tag: "Legal Protection",
+    category: "Legal",
+    author: {
+      name: "Captain Contrat",
+      title: "Co-founder of Captain Contrat, Graduate of HEC Paris",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      bio: "With a Master's degree in Business Law from the University of Paris 1 Panthéon-Sorbonne, Thomas has worked in law firms and legal publishing houses. After developing his writing and editorial skills, he joined a Parisian content production agency as a Senior Content Manager, then Account Manager Director. Today, he is the Content Manager."
+    },
+    proofreader: {
+      name: "Captain Contrat",
+      title: "Law graduate"
+    },
+    cta: {
+      title: "Do you need to close your EURL ?",
+      description: "Delegate your procedures and benefit from personalized support from one of our partner lawyers",
+      buttonText: "Close my EURL",
+      buttonUrl: "/gestion-des-litiges/fermer-une-societe",
+      bgColor: "bg-orange-50"
+    },
+    summaryItems: [
+      { id: "what-are", text: "What is intellectual property?" },
+      { id: "register-beneficial-owners", text: "What is a trademark?" },
+      { id: "register-securities", text: "What is a patent?" },
+      { id: "register-decisions", text: "What is a copyright?" },
+      { id: "risks", text: "What is a design?" },
+      { id: "summary", text: "In summary" }
+    ],
+    content: `
+      <section id="what-are" class="scroll-mt-24">
+        <h2 class="text-2xl lg:text-3xl font-bold text-tertiary mb-6">What are the mandatory registers for the SASU?</h2>
+        
+        <p class="mb-4">You want to create a <strong>single-member simplified joint-stock company</strong> - a SASU. The creation and operation of this type of company means compliance with certain mandatory formalities.</p>
+        
+        <p class="mb-4">A SASU is a simplified version of an SAS (Simplified Joint Stock Company). It's a flexible legal status with many advantages. By becoming the sole shareholder of a SASU (limited joint-stock company), you have the opportunity to be both an employee and a president. This will give you complete freedom to manage your business as you wish.</p>
+        
+        <p class="mb-4">However, even if you are the sole manager of your SASU, the law requires you to keep certain records. In this article, Captain Contrat explains which records you must keep and the penalties you face if you fail to comply.</p>
+        
+        <p class="mb-6">Certain registers are common to all forms of company. However, there are <strong>mandatory registers for a SASU</strong>. These legal registers must be kept within the framework of a SASU:</p>
+        
+        <ul class="list-disc pl-8 mb-8 space-y-1 text-gray-700">
+          <li>the register of beneficial owners;</li>
+          <li>the register of the movements;</li>
+          <li>the register of decisions of the sole shareholder.</li>
+        </ul>
+      </section>
+      
+      <section id="register-beneficial-owners" class="scroll-mt-24 mt-12">
+        <h3 class="text-xl lg:text-2xl font-bold text-tertiary mb-4">The register of beneficial owners</h3>
+        
+        <p class="mb-4">Since the Sapin II law of August 2, 2017, it is mandatory to keep the register of beneficial owners. This obligation applies to all forms of company, regardless of effective control of a company. It consists of identifying all natural persons who exercise effective control of the company.</p>
+        
+        <p class="mb-4">This registration must be made by persons holding more than 25% of the voting rights or capital of a company.</p>
+        
+        <p class="mb-6">In a SASU, there is a single partner who can also act as president of the SASU. This partner therefore holds 100% of the company's capital. However, the obligation to keep a register of beneficial owners applies to the SASU.</p>
+        
+        <p class="mb-4">The register of beneficial owners must be filed with the commercial court. The information to be filled in is that at the time of creation of the SASU, either by mail or online. The register must include:</p>
+        
+        <ul class="list-disc pl-8 mb-8 space-y-1 text-gray-700">
+          <li>information about the company: its date of creation, its registered office, the amount of share capital, its corporate name, its identification number;</li>
+          <li>information regarding the active beneficiaries: for the SASU, this refers to the sole shareholder, or president.</li>
+        </ul>
+      </section>
+      
+      <section id="register-securities" class="scroll-mt-24 mt-12">
+        <h3 class="text-xl lg:text-2xl font-bold text-tertiary mb-4">The register of securities movements</h3>
+        
+        <p class="mb-4">A SASU must keep a <strong>register of securities movements</strong>. This register records all transactions that affect the shares in the SASU's share capital, such as transfers of shares and contributions of shares.</p>
+        
+        <p class="mb-4">The register must include:</p>
+        
+        <ul class="list-disc pl-8 mb-8 space-y-1 text-gray-700">
+          <li>the nature of the operation carried out by the transaction;</li>
+          <li>the date of the operation;</li>
+          <li>the identity of the new and former holder of the SASU shares;</li>
+          <li>the number of shares that are affected.</li>
+        </ul>
+        
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-8 rounded-r">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-yellow-800">
+                Please note: <br>
+                The record movement register will prove particularly useful if you decide to welcome new partners or if transferring your SASU into an SAS.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="register-decisions" class="scroll-mt-24 mt-12">
+        <h3 class="text-xl lg:text-2xl font-bold text-tertiary mb-4">The register of decisions of the sole shareholder</h3>
+        
+        <p class="mb-4">The SASU is composed of a <strong>single partner</strong> who alone makes decisions relating to the company. Organizing and holding a general meeting is therefore not necessary.</p>
+        
+        <p class="mb-4">The sole partner of the SASU must only record in a register of decisions all decisions affecting the company. These decisions may concern:</p>
+        
+        <ul class="list-disc pl-8 mb-8 space-y-1 text-gray-700">
+          <li>the modification of the SASU statutes;</li>
+          <li>the approval of the annual accounts;</li>
+          <li>the dissolution of SASU;</li>
+          <li>the liquidation of the SASU.</li>
+        </ul>
+        
+        <p class="mb-6">Each deliberation of the sole shareholder is transcribed in a decision report, which is itself recorded in this register of decisions of the sole shareholder. This is a binder containing sheets which are numbered and initialed by the order of the commercial court or by the mayor of the municipality where the SASU is located.</p>
+        
+        <p class="mb-4">In parallel with these legal registers, the sole shareholder must keep accounting registers:</p>
+        
+        <ul class="list-disc pl-8 mb-8 space-y-1 text-gray-700">
+          <li><strong>The journal</strong>: records all transactions that have an impact on the SASU's assets. This includes all of the SASU's accounting entries.</li>
+          <li><strong>The ledger</strong>: records the same movements, but classifies the information from the accounting plan established by the SASU.</li>
+        </ul>
+        
+        <p class="mb-6">However, the employment register is only required if the SASU has employees. This register is mandatory as soon as the SASU hires an employee. Sometimes, it must also keep a register of weekly rest periods, when the activity of the SASU requires it (in particular when employees work on Sundays).</p>
+        
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-8 rounded-r">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-yellow-800">
+                Please note: <br>
+                Depending on your business activity, you may be required to keep specific records. For example, if your SASU operates in the construction industry, you must keep a construction site register that all documents relating to the progress of the construction site.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="risks" class="scroll-mt-24 mt-12">
+        <h2 class="text-2xl lg:text-3xl font-bold text-tertiary mb-6">What are the risks if one of the mandatory registers is missing?</h2>
+        
+        <p class="mb-4">The SASU is exposed to risks if one of these mandatory registers is not kept.</p>
+        
+        <p class="mb-6">In the absence of declaration of a <strong>register of beneficial owners</strong>, or if the information in the register is incomplete, the sole shareholder may be sentenced to a 6 months of imprisonment and a fine of €7,500.</p>
+        
+        <p class="mb-6">If the sole shareholder of the SASU does not keep a <strong>register of securities movements</strong>, this does not necessarily expose him to sanctions. On the other hand, as each movement of shares must be transcribed, in absence, this can be challenged by any interested party.</p>
+        
+        <p class="mb-6">If the sole shareholder of the SASU does not keep the <strong>register of decisions</strong>, this does not expose him to legal sanctions. On the other hand, any person having knowledge of a decision not recorded in a register may request its recording. In the event of refusal by the sole shareholder, the court may order it. The return to comply with the obligation to keep this register may be considered an embarrassment on the part of the sole shareholder - this may may thus be personally liable.</p>
+        
+        <p class="mb-6">With regard to accounting obligations, any missing, inaccurate or fictitious entry exposes the person responsible to a fine of up to €9,000 and a prison sentence of five years.</p>
+      </section>
+      
+      <!-- Image section -->
+      <div class="my-10">
+        <img 
+          src="https://cdn.pixabay.com/photo/2017/05/19/12/40/beard-2326422_640.jpg" 
+          alt="SASU registers diagram showing the relationship between different registers" 
+          class="w-full h-auto max-h-[400px] rounded-lg shadow-md"
+        />
+        <p class="text-sm text-gray-500 mt-2 text-center">Diagram illustrating the mandatory registers for a SASU</p>
+      </div>
+      
+      <!-- Summary section -->
+      <section id="summary" class="scroll-mt-24 mt-12 bg-gray-50 p-6 rounded-lg">
+        <div class="flex items-center mb-4">
+          <svg class="h-6 w-6 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <h2 class="text-2xl lg:text-3xl font-bold text-tertiary">In summary</h2>
+        </div>
+        
+        <ul class="list-disc pl-6 space-y-2">
+          <li>The sole shareholder of a SASU is required to keep certain types of registers such as the register of beneficial owners, the register of securities movements and the register of decisions of the sole shareholder.</li>
+          <li>Failure to comply with this obligation exposes you to sanctions.</li>
+          <li>It is advisable to keep these records conscientiously, as they could prove very useful if you decide to transform your SASU into an SAS or if you want to sell it to a third party.</li>
+        </ul>
+      </section>
+      
+      
+    `
+  },
 ]; 

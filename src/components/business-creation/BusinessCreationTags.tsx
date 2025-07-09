@@ -3,16 +3,16 @@
 import Link from "next/link";
 
 const businessTypes = [
-  { name: "SAS", href: "/creer-entreprise/sas" },
-  { name: "SASU", href: "/creer-entreprise/sasu" },
-  { name: "SARL", href: "/creer-entreprise/sarl" },
-  { name: "EURL", href: "/creer-entreprise/eurl" },
-  { name: "Microphone", href: "/creer-entreprise/micro-entreprise" },
-  { name: "Sole Proprietorship", href: "/creer-entreprise/entreprise-individuelle" },
-  { name: "SCI", href: "/creer-entreprise/sci" },
-  { name: "Association", href: "/creer-entreprise/association" },
-  { name: "SELARL", href: "/creer-entreprise/selarl" },
-  { name: "SELAS", href: "/creer-entreprise/selas" },
+  { name: "SAS", href: "/creer-entreprise/creation-sas-en-ligne" },
+  { name: "SASU", href: "/creer-entreprise/creation-sasu-en-ligne" },
+  { name: "SARL", href: "/creer-entreprise/creation-sarl-en-ligne" },
+  { name: "EURL", href: "/creer-entreprise/creation-eurl-en-ligne" },
+  { name: "Micro-entreprise", href: "/creer-entreprise/creer-micro-entreprise" },
+  { name: "Sole Proprietorship", href: "/creer-entreprise/rediger-pacte-associes" },
+  { name: "SCI", href: "/creer-entreprise/creation-sci-en-ligne" },
+  { name: "Association", href: "/creer-entreprise/rediger-pacte-associes" },
+  { name: "SELARL", href: "/creer-entreprise/rediger-pacte-associes" },
+  { name: "SELAS", href: "/creer-entreprise/rediger-pacte-associes" },
 ];
 
 export function BusinessCreationTags() {
@@ -43,7 +43,7 @@ export function BusinessCreationTags() {
             </p>
           </div>
           <Link
-            href="/resources"
+            href="/creer-entreprise/projet-creation-dentreprise"
             className="inline-flex items-center px-6 py-3 rounded-full bg-[#ef4444] text-white font-semibold hover:bg-[#dc2626] transition-colors"
           >
             Deepen my project

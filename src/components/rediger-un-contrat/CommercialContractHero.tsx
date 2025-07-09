@@ -29,7 +29,7 @@ export function CommercialContractHero() {
             {/* First row - 3 cards */}
             {/* SAS/SASU Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sasu-en-ligne" className="block h-full">
+              <Link href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-conditions-generales-de-vente" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -51,7 +51,7 @@ export function CommercialContractHero() {
             
             {/* SARL/EURL Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-eurl-en-ligne" className="block h-full">
+              <Link href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-prestation-de-services" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -73,7 +73,7 @@ export function CommercialContractHero() {
             
             {/* Micro-enterprise Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creer-micro-entreprise" className="block h-full">
+              <Link href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-sous-traitance" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -96,7 +96,7 @@ export function CommercialContractHero() {
             {/* Second row - 2 cards centered */}
             {/* SCI Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sci-en-ligne" className="block h-full">
+              <Link href="/funnel/service_choices/1?source=%2Fcreer-entreprise%2Frediger-pacte-associes" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -118,7 +118,7 @@ export function CommercialContractHero() {
             
             {/* Sole proprietorship Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise" className="block h-full">
+              <Link href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-de-location-commerciale" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -140,7 +140,7 @@ export function CommercialContractHero() {
 
             {/* Sole proprietorship Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise" className="block h-full">
+              <Link href="/funnel/service_choices/1?source=%2Frediger-un-contrat%2Frediger-contrat-commercial" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -171,7 +171,7 @@ export function CommercialContractHero() {
               
             </div>
             <div className="mt-4 md:mt-0 mb-2">
-              <Link href="/resources" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
+              <Link href="/funnel/service_choices/1?source=%2Favocat%2Ffind-a-lawyer" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
                 Consult a lawyer
               </Link>
             </div>

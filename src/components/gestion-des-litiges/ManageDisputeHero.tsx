@@ -29,7 +29,7 @@ export function ManageDisputeHero() {
             {/* First row - 3 cards */}
             {/* SAS/SASU Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sasu-en-ligne" className="block h-full">
+              <Link href="/gestion-des-litiges/fermer-une-societe" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -51,7 +51,7 @@ export function ManageDisputeHero() {
             
             {/* SARL/EURL Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-eurl-en-ligne" className="block h-full">
+              <Link href="/gestion-des-litiges/faire-une-mise-demeure-en-ligne" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -73,7 +73,7 @@ export function ManageDisputeHero() {
             
             {/* Micro-enterprise Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creer-micro-entreprise" className="block h-full">
+              <Link href="/gestion-des-litiges/injonction-de-payer-en-ligne" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -96,7 +96,7 @@ export function ManageDisputeHero() {
             {/* Second row - 2 cards centered */}
             {/* SCI Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise/creation-sci-en-ligne" className="block h-full">
+              <Link href="/avocat/contentieux" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -105,8 +105,8 @@ export function ManageDisputeHero() {
                       </div>
                     </div>
                     <div className="flex-grow">
-                      <p className="lg:text-xl text-lg font-semibold">Injunction to do</p>
-                      <p className="text-sm md:block hidden text-gray-600">To compel the performance of a contract</p>
+                      <p className="lg:text-xl text-lg font-semibold">Litigation</p>
+                      <p className="text-sm md:block hidden text-gray-600">To enforce your rights</p>
                     </div>
                     <div className="flex-shrink-0">
                       <ChevronRight className="w-6 h-6 text-gray-600" />
@@ -118,7 +118,7 @@ export function ManageDisputeHero() {
             
             {/* Sole proprietorship Card */}
             <div className="w-full md:w-[calc(50%-8px)] lg:w-[calc(33.33%-16px)]">
-              <Link href="/creer-entreprise" className="block h-full">
+              <Link href="/expertise-comptable" className="block h-full">
                 <div className="bg-white py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-shadow h-full">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 mr-5">
@@ -127,8 +127,8 @@ export function ManageDisputeHero() {
                       </div>
                     </div>
                     <div className="flex-grow">
-                      <p className="lg:text-xl text-lg font-semibold">Assignment for a counterfeiting</p>
-                      <p className="text-sm md:block hidden text-gray-600">Protect your property</p>
+                      <p className="lg:text-xl text-lg font-semibold">Accounting management</p>
+                      <p className="text-sm md:block hidden text-gray-600">Manage your accounting</p>
                     </div>
                     <div className="flex-shrink-0">
                       <ChevronRight className="w-6 h-6 text-gray-600" />
@@ -149,8 +149,8 @@ export function ManageDisputeHero() {
               
             </div>
             <div className="mt-4 md:mt-0 mb-2">
-              <Link href="/resources" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
-                All changes to the status
+              <Link href="/funnel/service_choices/1?source=%2Favocat%2Ffind-a-lawyer" className="bg-secondary text-white px-6 py-3 rounded-full lg:text-lg text-base font-semibold hover:bg-[#e06c6c] transition-colors">
+                Consult a lawyer
               </Link>
             </div>
           </div>
