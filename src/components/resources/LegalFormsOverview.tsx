@@ -107,7 +107,7 @@ export function LegalFormsOverview() {
   };
 
   return (
-    <section className="py-16">
+    <section className="lg:py-16 py-8">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-tertiary mb-4">
           Everything you need to know about each legal form

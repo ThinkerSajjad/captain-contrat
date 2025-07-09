@@ -18,7 +18,7 @@ export default function BlogSummary({ article }: BlogSummaryProps) {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg border border-blue-500 sticky top-24">
+    <div className="bg-white lg:p-6 p-4 rounded-lg border border-blue-500 sticky top-24">
       <div className="flex justify-between items-center mb-4">
         <h3 className="font-semibold text-gray-700 text-sm lg:text-base uppercase">📌 Summary</h3>
         <button 

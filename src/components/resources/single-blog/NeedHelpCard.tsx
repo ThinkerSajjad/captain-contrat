@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function NeedHelpCard() {
   return (
-    <div className="bg-blue-50 rounded-lg p-6 mb-8">
+    <div className="bg-blue-50 rounded-lg lg:p-6 p-4 mb-8">
       <h3 className="text-xl font-bold text-tertiary mb-4">
         Need help managing your accounting?
       </h3>

@@ -41,7 +41,7 @@ export function TopArticles() {
 
   if (isLoading) {
     return (
-      <section className="py-16">
+      <section className="lg:py-16 py-8">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-lato font-bold text-tertiary mb-12">
             Our top articles

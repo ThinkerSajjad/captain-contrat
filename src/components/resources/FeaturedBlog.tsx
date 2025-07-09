@@ -16,7 +16,7 @@ interface FeaturedBlogProps {
 
 export function FeaturedBlog({ article }: FeaturedBlogProps) {
   return (
-    <section className="py-12">
+    <section className="lg:py-16 py-8">
       <PageContainer>
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Image */}

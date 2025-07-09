@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { ChevronLeft } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function ClientDashboard() {
   const { responses, orderId } = useFunnel();
@@ -37,13 +38,9 @@ export default function ClientDashboard() {
       setIsReady(true);
     }
   }, [appointmentSlot, contactInfo, orderIdToUse]);
-  
-  // Handle manual navigation instead of using Link
-  const handleNavigateToOrders = () => {
-    if (orderIdToUse) {
-      router.push(`/orders/${orderIdToUse}`);
-    }
-  };
+
+  console.log(isReady)
+
   
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 bg-white rounded-lg">
@@ -90,20 +87,19 @@ export default function ClientDashboard() {
       
       <div className="flex justify-center">
         {orderIdToUse ? (
-          <button 
-            onClick={handleNavigateToOrders}
+          <Link
+            href="/client"
             className="px-6 py-3 bg-red-500 text-white rounded-full cursor-pointer hover:bg-red-600 transition-colors font-semibold"
-            disabled={!isReady}
           >
             Access my personal space
-          </button>
+          </Link>
         ) : (
-          <button 
-            disabled
-            className="px-6 py-3 bg-gray-400 text-white rounded-full font-semibold cursor-not-allowed opacity-50"
+          <Link
+            href="/client"
+            className="px-6 py-3 bg-red-500 text-white rounded-full cursor-pointer hover:bg-red-600 transition-colors font-semibold"
           >
             Access my personal space
-          </button>
+          </Link>
         )}
       </div>
     </div>
